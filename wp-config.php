@@ -23,10 +23,10 @@
 define('DB_NAME', 'officefruit');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'ftdev');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '10gXWOqeaf');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
