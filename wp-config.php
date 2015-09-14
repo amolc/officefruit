@@ -29,7 +29,7 @@ define('DB_USER', 'ftdev');
 define('DB_PASSWORD', '10gXWOqeaf');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'apps.fountaintechies.com/');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
