@@ -787,6 +787,9 @@ button:hover {
 .nav>li>a {
   text-transform: uppercase;
 }
+#menu-header-menus{
+  margin-left: 17%;
+}
 .navbar.navbar-default {
   background-color: #B3BA1E;
   font-family: 'Open Sans', serif;
@@ -895,7 +898,7 @@ button:hover {
   background-color: transparent;
 }
 .nav.navbar-nav {
-  float: right;
+  
 }
 @media (max-width: 767px) {
   .nav.navbar-nav {
