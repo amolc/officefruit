@@ -1492,12 +1492,14 @@ button[type=submit],
 }
 
 .osc_servicebox{
+  padding: 5px 10px 16px;
   background-color: #7f052e;
   margin-top: -70px !important;
   position: relative !important;
 }
 .osc_servicebox h2{
   color: #fff;
+  padding-bottom: 0px;
 }
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
@@ -1507,6 +1509,10 @@ button[type=submit],
   color: #fff;
   border: 1px solid;
   border-radius: 20px;
+  padding: 5px 20px;
+}
+.oscitas-res-image{
+  height: 218px;
 }
 .copyright h4{
   color: #ffffff;
