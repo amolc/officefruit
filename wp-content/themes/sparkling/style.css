@@ -369,6 +369,9 @@ hr.section-divider {
   border: 1px solid #dadada;
   border-top: none;
 }
+.home .post-inner-content {
+  padding: 0;
+}
 .post-inner-content:first-child {
   border-top: 1px solid #dadada;;
 }
