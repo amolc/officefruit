@@ -1483,3 +1483,6 @@ button[type=submit],
     cursor: default;
     border: 1px solid #fff;
 }
+.right-text{
+  padding: 0 15px;
+}
