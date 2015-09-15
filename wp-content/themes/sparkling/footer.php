@@ -25,9 +25,9 @@
 					<?php sparkling_social(); ?>
 					<nav role="navigation" class="col-md-6">
 						<?php sparkling_footer_links(); ?>
-						<div>
+						<p>
 							2015 Officefruit.sg Pte Ltd. All rights reserved.
-						</div>
+						</p>
 					</nav>
 					<div class="copyright col-md-6">
 						<?php echo of_get_option( 'custom_footer_text', 'sparkling' ); ?>
