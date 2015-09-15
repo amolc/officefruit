@@ -1499,6 +1499,12 @@ button[type=submit],
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
 }
+.osc_servicebox .btn{
+  background: none;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 20px;
+}
 .copyright h4{
   color: #ffffff;
 }
