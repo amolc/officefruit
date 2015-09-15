@@ -1460,3 +1460,20 @@ button[type=submit],
     color: #FFF;
     border: none;
 }
+.flex-control-paging li a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    background: #DA4453;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.flex-control-paging li a.flex-active {
+    background: #DA4453;
+    background: rgb(127, 5, 46);
+    cursor: default;
+    border: 1px solid #fff;
+}
