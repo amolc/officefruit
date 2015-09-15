@@ -798,7 +798,7 @@ button:hover {
 }
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
-  line-height: 14px;
+  line-height: 5px;
   text-transform: uppercase;
   font-size: 12px;
 }
