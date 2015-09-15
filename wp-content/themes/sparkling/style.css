@@ -40,6 +40,11 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 
 /* =Global
 ----------------------------------------------- */
+#logo{
+  position: absolute;
+    top: 20px;
+    z-index: 99;
+}
 body {
   color: #6B6B6B;
   background-color: #F2F2F2;
@@ -106,9 +111,15 @@ h6,
   font-size: 13px;
 }
 
-img {
-  height: auto; /* Make sure images are scaled correctly. */
-  max-width: 100%; /* Adhere to container width. */
+img{
+  width: 100%;
+  height: auto;
+}
+
+ #logo a img{
+  height: auto;
+  margin-left: 15px;
+  max-width: 80%;
 }
 button,
 input,
@@ -117,7 +128,7 @@ textarea {
   font-size: 100%; /* Corrects font size not being inherited in all browsers */
   margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-  *vertical-align: middle; /* Improves appearance and consistency in all browsers */
+  vertical-align: middle; /* Improves appearance and consistency in all browsers */
 }
 
 input[type="checkbox"],
@@ -276,7 +287,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -782,6 +793,9 @@ button:hover {
 .nav>li>a {
   text-transform: uppercase;
 }
+#menu-header-menus{
+  margin-left: 17%;
+}
 .navbar.navbar-default {
   background-color: #B3BA1E;
   font-family: 'Open Sans', serif;
@@ -790,7 +804,7 @@ button:hover {
 }
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
-  line-height: 40px;
+  line-height: 5px;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -820,8 +834,8 @@ button:hover {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #DA4453;
-  background-color: transparent;
+  color: #F5F7FA;
+  background-color: #7F052E;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
@@ -890,7 +904,7 @@ button:hover {
   background-color: transparent;
 }
 .nav.navbar-nav {
-  float: right;
+  
 }
 @media (max-width: 767px) {
   .nav.navbar-nav {
@@ -1406,8 +1420,67 @@ button[type=submit],
   display: block;
 }
 
+
 /*Custome css by saurabh*/
 #logo{
   position: absolute !important;
   top: 20px !important;
+}
+.top-section{
+  width: 85%;
+  margin: 0 auto;
+}
+.three_thumbnail{
+ background-color: #B2BB1D;
+    border-color: #B2BB1D;
+    text-align: center;
+}
+
+.three_thumbnail .img-circle{
+ border-radius: 0px;
+ width: 100%;
+}
+.three_thumbnail .row{
+ margin: 25px 15px;
+}
+.thumb_details{
+ background: #7f052e;
+ padding: 15px 0px;
+}
+
+.thumb_details h2{
+ margin-top: 0px;
+ color: #fff;
+}
+.thumb_details p{
+ color: #fff;
+ padding: 0 10px;
+}
+.thumb_details .btn{
+ background: none;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#footer-area,#colophon {
+    background-color: rgba(94, 38, 13, 0.42);
+    color: #FFF;
+    border: none;
+}
+.flex-control-paging li a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    background: #DA4453;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.flex-control-paging li a.flex-active {
+    background: #DA4453;
+    background: rgb(127, 5, 46);
+    cursor: default;
+    border: 1px solid #fff;
 }
