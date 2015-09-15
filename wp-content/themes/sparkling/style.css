@@ -40,6 +40,11 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 
 /* =Global
 ----------------------------------------------- */
+#logo{
+  position: absolute;
+    top: 20px;
+    z-index: 99;
+}
 body {
   color: #6B6B6B;
   background-color: #F2F2F2;

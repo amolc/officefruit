@@ -23,13 +23,13 @@
 define('DB_NAME', 'officefruit');
 
 /** MySQL database username */
-define('DB_USER', 'ftdev');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '10gXWOqeaf');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'apps.fountaintechies.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       '}j!SVQk}:n/aQyo?X}r^[qX!ijrU7G|&1M&a3MCj` -}b54t,,U$
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'a8sg_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
