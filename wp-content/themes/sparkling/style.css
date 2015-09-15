@@ -1486,3 +1486,6 @@ button[type=submit],
 .right-text{
   padding: 0 15px;
 }
+.copyright h4{
+  color: #ffffff;
+}
