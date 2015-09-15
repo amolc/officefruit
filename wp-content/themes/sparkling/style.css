@@ -111,9 +111,15 @@ h6,
   font-size: 13px;
 }
 
-img {
-  height: auto; /* Make sure images are scaled correctly. */
-  max-width: 100%; /* Adhere to container width. */
+img{
+  width: 100%;
+  height: auto;
+}
+
+ #logo a img{
+  height: auto;
+  margin-left: 15px;
+  max-width: 80%;
 }
 button,
 input,
@@ -122,7 +128,7 @@ textarea {
   font-size: 100%; /* Corrects font size not being inherited in all browsers */
   margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-  *vertical-align: middle; /* Improves appearance and consistency in all browsers */
+  vertical-align: middle; /* Improves appearance and consistency in all browsers */
 }
 
 input[type="checkbox"],
@@ -281,7 +287,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -1416,4 +1422,36 @@ button[type=submit],
 .top-section{
   width: 85%;
   margin: 0 auto;
+}
+.three_thumbnail{
+ background-color: #B2BB1D;
+    border-color: #B2BB1D;
+    text-align: center;
+}
+
+.three_thumbnail .img-circle{
+ border-radius: 0px;
+ width: 100%;
+}
+.three_thumbnail .row{
+ margin: 25px 15px;
+}
+.thumb_details{
+ background: #7f052e;
+ padding: 15px 0px;
+}
+
+.thumb_details h2{
+ margin-top: 0px;
+ color: #fff;
+}
+.thumb_details p{
+ color: #fff;
+ padding: 0 10px;
+}
+.thumb_details .btn{
+ background: none;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
 }
