@@ -1455,3 +1455,8 @@ button[type=submit],
     border: 1px solid;
     border-radius: 20px;
 }
+#footer-area,#colophon {
+    background-color: rgba(0, 0, 0, 0.36);
+    color: #FFF;
+    border: none;
+}
