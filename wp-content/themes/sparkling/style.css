@@ -1487,6 +1487,17 @@ button[type=submit],
 .right-text{
   padding: 0 15px;
 }
-.copyright h4{
+
+.osc_servicebox{
+  background-color: #7f052e;
+  margin-top: -70px;
+  position: relative;
+}
+.osc_servicebox h2{
+  color: #fff;
+}
+.osc_servicebox .osc_servicebox_content{
+  color: #fff;
+}.copyright h4{
   color: #ffffff;
 }
