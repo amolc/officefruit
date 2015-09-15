@@ -69,12 +69,6 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-
-		<div class="top-section">
-			<?php sparkling_featured_slider(); ?>
-			<?php sparkling_call_for_action(); ?>
-		</div>
-
 		<div class="container main-content-area">
 			<div class="row">
 				<div class="main-content-inner <?php echo sparkling_main_content_bootstrap_classes(); ?> <?php echo of_get_option( 'site_layout' ); ?>">
