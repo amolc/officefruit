@@ -1490,14 +1490,15 @@ button[type=submit],
 
 .osc_servicebox{
   background-color: #7f052e;
-  margin-top: -70px;
-  position: relative;
+  margin-top: -70px !important;
+  position: relative !important;
 }
 .osc_servicebox h2{
   color: #fff;
 }
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
-}.copyright h4{
+}
+.copyright h4{
   color: #ffffff;
 }
