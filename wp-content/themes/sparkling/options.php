@@ -373,6 +373,14 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
+		'name' => esc_html__('Footer Copy', 'sparkling'),
+		'desc' => esc_html__('Footer Copy', 'sparkling'),
+		'id'   => 'custom_footer_copy',
+		'std'  => '',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
 		"name" => esc_html__('Footer Social Icons', 'sparkling'),
 		'desc' => esc_html__('Show/Hide social icons in footer', 'sparkling'),
 		'id'   => 'footer_social',
