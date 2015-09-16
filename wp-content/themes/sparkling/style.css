@@ -1597,3 +1597,14 @@ button[type=submit],
 .copyright h4{
   color: #ffffff;
 }
+.phone_no{
+  font-size: 24px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 10px 40px 0px;
+}
+.phone_no:hover{
+  color: #fefefe;
+  text-decoration: none;
+}
