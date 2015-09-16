@@ -1266,7 +1266,15 @@ p.logged-in-as {
   border-bottom: 1px solid #444;
 }
 #footer-area .site-info nav ul li {
+  font-family: 'aleoregular';
   border-bottom: none;
+  font-size: 18px;
+}
+#footer-area p{
+  font-size: 15px;
+}
+.copyright h4{
+  font-size: 19px;
 }
 .widgettitle {
   font-size: 14px;
