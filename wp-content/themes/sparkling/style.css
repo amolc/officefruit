@@ -1529,6 +1529,9 @@ button[type=submit],
 .three_thumbnail .row{
  margin: 25px 15px;
 }
+.three_thumbnail img{
+  width: 100%;
+}
 .thumb_details{
  background: #7f052e;
  padding: 15px 0px;
