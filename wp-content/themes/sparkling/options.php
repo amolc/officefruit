@@ -530,13 +530,13 @@ function optionsframework_options() {
 		'type'  => 'text'
 	);
 
-	$options[] = array(
-		'id'    => 'social_spotify',
-		'desc'  => esc_html__('Spotify', 'sparkling'),
-		'std'   => '',
-		'class' => 'mini',
-		'type'  => 'text'
-	);
+	// $options[] = array(
+	// 	'id'    => 'social_spotify',
+	// 	'desc'  => esc_html__('Spotify', 'sparkling'),
+	// 	'std'   => '',
+	// 	'class' => 'mini',
+	// 	'type'  => 'text'
+	// );
 
 	$options[] = array(
 		'name' => esc_html__('Other', 'sparkling'),
