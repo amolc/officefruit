@@ -1617,6 +1617,7 @@ button[type=submit],
     right: 55px;
     top: 0;
     background: url('img/phone_icon.png') no-repeat;
+    background-position: -3px;
     padding-left: 50px;
 }
 .phone_no:hover{
