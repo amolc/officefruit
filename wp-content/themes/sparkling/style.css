@@ -1616,7 +1616,7 @@ button[type=submit],
     z-index: 9;
     right: 55px;
     top: 0;
-    background-image: url('img/phone_icon.png') no-repeat;
+    background: url('img/phone_icon.png') no-repeat;
     padding-left: 50px;
 }
 .phone_no:hover{
@@ -1646,4 +1646,3 @@ button[type=submit],
     font-family: 'aleobold';
     letter-spacing: 1px;
 }
-.three_thumbnail
