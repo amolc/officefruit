@@ -1589,6 +1589,8 @@ button[type=submit],
 }
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
+  font-family: 'aleoregular';
+  font-size: 15px;
 }
 .osc_servicebox .btn{
   background: none;
@@ -1596,6 +1598,8 @@ button[type=submit],
   border: 1px solid;
   border-radius: 20px;
   padding: 5px 20px;
+  font-family: 'aleoregular';
+  margin-top: 5px;
 }
 .oscitas-res-image{
   height: 218px;
@@ -1632,7 +1636,7 @@ button[type=submit],
 .three_thumbnail .osc_servicebox h2{
     font-size: 22px;
     font-weight: normal;
-    letter-spacing: -1px;
+    padding-bottom: 0px;
     margin:0px;
     padding-top: 3px;
     text-align: center;
@@ -1640,3 +1644,4 @@ button[type=submit],
     font-family: 'aleobold';
     letter-spacing: 1px;
 }
+.three_thumbnail
