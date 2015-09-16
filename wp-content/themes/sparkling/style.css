@@ -194,7 +194,6 @@ img{
  #logo a img{
   height: auto;
   margin-left: 15px;
-  max-width: 80%;
 }
 button,
 input,
@@ -1614,4 +1613,15 @@ button[type=submit],
 .phone_no:hover{
   color: #fefefe;
   text-decoration: none;
+}
+#oscitas-slider-1 ol.carousel-indicators li {
+    border-color: ;
+    margin: 1px;
+    float: left;
+    border-color: #7F052E;
+    height: 20px;
+    width: 20px;
+}
+.carousel-indicators .active{
+  background-color: #7F052E;
 }
