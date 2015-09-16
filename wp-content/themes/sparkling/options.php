@@ -275,60 +275,68 @@ function optionsframework_options() {
 		'type' => 'heading'
 	);
 
-	$options[] = array(
-		'name' => esc_html__('Top nav background color', 'sparkling'),
-		'desc' => esc_html__('Default used if no color is selected', 'sparkling'),
-		'id'   => 'nav_bg_color',
-		'std'  => '',
-		'type' => 'color'
-	);
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav background color', 'sparkling'),
+	// 	'desc' => esc_html__('Default used if no color is selected', 'sparkling'),
+	// 	'id'   => 'nav_bg_color',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav item color', 'sparkling'),
+	// 	'desc' => esc_html__('Link color', 'sparkling'),
+	// 	'id'   => 'nav_link_color',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav item hover color', 'sparkling'),
+	// 	'desc' => esc_html__('Link:hover color', 'sparkling'),
+	// 	'id'   => 'nav_item_hover_color',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav dropdown background color', 'sparkling'),
+	// 	'desc' => esc_html__('Background of dropdown item hover color', 'sparkling'),
+	// 	'id'   => 'nav_dropdown_bg',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav dropdown item color', 'sparkling'),
+	// 	'desc' => esc_html__('Dropdown item color', 'sparkling'),
+	// 	'id'   => 'nav_dropdown_item',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav dropdown item hover color', 'sparkling'),
+	// 	'desc' => esc_html__('Dropdown item hover color', 'sparkling'),
+	// 	'id'   => 'nav_dropdown_item_hover',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
+	//
+	// $options[] = array(
+	// 	'name' => esc_html__('Top nav dropdown item background hover color', 'sparkling'),
+	// 	'desc' => esc_html__('Background of dropdown item hover color', 'sparkling'),
+	// 	'id'   => 'nav_dropdown_bg_hover',
+	// 	'std'  => '',
+	// 	'type' => 'color'
+	// );
 
 	$options[] = array(
-		'name' => esc_html__('Top nav item color', 'sparkling'),
-		'desc' => esc_html__('Link color', 'sparkling'),
-		'id'   => 'nav_link_color',
-		'std'  => '',
-		'type' => 'color'
-	);
-
-	$options[] = array(
-		'name' => esc_html__('Top nav item hover color', 'sparkling'),
-		'desc' => esc_html__('Link:hover color', 'sparkling'),
-		'id'   => 'nav_item_hover_color',
-		'std'  => '',
-		'type' => 'color'
-	);
-
-	$options[] = array(
-		'name' => esc_html__('Top nav dropdown background color', 'sparkling'),
-		'desc' => esc_html__('Background of dropdown item hover color', 'sparkling'),
-		'id'   => 'nav_dropdown_bg',
-		'std'  => '',
-		'type' => 'color'
-	);
-
-	$options[] = array(
-		'name' => esc_html__('Top nav dropdown item color', 'sparkling'),
-		'desc' => esc_html__('Dropdown item color', 'sparkling'),
-		'id'   => 'nav_dropdown_item',
-		'std'  => '',
-		'type' => 'color'
-	);
-
-	$options[] = array(
-		'name' => esc_html__('Top nav dropdown item hover color', 'sparkling'),
-		'desc' => esc_html__('Dropdown item hover color', 'sparkling'),
-		'id'   => 'nav_dropdown_item_hover',
-		'std'  => '',
-		'type' => 'color'
-	);
-
-	$options[] = array(
-		'name' => esc_html__('Top nav dropdown item background hover color', 'sparkling'),
-		'desc' => esc_html__('Background of dropdown item hover color', 'sparkling'),
-		'id'   => 'nav_dropdown_bg_hover',
-		'std'  => '',
-		'type' => 'color'
+		'name' => esc_html__('Contact Number', 'sparkling'),
+		'desc' => esc_html__('Contact Number in header', 'sparkling'),
+		'id'   => 'contact_number',
+		'std'  => '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" >' . get_bloginfo( 'name', 'display' ) . '</a>  All rights reserved.',
+		'type' => 'textarea'
 	);
 
 	$options[] = array(
