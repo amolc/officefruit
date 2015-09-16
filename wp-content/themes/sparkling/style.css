@@ -45,6 +45,11 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
     top: 20px;
     z-index: 99;
 }
+
+
+.osc_servicebox{
+  padding: 5px 10px 16px !important;
+}
 body {
   color: #6B6B6B;
   background-color: #F2F2F2;
