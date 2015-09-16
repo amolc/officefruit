@@ -1519,7 +1519,7 @@ button[type=submit],
   background-color: #B2BB1D;
   border-color: #B2BB1D;
   text-align: center;
-  padding: 30px 40px;
+  padding: 24px 40px;
 }
 
 .three_thumbnail .img-circle{
@@ -1616,6 +1616,8 @@ button[type=submit],
     z-index: 9;
     right: 55px;
     top: 0;
+    background-image: url('img/phone_icon.png') no-repeat;
+    padding-left: 50px;
 }
 .phone_no:hover{
   color: #fefefe;
