@@ -888,8 +888,10 @@ button:hover {
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
   line-height: 5px;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-family: 'aleoregular';
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-top: 15px;
 }
 .navbar > .container .navbar-brand {
   color: #DADADA;
@@ -1598,7 +1600,7 @@ button[type=submit],
   color: #ffffff;
 }
 .phone_no{
-  font-size: 24px;
+    font-size: 42px;
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
