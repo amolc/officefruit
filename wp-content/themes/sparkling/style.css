@@ -1529,6 +1529,9 @@ button[type=submit],
 .three_thumbnail .row{
  margin: 25px 15px;
 }
+.three_thumbnail img{
+  width: 100%;
+}
 .thumb_details{
  background: #7f052e;
  padding: 15px 0px;
@@ -1621,7 +1624,19 @@ button[type=submit],
     border-color: #7F052E;
     height: 20px;
     width: 20px;
+    margin-right: 10px;
 }
 .carousel-indicators .active{
   background-color: #7F052E;
+}
+.three_thumbnail .osc_servicebox h2{
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin:0px;
+    padding-top: 3px;
+    text-align: center;
+    text-transform: inherit;
+    font-family: 'aleobold';
+    letter-spacing: 1px;
 }
