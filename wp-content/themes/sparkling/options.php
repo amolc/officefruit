@@ -373,8 +373,8 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
-		'name' => esc_html__('Footer Copy', 'sparkling'),
-		'desc' => esc_html__('Footer Copy', 'sparkling'),
+		'name' => esc_html__('Footer Copy Text', 'sparkling'),
+		'desc' => esc_html__('Footer Copy Text', 'sparkling'),
 		'id'   => 'custom_footer_copy',
 		'std'  => '',
 		'type' => 'textarea'
