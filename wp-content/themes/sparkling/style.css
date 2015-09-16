@@ -1,10 +1,10 @@
 /*
-Theme Name: Sparkling
+Theme Name: Sparkling officefruit
 Theme URI: http://colorlib.com/wp/themes/sparkling
-Author: Colorlib
+Author: Fountaintechies
 Author URI: http://colorlib.com/
 Description: Sparkling is a clean minimal and responsive WordPress theme well suited for travel, health, business, finance, portfolio, design, art, photography, personal and any other creative websites and blogs. Developed using Bootstrap 3 that makes it mobile and tablets friendly. Theme comes with full-screen slider, social icon integration, author bio, popular posts widget and improved category widget. Sparkling incorporates latest web standards such as HTML5 and CSS3 and is SEO friendly thanks to its clean structure and codebase. It has dozens of Theme Options to change theme layout, colors, fonts, slider settings and much more. Theme is also translation and multilingual ready, compatible with WPML and is available in Spanish, French, Dutch, Polish, Russian, German, Brazilian Portuguese, Portuguese (Portugal), Persian (Iranian language), Romanian, Turkish, Bulgarian, Japanese, Lithuanian, Czech, Ukrainian, Traditional Chinese, Simplified Chinese, Indonesian and Italian. Sparkling is a free WordPress theme with premium functionality and design. Now theme is optimized to work with bbPress, Contact Form 7, Jetpack and other popular free and premium plugins.
-Version: 1.9.3
+Version: 2.3.33.089898797887978
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sparkling
@@ -42,8 +42,84 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 ----------------------------------------------- */
 #logo{
   position: absolute;
-    top: 20px;
-    z-index: 99;
+  top: 20px;
+  z-index: 99;
+}
+@font-face {
+    font-family: 'aleobold';
+    src: url('inc/fonts/aleo-bold-webfont.eot');
+    src: url('inc/fonts/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-bold-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-bold-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-bold-webfont.ttf') format('truetype'),
+         url('inc/fonts/aleo-bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aleobolditalic';
+    src: url('inc/fonts/aleo-bolditalic-webfont.eot');
+    src: url('inc/fonts/aleo-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-bolditalic-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-bolditalic-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-bolditalic-webfont.ttf') format('truetype'),
+         url('inc/fonts/aleo-bolditalic-webfont.svg#aleobolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aleoitalic';
+    src: url('inc/fonts/aleo-italic-webfont.eot');
+    src: url('inc/fonts/aleo-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-italic-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-italic-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-italic-webfont.ttf') format('truetype'),
+         url('inc/fonts/aleo-italic-webfont.svg#aleoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aleoregular';
+    src: url('inc/fonts/aleo-regular-webfont.eot');
+    src: url('inc/fonts/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-regular-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-regular-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-regular-webfont.ttf') format('truetype'),
+         url('inc/fonts/aleo-regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aleolight';
+    src: url('inc/fonts/aleo-light-webfont.eot');
+    src: url('inc/fonts/aleo-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-light-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-light-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aleolightitalic';
+    src: url('inc/fonts/aleo-lightitalic-webfont.eot');
+    src: url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inc/fonts/aleo-lightitalic-webfont.woff2') format('woff2'),
+         url('inc/fonts/aleo-lightitalic-webfont.woff') format('woff'),
+         url('inc/fonts/aleo-lightitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.osc_servicebox{
+  padding: 5px 10px 16px !important;
 }
 body {
   color: #6B6B6B;
@@ -290,6 +366,9 @@ textarea {
   margin-top: 0px;
   margin-bottom: 40px;
 }
+.entry-content{
+  margin-top: -20px;
+}
 /* =Post styling
 ----------------------------------------------- */
 .entry-meta a {
@@ -368,6 +447,10 @@ hr.section-divider {
   background-color: #fff;
   border: 1px solid #dadada;
   border-top: none;
+}
+.home .post-inner-content {
+  padding: 0;
+  overflow: hidden;
 }
 .post-inner-content:first-child {
   border-top: 1px solid #dadada;;
@@ -798,15 +881,17 @@ button:hover {
 }
 .navbar.navbar-default {
   background-color: #B3BA1E;
-  font-family: 'Open Sans', serif;
   margin-bottom: 0;
   font-weight: 500;
+  height: 70px;
 }
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
   line-height: 5px;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-family: 'aleoregular';
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-top: 15px;
 }
 .navbar > .container .navbar-brand {
   color: #DADADA;
@@ -1197,7 +1282,6 @@ p.logged-in-as {
   display: inline-block;
 }
 .footer-nav.nav {
-  float: left;
   margin-bottom: 2px;
 }
 .footer-widget {
@@ -1424,16 +1508,17 @@ button[type=submit],
 /*Custome css by saurabh*/
 #logo{
   position: absolute !important;
-  top: 20px !important;
+  top: 10px !important;
 }
 .top-section{
   width: 85%;
   margin: 0 auto;
 }
 .three_thumbnail{
- background-color: #B2BB1D;
-    border-color: #B2BB1D;
-    text-align: center;
+  background-color: #B2BB1D;
+  border-color: #B2BB1D;
+  text-align: center;
+  padding: 30px 40px;
 }
 
 .three_thumbnail .img-circle{
@@ -1483,4 +1568,45 @@ button[type=submit],
     background: rgb(127, 5, 46);
     cursor: default;
     border: 1px solid #fff;
+}
+.right-text{
+  padding: 0 15px;
+}
+
+.osc_servicebox{
+  padding: 5px 10px 16px;
+  background-color: #7f052e;
+  margin-top: -70px !important;
+  position: relative !important;
+}
+.osc_servicebox h2{
+  color: #fff;
+  padding-bottom: 0px;
+}
+.osc_servicebox .osc_servicebox_content{
+  color: #fff;
+}
+.osc_servicebox .btn{
+  background: none;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+.oscitas-res-image{
+  height: 218px;
+}
+.copyright h4{
+  color: #ffffff;
+}
+.phone_no{
+    font-size: 42px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 10px 40px 0px;
+}
+.phone_no:hover{
+  color: #fefefe;
+  text-decoration: none;
 }
