@@ -1629,7 +1629,7 @@ button[type=submit],
 .carousel-indicators .active{
   background-color: #7F052E;
 }
-.osc_servicebox h2{
+.three_thumbnail .osc_servicebox h2{
     font-size: 22px;
     font-weight: normal;
     letter-spacing: -1px;
