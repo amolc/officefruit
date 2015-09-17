@@ -1784,14 +1784,18 @@ font-size: 20px;
   height: 150px;
   background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_1-300x197.jpg');
   background-size: cover;
+  background-position: 0% 29%;
 }
 .thumb_2{
   height: 150px;
   background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_2.png');
   background-size: cover;
+  background-position: 0% 50%;
 }
 .thumb_3{
   height: 150px;
   background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_3.jpg');
   background-size: cover;
+  background-position: 100% 43%;
+  background-size: 625px 360px;
 }
