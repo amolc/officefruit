@@ -294,3 +294,22 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load custom nav walker
  */
 require get_template_directory() . '/inc/navwalker.php';
+
+add_action('wp_head','pluginname_ajaxurl');
+function pluginname_ajaxurl() {
+?>
+<script type="text/javascript">
+var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
+</script>
+<?php
+}
+
+//for ajax call our basket form
+add_action( 'wp_ajax_add_foobar', 'prefix_ajax_add_foobar' );
+add_action( 'wp_ajax_nopriv_add_foobar', 'prefix_ajax_add_foobar' );
+
+function prefix_ajax_add_foobar() {
+    // Handle request then generate response using WP_Ajax_Response, send mail to admin
+  print_r($_POST);
+  exit();
+}

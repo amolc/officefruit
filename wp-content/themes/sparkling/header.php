@@ -30,9 +30,22 @@
 	<script type="text/javascript">
 		var app = angular.module('officefruit', []);
 	app.controller('basketController', function($scope) {
-	    $scope.firstName= "John";
-	    $scope.lastName= "Doe";
-	    console.log($scope.lastName);
+	    $scope.orderDetails= {
+	    	other_request: ''
+	    };
+	    $scope.submitOrderForm = function (orderDetails) {
+	    	console.log(orderDetails);
+	    	jQuery.post(
+			    ajaxurl, 
+			    {
+			        'action': 'add_foobar',
+			        'data':   orderDetails
+			    }, 
+			    function(response){
+			        console.log('The server responded: ' + response);
+			    }
+			);
+	    }
 	})
 	</script>
 <body <?php body_class(); ?> data-ng-app="officefruit">

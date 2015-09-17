@@ -17,9 +17,9 @@ get_header(); ?>
 
     </main><!-- #main -->
     <h1>
-    	Enauiry Form
+    	Enquiry Form
     </h1>
-  	<form class="form-horizontal" role="form">
+  	<form class="form-horizontal" role="form" data-ng-submit="submitOrderForm( orderDetails )">
 	    <div class="form-group">
 	      <label class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
 	      <div class="col-sm-8">
@@ -44,7 +44,7 @@ get_header(); ?>
 	    </div>
 	    <div class="form-group">
     		<label class="control-label col-sm-4" for="">And Please add... </label>
-	      	<div class="col-sm-8">
+	      	<div class="col-sm-8" >
 	    	    <select class="">
 		        	<option>Extra Fruit</option>
 		        	<option>Dry Fruits</option>
@@ -57,7 +57,7 @@ get_header(); ?>
 		        	<option>Flowers</option>
 		        	<option>Flowers</option>
 		        </select>
-		        <input type="text" class="form-control" placeholder="Other request...">
+		        <input type="text" data-ng-model="orderDetails.other_request" class="form-control" placeholder="Other request...">
 		        <select class="">
 		        	<option>Preffered delivery day(s)</option>
 		        	<option>Flowers</option>
