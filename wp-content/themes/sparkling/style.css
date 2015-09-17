@@ -1528,9 +1528,11 @@ button[type=submit],
 
 
 /*Custome css by saurabh*/
-li:before {
-    content: "• ";
-    color: red; /* or whatever color you prefer */
+footer li:before {
+    color: white;
+    float: left;
+    padding-top: 7px;
+    font-size: 20px;
 }
 #logo{
   position: absolute !important;
@@ -1653,7 +1655,7 @@ li:before {
 font-size: 20px;
     font-family: 'aleobold';
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background: url('img/footer_icon_1.png') no-repeat;
     padding-left: 33px;
     background-position: -2px;
@@ -1664,7 +1666,7 @@ font-size: 20px;
     font-size: 20px;
     font-family: 'aleobold';
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     z-index: 9;
     background: url('img/footer_icon_2.png') no-repeat;
     background-position: 14px;
