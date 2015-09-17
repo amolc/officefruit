@@ -1281,6 +1281,12 @@ p.logged-in-as {
   border-bottom: none;
   font-size: 18px;
 }
+#footer-area .site-info nav ul li:before{
+  color: #fff;
+  float: left;
+  padding-top: 7px;
+  font-size: 20px;
+}
 #footer-area p{
   font-size: 15px;
   clear: both;
@@ -1528,15 +1534,7 @@ button[type=submit],
 
 
 /*Custome css by saurabh*/
-#footer-area .site-info nav ul li:before {
-    color: white;
-    float: left;
-    padding-top: 7px;
-    font-size: 20px;
-}
-#footer-area .site-info nav ul li:first-child:before"{
-  display: none;
-}
+
 #logo{
   position: absolute !important;
   top: 10px !important;
