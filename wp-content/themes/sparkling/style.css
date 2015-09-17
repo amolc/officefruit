@@ -1654,7 +1654,7 @@ button[type=submit],
     margin-right: 10px !important;
 }
 .carousel-indicators .active{
-  background: #7F052E;
+  background: #7F052E !important;
   border-color: #fff !important;
 }
 .three_thumbnail .osc_servicebox h2{
