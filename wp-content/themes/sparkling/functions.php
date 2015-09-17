@@ -310,6 +310,24 @@ add_action( 'wp_ajax_nopriv_add_foobar', 'prefix_ajax_add_foobar' );
 
 function prefix_ajax_add_foobar() {
     // Handle request then generate response using WP_Ajax_Response, send mail to admin
-  print_r($_POST);
+    //print_r($_POST);
+    $to = get_option( 'admin_email');
+    $headers[] = 'From: Ankush L. <ankush@gmail.com>';
+    $mail_status = wp_mail( 'ankush.lomte@fountaintechies.com', 'This is Subject', 'Oreder details goes here', $headers );
+    if($mail_status)
+      {
+        $res = array( 
+          'status' => 1,
+          'massage' => "Mail sent Successfully"
+        );
+      }
+      else
+      {
+        $res = array( 
+          'status' => 0,
+          'massage' => "Ooops.. Mail sent failed, Please try again."
+        );
+      }
+      echo json_encode($res);
   exit();
 }

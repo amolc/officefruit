@@ -31,7 +31,6 @@
 		var app = angular.module('officefruit', []);
 	app.controller('basketController', function($scope) {
 	    $scope.orderDetails= {
-	    	other_request: ''
 	    };
 	    $scope.submitOrderForm = function (orderDetails) {
 	    	console.log(orderDetails);
@@ -42,7 +41,7 @@
 			        'data':   orderDetails
 			    }, 
 			    function(response){
-			        console.log('The server responded: ' + response);
+			        console.log('The server responded: ' + response);	
 			    }
 			);
 	    }

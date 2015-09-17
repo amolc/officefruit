@@ -34,7 +34,7 @@ get_header(); ?>
 	    <div class="form-group">
     		<label class="control-label col-sm-4" for=""></label>
 	      	<div class="col-sm-8">
-	    	    <select class="form-control">
+	    	    <select class="form-control" data-ng-model="orderDetails.main_package">
 		        	<option>Fruit Basket Original</option>
 		        	<option>4 Kg</option>
 		        	<option>6 Kg</option>
@@ -45,20 +45,20 @@ get_header(); ?>
 	    <div class="form-group">
     		<label class="control-label col-sm-4" for="">And Please add... </label>
 	      	<div class="col-sm-8" >
-	    	    <select class="">
+	    	    <select class="" data-ng-model="orderDetails.other_packae">
 		        	<option>Extra Fruit</option>
-		        	<option>Dry Fruits</option>
+		        	<option>Extraaas</option>
 		        </select>
-		        <select class="">
+		        <select class="" data-ng-model="orderDetails.other_dry_fruits">
 		        	<option>Nuts</option>
 		        	<option>Dry Fruits</option>
 		        </select>
-		        <select class="">
+		        <select class="" data-ng-model="orderDetails.other_flowers">
 		        	<option>Flowers</option>
 		        	<option>Flowers</option>
 		        </select>
-		        <input type="text" data-ng-model="orderDetails.other_request" class="form-control" placeholder="Other request...">
-		        <select class="">
+		        <input type="text" name="other_request" data-ng-model="orderDetails.other_request" class="form-control" placeholder="Other request...">
+		        <select class="" data-ng-model="orderDetails.delivery_days">
 		        	<option>Preffered delivery day(s)</option>
 		        	<option>Flowers</option>
 		        </select>
@@ -67,24 +67,24 @@ get_header(); ?>
 	    <div class="form-group">
     		<label class="control-label col-sm-4" for="">About Your Company</label>
 	      	<div class="col-sm-8">
-	    	    <input type="text" placeholder="Company Name" name="company">
-	    	    <input type="number" placeholder="Company Registration No." name="reg_no">
+	    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Company Name" name="company">
+	    	    <input type="number" data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no">
 	      	</div>
 	    </div>
-	    <div class="form-group">
+	    <div class="form-group" >
     		<label class="control-label col-sm-4" for="">Contact Person</label>
 	      	<div class="col-sm-8">
-	    	    <input type="text" placeholder="Name" name="contact_name">
-	    	    <input type="number" placeholder="Phone" name="contact_no">
-	    	    <input type="email" placeholder="Email Address" name="contact_email">
+	    	    <input type="text" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name">
+	    	    <input type="number" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no">
+	    	    <input type="email" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email">
 	      	</div>
 	    </div>
 	    <div class="form-group">
     		<label class="control-label col-sm-4" for="">Delivery</label>
 	      	<div class="col-sm-8">
-	    	    <input type="text" placeholder="Complete Address" name="address">
-	    	    <input type="number" placeholder="Postal Code" name="postal_code">
-	    	    <input type="place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="contact_email">
+	    	    <input type="text"  placeholder="Complete Address" data-ng-model="orderDetails.address" name="address">
+	    	    <input type="number" placeholder="Postal Code" data-ng-model="orderDetails.postal_code" name="postal_code">
+	    	    <input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="place">
 	      	</div>
 	    </div>
 	    <div class="form-group">        
