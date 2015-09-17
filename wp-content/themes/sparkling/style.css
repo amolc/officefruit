@@ -1283,6 +1283,7 @@ p.logged-in-as {
 }
 #footer-area p{
   font-size: 15px;
+  clear: both;
 }
 .copyright h4{
   font-size: 19px;
@@ -1631,10 +1632,7 @@ button[type=submit],
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
-    position: absolute;
     z-index: 9;
-    right: 55px;
-    top: 0;
     background: url('img/phone_icon.png') no-repeat;
     background-position: -3px;
     padding-left: 50px;
@@ -1644,11 +1642,7 @@ button[type=submit],
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
-    position: absolute;
-    z-index: 9;
-    right: 55px;
-    top: 0;
-    background: url('img/phone_icon.png') no-repeat;
+    background: url('img/footer_icon_1.png') no-repeat;
     background-position: -3px;
     padding-left: 50px;
 }
@@ -1661,7 +1655,7 @@ button[type=submit],
     z-index: 9;
     right: 55px;
     top: 0;
-    background: url('img/phone_icon.png') no-repeat;
+    background: url('img/footer_icon_2.png') no-repeat;
     background-position: -3px;
     padding-left: 50px;
 }
