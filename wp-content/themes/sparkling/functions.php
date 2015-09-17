@@ -304,6 +304,10 @@ var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
 <?php
 }
 
+add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+function set_html_content_type() {
+  return 'text/html';
+}
 //for ajax call our basket form
 add_action( 'wp_ajax_add_foobar', 'prefix_ajax_add_foobar' );
 add_action( 'wp_ajax_nopriv_add_foobar', 'prefix_ajax_add_foobar' );
