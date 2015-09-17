@@ -1274,6 +1274,7 @@ p.logged-in-as {
 }
 #footer-area a {
   color: #fff;
+  padding-bottom: 0px;
 }
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
