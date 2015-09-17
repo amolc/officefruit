@@ -128,7 +128,7 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 }
 
 .osc_servicebox{
-  padding: 5px 10px 16px !important;
+    padding: 8px 0px 15px !important;
 }
 body {
   color: #6B6B6B;
@@ -899,7 +899,7 @@ button:hover {
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
   line-height: 5px;
-  font-family: 'MyriadPro-Regular';
+  font-family: 'aleoregular';
   text-transform: capitalize;
   font-size: 22px;
   padding-top: 32px;
@@ -1267,7 +1267,7 @@ p.logged-in-as {
   color: #999;
 }
 #footer-area a {
-  color: #DADADA;
+  color: #fff;
 }
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
@@ -1283,6 +1283,8 @@ p.logged-in-as {
 }
 #footer-area p{
   font-size: 15px;
+  clear: both;
+  font-family: 'aleoregular';
 }
 .copyright h4{
   font-size: 19px;
@@ -1526,6 +1528,12 @@ button[type=submit],
 
 
 /*Custome css by saurabh*/
+footer li:before {
+    color: white;
+    float: left;
+    padding-top: 7px;
+    font-size: 20px;
+}
 #logo{
   position: absolute !important;
   top: 10px !important;
@@ -1538,9 +1546,11 @@ button[type=submit],
   background-color: #B2BB1D;
   border-color: #B2BB1D;
   text-align: center;
-  padding: 24px 40px;
+  padding: 27px 40px 6px;
 }
-
+.three_thumbnail .col-lg-4{
+  padding: 8px;
+}
 .three_thumbnail .img-circle{
  border-radius: 0px;
  width: 100%;
@@ -1599,7 +1609,7 @@ button[type=submit],
 .osc_servicebox{
   padding: 5px 10px 16px;
   background-color: #7f052e;
-  margin-top: -70px !important;
+  margin: -10px 20px 0 0 !important;
   position: relative !important;
 }
 .osc_servicebox h2{
@@ -1608,7 +1618,7 @@ button[type=submit],
 }
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
-  font-family: 'aleoregular';
+  font-family: 'aleoitalic';
   font-size: 15px;
 }
 .osc_servicebox .btn{
@@ -1621,7 +1631,7 @@ button[type=submit],
   margin-top: 5px;
 }
 .oscitas-res-image{
-  height: 218px;
+  height: 150px;
 }
 .copyright h4{
   color: #ffffff;
@@ -1638,6 +1648,30 @@ button[type=submit],
     background: url('img/phone_icon.png') no-repeat;
     background-position: -3px;
     padding-left: 50px;
+    z-index: 9;
+    right: 55px;
+}
+.phone_no_footer{
+font-size: 20px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 1px;
+    background: url('img/footer_icon_1.png') no-repeat;
+    padding-left: 33px;
+    background-position: -2px;
+    height: 31px;
+    display: inline-block;
+}
+.info_footer{
+    font-size: 20px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 1px;
+    z-index: 9;
+    background: url('img/footer_icon_2.png') no-repeat;
+    background-position: 14px;
+    padding-left: 50px;
+    display: inline-block;
 }
 .phone_no:hover{
   color: #fefefe;
