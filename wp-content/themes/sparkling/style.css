@@ -108,7 +108,8 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 @font-face {
     font-family: 'aleolightitalic';
     src: url('inc/fonts/aleo-lightitalic-webfont.eot');
-    src: url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    src: 
+    url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('inc/fonts/aleo-lightitalic-webfont.woff2') format('woff2'),
          url('inc/fonts/aleo-lightitalic-webfont.woff') format('woff'),
          url('inc/fonts/aleo-lightitalic-webfont.ttf') format('truetype');
@@ -116,7 +117,15 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
     font-style: normal;
 
 }
-
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('inc/fonts/MyriadPro-Regular.eot') format('embedded-opentype'),
+       url('inc/fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('inc/fonts/MyriadPro-Regular.woff') format('woff'),
+       url('inc/fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .osc_servicebox{
   padding: 5px 10px 16px !important;
