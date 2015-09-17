@@ -1267,7 +1267,7 @@ p.logged-in-as {
   color: #999;
 }
 #footer-area a {
-  color: #DADADA;
+  color: #fff;
 }
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
@@ -1599,7 +1599,7 @@ button[type=submit],
 .osc_servicebox{
   padding: 5px 10px 16px;
   background-color: #7f052e;
-  margin-top: -10px 0 0 0 !important;
+  margin: -10px 0 0 0 !important;
   position: relative !important;
 }
 .osc_servicebox h2{
@@ -1609,7 +1609,7 @@ button[type=submit],
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
   font-family: 'aleoitalic';
-  font-size: 14px;
+  font-size: 15px;
 }
 .osc_servicebox .btn{
   background: none;
@@ -1628,6 +1628,32 @@ button[type=submit],
 }
 .phone_no{
     font-size: 42px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 2px;
+    position: absolute;
+    z-index: 9;
+    right: 55px;
+    top: 0;
+    background: url('img/phone_icon.png') no-repeat;
+    background-position: -3px;
+    padding-left: 50px;
+}
+.phone_no_footer{
+    font-size: 20px;
+    font-family: 'aleobold';
+    color: #fff;
+    letter-spacing: 2px;
+    position: absolute;
+    z-index: 9;
+    right: 55px;
+    top: 0;
+    background: url('img/phone_icon.png') no-repeat;
+    background-position: -3px;
+    padding-left: 50px;
+}
+.info_footer{
+    font-size: 20px;
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
