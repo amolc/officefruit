@@ -892,7 +892,8 @@ button:hover {
   font-family: 'aleoregular';
   text-transform: capitalize;
   font-size: 22px;
-  margin-top: 15px;
+  padding-top: 32px;
+
 }
 .navbar > .container .navbar-brand {
   color: #DADADA;
