@@ -16,7 +16,7 @@ if ( ! isset( $content_width ) ) {
  * Set the content width for full width pages with no sidebar.
  */
 function sparkling_content_width() {
-  if ( is_page_template( 'page-fullwidth.php' ) ) {
+  if ( is_page_template( 'page-fullwidth.php' ) || is_page_template( 'page-our-basket.php' ) ) {
     global $content_width;
     $content_width = 1008; /* pixels */
   }
@@ -28,7 +28,7 @@ if ( ! function_exists( 'sparkling_main_content_bootstrap_classes' ) ) :
  * Add Bootstrap classes to the main-content-area wrapper.
  */
 function sparkling_main_content_bootstrap_classes() {
-	if ( is_page_template( 'page-fullwidth.php' ) ) {
+	if ( is_page_template( 'page-fullwidth.php' ) || is_page_template( 'page-our-basket.php' ) ) {
 		return 'col-sm-12 col-md-12';
 	}
 	return 'col-sm-12 col-md-8';
