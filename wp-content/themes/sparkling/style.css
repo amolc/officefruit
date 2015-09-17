@@ -181,7 +181,9 @@ h2,
 
 h3,
 .h3 {
-  font-size: 20px;
+  font-family: 'aleobolditalic';
+  font-size: 30px;
+  color: #000;
 }
 
 h4,
@@ -1713,4 +1715,66 @@ font-size: 20px;
     text-transform: inherit;
     font-family: 'aleobold';
     letter-spacing: 1px;
+}
+
+/*#our-basket*/
+.our_basket_section .oscitas-res-image {
+  height: auto;
+  display: inline;
+  float: left;
+  margin-right: 45px;
+}
+.our_basket_section {
+  text-align: center;
+}
+.our_basket_section p{
+  font-size: 22px;
+  line-height: 117%;
+  text-align: left;
+  color: #000;
+  font-family: 'aleoregular';
+}
+.red-btn{
+  background-color: #7F052E;
+  border: none;
+  font-family: 'aleoregular';
+  font-size: 25px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+.red-btn:hover{
+  background-color: #980537;
+}
+.our_basket_sub_section h4{
+  color: #B2BB1D;
+  margin-bottom: 0px;
+  text-align: center ! important;
+}
+.our_basket_sub_section h3{
+  margin-top: 5px;
+  text-align: center !important;
+}
+.our_basket_sub_section{
+  padding-top: 5px;
+  border-top: 1px solid #B2BB1D;
+  border-bottom: 1px solid #B2BB1D;
+}  
+
+
+.our_basket_col .oscitas-res-image {
+  height: auto;
+  display: inline;
+  float: left;
+  margin-right: 45px;
+}
+.our_basket_col {
+  text-align: center;
+}
+.our_basket_col p{
+  font-size: 22px;
+  line-height: 117%;
+  text-align: left;
+  color: #000;
+  font-family: 'aleoregular';
 }
