@@ -108,7 +108,8 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 @font-face {
     font-family: 'aleolightitalic';
     src: url('inc/fonts/aleo-lightitalic-webfont.eot');
-    src: url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    src: 
+    url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('inc/fonts/aleo-lightitalic-webfont.woff2') format('woff2'),
          url('inc/fonts/aleo-lightitalic-webfont.woff') format('woff'),
          url('inc/fonts/aleo-lightitalic-webfont.ttf') format('truetype');
@@ -116,7 +117,15 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
     font-style: normal;
 
 }
-
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('inc/fonts/MyriadPro-Regular.eot') format('embedded-opentype'),
+       url('inc/fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('inc/fonts/MyriadPro-Regular.woff') format('woff'),
+       url('inc/fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .osc_servicebox{
   padding: 5px 10px 16px !important;
@@ -892,7 +901,8 @@ button:hover {
   font-family: 'aleoregular';
   text-transform: capitalize;
   font-size: 22px;
-  margin-top: 15px;
+  padding-top: 32px;
+
 }
 .navbar > .container .navbar-brand {
   color: #DADADA;
@@ -1266,7 +1276,15 @@ p.logged-in-as {
   border-bottom: 1px solid #444;
 }
 #footer-area .site-info nav ul li {
+  font-family: 'aleoregular';
   border-bottom: none;
+  font-size: 18px;
+}
+#footer-area p{
+  font-size: 15px;
+}
+.copyright h4{
+  font-size: 19px;
 }
 .widgettitle {
   font-size: 14px;
@@ -1519,7 +1537,7 @@ button[type=submit],
   background-color: #B2BB1D;
   border-color: #B2BB1D;
   text-align: center;
-  padding: 30px 40px;
+  padding: 24px 40px;
 }
 
 .three_thumbnail .img-circle{
@@ -1616,6 +1634,9 @@ button[type=submit],
     z-index: 9;
     right: 55px;
     top: 0;
+    background: url('img/phone_icon.png') no-repeat;
+    background-position: -3px;
+    padding-left: 50px;
 }
 .phone_no:hover{
   color: #fefefe;
@@ -1628,7 +1649,7 @@ button[type=submit],
     border-color: #7F052E;
     height: 20px;
     width: 20px;
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 .carousel-indicators .active{
   background-color: #7F052E;
@@ -1644,4 +1665,3 @@ button[type=submit],
     font-family: 'aleobold';
     letter-spacing: 1px;
 }
-.three_thumbnail

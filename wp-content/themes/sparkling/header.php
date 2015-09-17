@@ -62,7 +62,9 @@
 
 						</div>
 						<?php sparkling_header_menu(); // main navigation ?>
-						<a href="#contact" class="pull-right phone_no"><span><img src="img/phone_icon.png"></span> +65 92737416</a>
+						
+						<?php echo of_get_option( 'contact_number', 'sparkling' ); ?>
+						
 					</div>
 				</div>
 			</div>
