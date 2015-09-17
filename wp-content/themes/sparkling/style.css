@@ -168,7 +168,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1,
 .h1 {
-  font-size: 28px;
+  text-align: center;
+  font-family: 'aleobolditalic';
+  font-size: 30px;
+  color: #B2BB1D;
 }
 
 h2,
