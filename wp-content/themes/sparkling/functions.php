@@ -245,6 +245,10 @@ function sparkling_scripts() {
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
   }
+
+  // For Angular js
+  wp_enqueue_script( 'angular_js', get_template_directory_uri() . '/inc/js/angular.js' );
+
 }
 add_action( 'wp_enqueue_scripts', 'sparkling_scripts' );
 

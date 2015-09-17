@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-  <div id="primary" class="content-area">
+  <div id="primary" class="content-area" data-ng-controller="basketController">
 
     <main id="main" class="site-main" role="main">
 
@@ -21,8 +21,8 @@ get_header(); ?>
     </h1>
   	<form class="form-horizontal" role="form">
 	    <div class="form-group">
-	      <label class="control-label col-sm-6" for="email">I am intrested in weekly deliveries of...</label>
-	      <div class="col-sm-6">
+	      <label class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
+	      <div class="col-sm-8">
 	        <select class="form-control">
 	        	<option>Fruit Basket Original</option>
 	        	<option>4 Kg</option>
@@ -32,8 +32,8 @@ get_header(); ?>
 	      </div>
 	    </div>
 	    <div class="form-group">
-    		<label class="control-label col-sm-6" for=""></label>
-	      	<div class="col-sm-6">
+    		<label class="control-label col-sm-4" for=""></label>
+	      	<div class="col-sm-8">
 	    	    <select class="form-control">
 		        	<option>Fruit Basket Original</option>
 		        	<option>4 Kg</option>
@@ -43,20 +43,48 @@ get_header(); ?>
 	      	</div>
 	    </div>
 	    <div class="form-group">
-    		<label class="control-label col-sm-6" for="">And Please add... </label>
-	      	<div class="col-sm-6">
-	    	    <select class="form-control">
+    		<label class="control-label col-sm-4" for="">And Please add... </label>
+	      	<div class="col-sm-8">
+	    	    <select class="">
 		        	<option>Extra Fruit</option>
 		        	<option>Dry Fruits</option>
 		        </select>
-		        <select class="form-control">
+		        <select class="">
 		        	<option>Nuts</option>
 		        	<option>Dry Fruits</option>
 		        </select>
-		        <select class="form-control">
+		        <select class="">
 		        	<option>Flowers</option>
 		        	<option>Flowers</option>
 		        </select>
+		        <input type="text" class="form-control" placeholder="Other request...">
+		        <select class="">
+		        	<option>Preffered delivery day(s)</option>
+		        	<option>Flowers</option>
+		        </select>
+	      	</div>
+	    </div>
+	    <div class="form-group">
+    		<label class="control-label col-sm-4" for="">About Your Company</label>
+	      	<div class="col-sm-8">
+	    	    <input type="text" placeholder="Company Name" name="company">
+	    	    <input type="number" placeholder="Company Registration No." name="reg_no">
+	      	</div>
+	    </div>
+	    <div class="form-group">
+    		<label class="control-label col-sm-4" for="">Contact Person</label>
+	      	<div class="col-sm-8">
+	    	    <input type="text" placeholder="Name" name="contact_name">
+	    	    <input type="number" placeholder="Phone" name="contact_no">
+	    	    <input type="email" placeholder="Email Address" name="contact_email">
+	      	</div>
+	    </div>
+	    <div class="form-group">
+    		<label class="control-label col-sm-4" for="">Delivery</label>
+	      	<div class="col-sm-8">
+	    	    <input type="text" placeholder="Complete Address" name="address">
+	    	    <input type="number" placeholder="Postal Code" name="postal_code">
+	    	    <input type="place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="contact_email">
 	      	</div>
 	    </div>
 	    <div class="form-group">        

@@ -27,8 +27,15 @@
 <?php wp_head(); ?>
 
 </head>
-
-<body <?php body_class(); ?>>
+	<script type="text/javascript">
+		var app = angular.module('officefruit', []);
+	app.controller('basketController', function($scope) {
+	    $scope.firstName= "John";
+	    $scope.lastName= "Doe";
+	    console.log($scope.lastName);
+	})
+	</script>
+<body <?php body_class(); ?> data-ng-app="officefruit">
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
