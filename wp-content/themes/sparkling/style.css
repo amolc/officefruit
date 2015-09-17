@@ -464,7 +464,7 @@ hr.section-divider {
   overflow: hidden;
 }
 .post-inner-content:first-child {
-  border-top: 1px solid #dadada;;
+  border: none;
 }
 .entry-title {
   margin-top: 0;
@@ -1281,7 +1281,7 @@ p.logged-in-as {
   border-bottom: none;
   font-size: 18px;
 }
-#footer-area .site-info nav ul li:before{
+#menu-footer-menus li:before{
   color: #fff;
   float: left;
   padding-top: 7px;
