@@ -1778,3 +1778,20 @@ font-size: 20px;
   color: #000;
   font-family: 'aleoregular';
 }
+
+/*#home*/
+.thumb_1{
+  height: 150px;
+  background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_1-300x197.jpg');
+  background-size: cover;
+}
+.thumb_2{
+  height: 150px;
+  background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_2.png');
+  background-size: cover;
+}
+.thumb_2{
+  height: 150px;
+  background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_3.jpg');
+  background-size: cover;
+}
