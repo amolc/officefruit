@@ -899,7 +899,7 @@ button:hover {
 .navbar-default .navbar-nav > li > a {
   color: #F5F7FA;
   line-height: 5px;
-  font-family: 'MyriadPro-Regular';
+  font-family: 'aleoregular';
   text-transform: capitalize;
   font-size: 22px;
   padding-top: 32px;
@@ -1538,7 +1538,7 @@ button[type=submit],
   background-color: #B2BB1D;
   border-color: #B2BB1D;
   text-align: center;
-  padding: 24px 40px;
+  padding: 27px 40px;
 }
 
 .three_thumbnail .img-circle{
@@ -1599,7 +1599,7 @@ button[type=submit],
 .osc_servicebox{
   padding: 5px 10px 16px;
   background-color: #7f052e;
-  margin-top: -70px !important;
+  margin-top: -10px 0 0 0 !important;
   position: relative !important;
 }
 .osc_servicebox h2{
@@ -1608,8 +1608,8 @@ button[type=submit],
 }
 .osc_servicebox .osc_servicebox_content{
   color: #fff;
-  font-family: 'aleoregular';
-  font-size: 15px;
+  font-family: 'aleoitalic';
+  font-size: 14px;
 }
 .osc_servicebox .btn{
   background: none;
@@ -1621,7 +1621,7 @@ button[type=submit],
   margin-top: 5px;
 }
 .oscitas-res-image{
-  height: 218px;
+  height: 150px;
 }
 .copyright h4{
   color: #ffffff;
