@@ -1638,26 +1638,26 @@ button[type=submit],
     padding-left: 50px;
 }
 .phone_no_footer{
-    font-size: 20px;
+font-size: 20px;
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
     background: url('img/footer_icon_1.png') no-repeat;
-    background-position: -3px;
-    padding-left: 50px;
+    padding-left: 33px;
+    background-position: -2px;
+    height: 31px;
+    display: inline-block;
 }
 .info_footer{
     font-size: 20px;
     font-family: 'aleobold';
     color: #fff;
     letter-spacing: 2px;
-    position: absolute;
     z-index: 9;
-    right: 55px;
-    top: 0;
     background: url('img/footer_icon_2.png') no-repeat;
-    background-position: -3px;
+    background-position: 14px;
     padding-left: 50px;
+    display: inline-block;
 }
 .phone_no:hover{
   color: #fefefe;
