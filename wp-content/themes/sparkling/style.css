@@ -1718,6 +1718,9 @@ font-size: 20px;
 }
 
 /*#our-basket*/
+.content-area{
+  background: #fff;
+}
 .our_basket_section .oscitas-res-image {
   height: auto;
   display: inline;
@@ -1742,6 +1745,7 @@ font-size: 20px;
   letter-spacing: 1px;
   border-radius: 50px;
   margin: 0 10px;
+  display: inline-block !important;
 }
 .red-btn:hover{
   background-color: #980537;
@@ -1778,7 +1782,45 @@ font-size: 20px;
   color: #000;
   font-family: 'aleoregular';
 }
-
+.form-horizontal .control-label{
+  text-align: left;
+  float: left;
+  padding-left: 5px;
+}
+form label{
+  color: #B2BB1D;
+  text-align: left;
+  font-family: 'aleoitalic';
+  font-weight: normal;
+  font-size: 20px;
+  padding-right: 0px ! important;
+}
+input[type="tel"], input[type="url"], input[type="password"], input[type="search"],.form-control{
+  border-radius: 25px;
+  border-color: #7F052E;
+  height: 44px;
+}
+input[type="text"],input[type="number"],select, input[type="email"]{
+  border-radius: 12px;
+  border: 1px solid #7F052E;
+  height: 44px;
+  padding-left: 10px;
+}
+form{
+  border: 1px solid #B2BB1D;
+  margin: 50px;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+.enquiry_select .col-sm-3 {
+  margin: 5px 14px;
+}
+.enq_input{
+    width: 63%;
+    margin: 0 10px;
+    padding-left: 10px;
+}
+/*************************************************************************************************/
 /*#home*/
 .thumb_1{
   height: 150px;
@@ -1798,4 +1840,61 @@ font-size: 20px;
   background-size: cover;
   background-position: 100% 43%;
   background-size: 625px 360px;
+}
+
+/******************************************************************************************/
+/*#how it works*/
+.how_it_works{
+    background: #fff;
+    padding-top: 3%;
+}
+.how_it_works h1{
+    text-align: center;
+    font-family: 'aleobolditalic';
+    font-size: 30px;
+    color: #B2BB1D;
+
+}
+.how-it-works h1{
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    min-height: 70px;
+}
+.how-it-works span{
+    text-align: center;
+    font-family: 'aleobolditalic';
+    color: #B2BB1D;
+    font-size: 25px;
+    line-height: 150%;
+    margin-right: 17px;
+    border: 1px solid;
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 50%;
+}  
+.steps_img{
+    min-height: 200px;
+    position: relative;
+}
+.steps_img img{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translateY(-50%);
+}
+.this_is_work h2{
+    padding: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'aleoregular';
+    border: 1px solid #B2BB1D;
+    border-radius: 20px;
+} 
+.this_is_work{
+    padding: 50px;
+}
+.how-it-works .red-btn{
+  width: 100%
 }
