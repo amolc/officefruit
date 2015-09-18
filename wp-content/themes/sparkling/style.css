@@ -459,7 +459,7 @@ hr.section-divider {
   margin-bottom: 50px;
 }
 .post-inner-content {
-  padding: 45px 50px;
+  padding: 60px 50px;
   background-color: #fff;
   border: 1px solid #dadada;
   border-top: none;
@@ -1718,6 +1718,9 @@ font-size: 20px;
 }
 
 /*#our-basket*/
+.our_basket .post-inner-content{
+  padding:60px 50px 0;
+}
 .content-area{
   background: #fff;
 }

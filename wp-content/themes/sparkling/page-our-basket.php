@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-  <div id="primary" class="content-area" data-ng-controller="basketController">
+  <div id="primary" class="content-area our_basket" data-ng-controller="basketController">
 
     <main id="main" class="site-main" role="main">
 
@@ -14,10 +14,8 @@ get_header(); ?>
         <?php get_template_part( 'content', 'page' ); ?>
 
       <?php endwhile; // end of the loop. ?>
-
-    </main><!-- #main -->
-    <div class="container">
-    	<div class="row our_basket_section" style="margin: 25px 20px;">
+      <div class="container">
+    	<div class="row our_basket_section" style="margin: 20px 5px;">
     		<div class="col-sm-12 col-md-12">
 	    		<div class="col-md-6 col-sm-12">
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_1.jpg" class="img-responsive oscitas-res-image" alt="">
@@ -160,6 +158,8 @@ get_header(); ?>
 	    </div>
   </form>
 
+
+    </main><!-- #main -->
   </div><!-- #primary -->
 
 <?php get_footer(); ?>
