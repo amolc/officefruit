@@ -16,6 +16,80 @@ get_header(); ?>
       <?php endwhile; // end of the loop. ?>
 
     </main><!-- #main -->
+    <div class="container">
+    	<div class="row our_basket_section" style="margin: 25px 20px;">
+    		<div class="col-sm-12 col-md-6">
+	    		<div class="col-md-12">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<h3 style="text-align: left;">Extra Fruit</h3>
+		    		<p style="text-align: left;">An extra boost of the office’s favorite fruit. 2 kg extra.</p>
+		    	</div>
+		    	<div class="col-md-12">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<h3 style="text-align: left;">Nuts</h3>
+		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
+		    	</div>	
+		    	<div class="col-md-12">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<h3 style="text-align: left;">Flowers</h3>
+		    		<p style="text-align: left;">Give your office a wind of freshness with new flowers every week.</p>
+		    	</div>	
+		  	</div>	
+	    	<div class="col-sm-12 col-md-6">
+	    		<div class="col-sm-12 our_basket_sub_section">
+		    		<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+				</div>
+				<div class="col-sm-12 our_basket_sub_section">
+		    		<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+				</div>	
+				<div class="col-sm-12 our_basket_sub_section">
+		    		<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12"><p></p>
+						<h4 style="text-align: left;">4 kg (7-12 people)</h4>
+						<h3 style="text-align: left;">S$ 28</h3>
+						<h4 style="text-align: left;"></h4>
+					</div>
+				</div>		
+	    	</div>	
+    	</div>
+    </div>
   	<form class="form-horizontal" role="form" data-ng-submit="submitOrderForm( orderDetails )">
   	<h1>
     	Enquiry Form

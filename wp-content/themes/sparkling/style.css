@@ -1808,7 +1808,6 @@ input[type="text"],input[type="number"],select, input[type="email"]{
 }
 form{
   border: 1px solid #B2BB1D;
-  margin: 50px;
   border-radius: 20px;
   padding: 10px 50px;
 }
