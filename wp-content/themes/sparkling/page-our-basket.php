@@ -115,15 +115,15 @@ get_header(); ?>
 	    </div>
 	    <div class="form-group enquiry_select">
     		<label class="control-label" for="">And Please add... </label>
-    	    <select class="col-md-3 col-sm-4" data-ng-model="orderDetails.other_packae">
+    	    <select class="col-md-3 col-sm-12" data-ng-model="orderDetails.other_packae">
 	        	<option>Extra Fruit</option>
 	        	<option>Extraaas</option>
 	        </select>
-	        <select class="col-sm-3 col-sm-4" data-ng-model="orderDetails.other_dry_fruits">
+	        <select class="col-md-3 col-sm-12" data-ng-model="orderDetails.other_dry_fruits">
 	        	<option>Nuts</option>
 	        	<option>Dry Fruits</option>
 	        </select>
-	        <select class="col-sm-3 col-sm-4"  data-ng-model="orderDetails.other_flowers">
+	        <select class="col-md-3 col-sm-12"  data-ng-model="orderDetails.other_flowers">
 	        	<option>Flowers</option>
 	        	<option>Flowers</option>
 	        </select>
