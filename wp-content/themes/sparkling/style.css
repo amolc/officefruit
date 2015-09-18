@@ -1882,6 +1882,7 @@ form{
     display: inline-block;
     position: relative;
     min-height: 70px;
+    width: 100%;
 }
 .how-it-works span{
     text-align: center;
@@ -1910,12 +1911,15 @@ form{
     padding: 40px;
     text-align: center;
     font-size: 22px;
+    color: #000;
+    line-height: 138%;
+    font-weight: 400;
     font-family: 'aleoregular';
     border: 1px solid #B2BB1D;
     border-radius: 20px;
 } 
 .this_is_work{
-    padding: 50px;
+    margin: 10px -20px;
 }
 .how-it-works .red-btn{
   width: 100%
