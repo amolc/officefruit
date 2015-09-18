@@ -1773,7 +1773,9 @@ font-size: 20px;
   border-bottom: 1px solid #B2BB1D;
 }  
 
-
+.our_basket_container{
+  padding-bottom: 68px;
+}
 .our_basket_col .oscitas-res-image {
   height: auto;
   display: inline;
@@ -1802,25 +1804,38 @@ form label{
   font-weight: normal;
   font-size: 20px;
   padding-right: 0px ! important;
+  margin-bottom: 10px;
 }
 input[type="tel"], input[type="url"], input[type="password"], input[type="search"],.form-control{
   border-radius: 25px;
   border-color: #7F052E;
   height: 44px;
+  margin-bottom: 10px;
 }
-input[type="text"],input[type="number"],select, input[type="email"]{
+input[type="text"],input[type="number"],input[type="email"]{
   border-radius: 12px;
   border: 1px solid #7F052E;
   height: 44px;
   padding-left: 10px;
+  margin-bottom: 10px;;
+}
+select{
+    border-radius: 25px;
+    border-color: #7F052E;
+    height: 44px;
+    margin-bottom: 10px;
 }
 form{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
   padding: 10px 50px;
+  margin: 0 43px;
 }
-.enquiry_select .col-sm-4 {
-  margin: 5px 14px;
+.enquiry_select select{
+    width: 32%;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-bottom: 10px;
 }
 .enq_input{
     width: 63%;
