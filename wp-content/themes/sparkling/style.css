@@ -1721,6 +1721,9 @@ font-size: 20px;
 .our_basket .post-inner-content{
   padding:60px 50px 0;
 }
+.our_basket_container .our_basket_sub_section{
+  margin-top: 25px;
+}
 .content-area{
   background: #fff;
 }
@@ -1757,6 +1760,7 @@ font-size: 20px;
   color: #B2BB1D;
   margin-bottom: 0px;
   font-size: 22px;
+  font-family: 'aleobold';
   text-align: center ! important;
 }
 .our_basket_sub_section h3{

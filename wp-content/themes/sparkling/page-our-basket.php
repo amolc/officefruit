@@ -14,7 +14,7 @@ get_header(); ?>
         <?php get_template_part( 'content', 'page' ); ?>
 
       <?php endwhile; // end of the loop. ?>
-      <div class="container">
+      <div class="container our_basket_container">
     	<div class="row our_basket_section" style="margin: 20px 5px;">
     		<div class="col-sm-12 col-md-12">
 	    		<div class="col-md-6 col-sm-12">
@@ -47,7 +47,7 @@ get_header(); ?>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
 		    	</div>
 		    	<div class="col-md-6 col-sm-12 our_basket_sub_section">
-		    		<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4"><p></p>
+		    		<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
 						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
 						<h3 style="text-align: left;">S$ 2</h3>
 						<h4 style="text-align: left;"></h4>
