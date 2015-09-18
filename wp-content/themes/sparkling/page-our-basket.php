@@ -20,7 +20,7 @@ get_header(); ?>
     	<div class="row our_basket_section" style="margin: 25px 20px;">
     		<div class="col-sm-12 col-md-12">
 	    		<div class="col-md-6">
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_1.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Extra Fruit</h3>
 		    		<p style="text-align: left;">An extra boost of the office’s favorite fruit. 2 kg extra.</p>
 		    	</div>
@@ -44,7 +44,7 @@ get_header(); ?>
 		    </div>	
 		    <div class="col-sm-12 col-md-12">
 	    		<div class="col-md-6">
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Nuts</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
 		    	</div>
@@ -68,7 +68,7 @@ get_header(); ?>
 		    </div>
 		    <div class="col-sm-12 col-md-12">
 	    		<div class="col-md-6">
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_1.png" class="img-responsive oscitas-res-image" alt="">
+		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_3.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Flowers</h3>
 		    		<p style="text-align: left;">Give your office a wind of freshness with new flowers every week.</p>
 		    	</div>
@@ -98,7 +98,7 @@ get_header(); ?>
     </h1>
 	    <div class="form-group">
 	      <label class="control-label" for="email">I am intrested in weekly deliveries of...</label>
-	      <div class="col-sm-8">
+	      <div class="col-md-8 col-sm-12">
 	        <select class="form-control">
 	        	<option>Fruit Basket Original</option>
 	        	<option>4 Kg</option>
@@ -115,15 +115,15 @@ get_header(); ?>
 	    </div>
 	    <div class="form-group enquiry_select">
     		<label class="control-label" for="">And Please add... </label>
-    	    <select class="col-sm-3" data-ng-model="orderDetails.other_packae">
+    	    <select class="col-md-3 col-sm-4" data-ng-model="orderDetails.other_packae">
 	        	<option>Extra Fruit</option>
 	        	<option>Extraaas</option>
 	        </select>
-	        <select class="col-sm-3" data-ng-model="orderDetails.other_dry_fruits">
+	        <select class="col-sm-3 col-sm-4" data-ng-model="orderDetails.other_dry_fruits">
 	        	<option>Nuts</option>
 	        	<option>Dry Fruits</option>
 	        </select>
-	        <select class="col-sm-3" data-ng-model="orderDetails.other_flowers">
+	        <select class="col-sm-3 col-sm-4"  data-ng-model="orderDetails.other_flowers">
 	        	<option>Flowers</option>
 	        	<option>Flowers</option>
 	        </select>
