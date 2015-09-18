@@ -1912,6 +1912,7 @@ form{
     text-align: center;
     font-size: 22px;
     color: #000;
+    min-height: 140px;
     line-height: 138%;
     font-weight: 400;
     font-family: 'aleoregular';
