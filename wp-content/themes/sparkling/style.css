@@ -138,7 +138,10 @@ body {
   line-height: 1.7;
   font-size: 14px;
 }
-
+#content{
+  width: 1280px;
+  margin: 0 auto;
+}
 a {
   color: #DA4453;
   text-decoration: none;
@@ -2137,96 +2140,3 @@ select {
 
 
 /*#media query*/
-@media only (max-width: 768px){
-  h1,
-  .h1 {
-    text-align: center;
-    font-family: 'aleobolditalic';
-    font-size: 24px;
-    color: #B2BB1D;
-  }
-
-  h2,
-  .h2 {
-    font-size: 18px;
-  }
-
-  h3,
-  .h3 {
-    font-family: 'aleobolditalic';
-    font-size: 18px;
-    color: #000;
-  }
-
-  h4,
-  .h4 {
-    font-size: 16px;
-  }
-
-  h5,
-  .h5 {
-    font-size: 14px;
-  }
-
-  h6,
-  .h6 {
-    font-size: 13px;
-  }
-
-  img{
-    height: auto;
-  }
-
-   #logo a img{
-    width: 120px;
-    height: auto;
-    margin-left: 15px;
-  }
-}
-
-@media only (max-width: 500px){
-  h1,
-  .h1 {
-    text-align: center;
-    font-family: 'aleobolditalic';
-    font-size: 24px;
-    color: #B2BB1D;
-  }
-
-  h2,
-  .h2 {
-    font-size: 18px;
-  }
-
-  h3,
-  .h3 {
-    font-family: 'aleobolditalic';
-    font-size: 18px;
-    color: #000;
-  }
-
-  h4,
-  .h4 {
-    font-size: 16px;
-  }
-
-  h5,
-  .h5 {
-    font-size: 14px;
-  }
-
-  h6,
-  .h6 {
-    font-size: 13px;
-  }
-
-  img{
-    height: auto;
-  }
-
-   #logo a img{
-    width: 50px;
-    height: auto;
-    margin-left: 15px;
-  }
-}
