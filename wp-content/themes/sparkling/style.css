@@ -1918,6 +1918,7 @@ form{
     font-family: 'aleoregular';
     border: 1px solid #B2BB1D;
     border-radius: 20px;
+    height: 145px;
 } 
 .this_is_work{
     margin: 10px -20px;
@@ -1928,6 +1929,7 @@ form{
 /*#about_us*/
 .about_us_head h3{
   color: #B2BB1D;
+  margin-top: 10%;
 }
 .about_us_head{
   font-size: 30px;
@@ -1944,6 +1946,7 @@ form{
 }
 .about_thumb h1{
   font-size: 25px;
+  margin-bottom: 20px;
 }
 .about_thumb .red-btn{
   font-size: 25px;
@@ -1955,6 +1958,10 @@ form{
 .about_rows p{
   font-size: 22px;
   color: #000;
+  line-height: 30px;
+}
+.about_rows h1{
+  margin-bottom: 30px;
 }
 .about_rows span{
   color: #7F052E;
