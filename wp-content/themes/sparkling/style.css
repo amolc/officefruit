@@ -1797,6 +1797,12 @@ font-size: 20px;
   color: #000;
   font-family: 'aleoregular';
 }
+.contact_person input{
+  margin-right: 10px;
+}
+.form-horizontal .form-group{
+  margin-left: 0px;
+}
 .form-horizontal .control-label{
   text-align: left;
   float: left;
@@ -1843,6 +1849,7 @@ form{
   margin: 0 43px;
 }
 .enquiry_select select{
+    width: 27.25%;
     border-radius: 50px;
     margin-left: 8px;
     margin-bottom: 10px;

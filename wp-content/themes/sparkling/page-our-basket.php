@@ -90,7 +90,7 @@ get_header(); ?>
 		    </div>	
 		  </div>	
 		  	<form class="form-horizontal" role="form" data-ng-submit="submitOrderForm( orderDetails )">
-		  	<h1>
+		  	<h1 style="margin-bottom:30px;">
 		    	Enquiry Form
 		    </h1>
 			    <div class="form-group">
@@ -127,8 +127,8 @@ get_header(); ?>
 				        </select>   
 			    </div>
 			    <div class="form-group" style="margin: 0 10px 15px -20px;">     
-			        <input type="text" class="form-control col-md-8 enq_input" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." >
-			        <select class="col-sm-4" data-ng-model="orderDetails.delivery_days">
+			        <input type="text" class="form-control col-md-8 enq_input" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: 20px;">
+			        <select class="col-sm-3" data-ng-model="orderDetails.delivery_days" style="width:32%;">
 			        	<option>Preffered delivery day(s)</option>
 			        	<option>Flowers</option>
 			        </select>
@@ -136,19 +136,19 @@ get_header(); ?>
 			    <div class="form-group" >
 		    		<label class="control-label" for="" style="margin-right: 15px;">About Your Company</label>
 			    	    <input type="text" class="col-md-5 col-sm-12 col-xm-12" data-ng-model="orderDetails.company_name" placeholder="Company Name" name="company">
-			    	    <input type="number" class="col-md-4 col-sm-12 col-xm-12"  data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" style="margin-left: 10px;">
+			    	    <input type="number" class="col-md-4 col-sm-12 col-xm-12"  data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" style="margin-left: 10px;width: 35%;">
 			    </div>
-			    <div class="form-group"  >
+			    <div class="form-group contact_person" >
 		    		<label class="control-label" for="" style="margin-right: 15px;">Contact Person</label>
 			    	    <input type="text" class="col-md-4 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name">
 			    	    <input type="number" class="col-md-2 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no">
-			    	    <input type="email" class="col-md-3 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email">
+			    	    <input type="email" class="col-md-3 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email" style="width: 31.33%;">
 			    </div>
-			    <div class="form-group" >
+			    <div class="form-group contact_person" >
 		    		<label class="control-label" for="" style="margin-right: 15px;">Delivery</label>
 			    	    <input type="text" class="col-md-6 col-sm-12 col-xm-12" placeholder="Complete Address" data-ng-model="orderDetails.address" name="address">
-			    	    <input type="number" class="col-md-4 col-sm-12 col-xm-12" placeholder="Postal Code" data-ng-model="orderDetails.postal_code" name="postal_code">
-			    	    <input type="text" class="col-md-12 col-sm-12 col-xm-12" data-ng-model="orderDetails.place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="place">
+			    	    <input type="number" class="col-md-4 col-sm-12 col-xm-12" placeholder="Postal Code" data-ng-model="orderDetails.postal_code" name="postal_code" style="width: 37.38%;">
+			    	    <input type="text" class="col-md-12 col-sm-12 col-xm-12" data-ng-model="orderDetails.place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="place" style="width: 97%;margin-top: 15px;">
 			    </div>
 			    <div class="form-group">        
 			      <div class="col-sm-12 text-center">
