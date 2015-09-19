@@ -2079,3 +2079,12 @@ form{
   padding-left: 45px;
   padding-right: 45px;
 }
+/*#blog_detail*/
+.blog_detail img{
+  float: left;
+  margin-right: 50px;
+}
+.blog_detail h3{
+  font-family: 'aleoregular';
+  font-weight: 500;
+}
