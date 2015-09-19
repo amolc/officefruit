@@ -2063,3 +2063,14 @@ form{
 .pay_details p{
   font-size: 15px;
 }
+/*#perk*/
+.perks img{
+  margin: 0 auto;
+}
+.perks h4,h3{
+  font-size: 22px;
+}
+.perks hr{
+  margin-top: 40px;
+  border-top: 1px solid #B2BB1D;
+}
