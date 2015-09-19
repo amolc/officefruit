@@ -163,7 +163,6 @@ a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #DA4453;
   font-weight: 700;
-  font-family: 'Roboto Slab', serif;
 }
 
 h1,
@@ -900,6 +899,12 @@ button:hover {
 }
 #menu-header-menus{
   margin-left: 17%;
+  z-index: 999;
+  position: relative;
+  background-color: #B3BA1E;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
 }
 .navbar.navbar-default {
   background-color: #B3BA1E;
@@ -1808,18 +1813,24 @@ form label{
 }
 input[type="tel"], input[type="url"], input[type="password"], input[type="search"],.form-control{
   border-radius: 25px;
-  border-color: #7F052E;
-  height: 44px;
-  margin-bottom: 10px;
+    border: 1px solid #7F052E;
+    height: 44px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 input[type="text"],input[type="number"],input[type="email"]{
-  border-radius: 12px;
-  border: 1px solid #7F052E;
-  height: 44px;
-  padding-left: 10px;
-  margin-bottom: 10px;;
+    border-radius: 12px;
+    border: 1px solid #7F052E;
+    height: 44px;
+    padding-top: 0;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 select{
+    margin-left: 20px;
     border-radius: 25px;
     border-color: #7F052E;
     height: 44px;
@@ -1832,7 +1843,6 @@ form{
   margin: 0 43px;
 }
 .enquiry_select select{
-    width: 32%;
     border-radius: 50px;
     margin-left: 8px;
     margin-bottom: 10px;
@@ -2081,10 +2091,135 @@ form{
 }
 /*#blog_detail*/
 .blog_detail img{
+  margin-top: 50px;
   float: left;
   margin-right: 50px;
 }
 .blog_detail h3{
   font-family: 'aleoregular';
   font-weight: 500;
+}
+
+/*#dropdown*/
+select {
+
+  -webkit-appearance:none; text-indent:1px;
+  text-overflow: ''; background-image:url('http://localhost/officefruit/wp-content/uploads/2015/09/arrow.png'); 
+  background-repeat: no-repeat; 
+  background-position: 95% 50%;
+}
+::-webkit-input-placeholder {
+  font-size: 20px;
+   color: #000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 20px;
+   color: #000;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 20px;
+   color: #000;
+
+:-ms-input-placeholder {  
+  font-size: 20px;
+   color: #000;
+}
+
+
+
+/*#media query*/
+@media only (max-width: 768px){
+  h1,
+  .h1 {
+    text-align: center;
+    font-family: 'aleobolditalic';
+    font-size: 24px;
+    color: #B2BB1D;
+  }
+
+  h2,
+  .h2 {
+    font-size: 18px;
+  }
+
+  h3,
+  .h3 {
+    font-family: 'aleobolditalic';
+    font-size: 18px;
+    color: #000;
+  }
+
+  h4,
+  .h4 {
+    font-size: 16px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 13px;
+  }
+
+  img{
+    height: auto;
+  }
+
+   #logo a img{
+    width: 120px;
+    height: auto;
+    margin-left: 15px;
+  }
+}
+
+@media only (max-width: 500px){
+  h1,
+  .h1 {
+    text-align: center;
+    font-family: 'aleobolditalic';
+    font-size: 24px;
+    color: #B2BB1D;
+  }
+
+  h2,
+  .h2 {
+    font-size: 18px;
+  }
+
+  h3,
+  .h3 {
+    font-family: 'aleobolditalic';
+    font-size: 18px;
+    color: #000;
+  }
+
+  h4,
+  .h4 {
+    font-size: 16px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 13px;
+  }
+
+  img{
+    height: auto;
+  }
+
+   #logo a img{
+    width: 50px;
+    height: auto;
+    margin-left: 15px;
+  }
 }

@@ -112,20 +112,19 @@ get_header(); ?>
 			    </div>
 			    <div class="form-group enquiry_select">
 		    		<label class="control-label" for="">And Please add... </label>
-		    		<div class="col-sm-12 col-md-10 col-xm-12">
-			    	    <select data-ng-model="orderDetails.other_packae">
-				        	<option>Extra Fruit</option>
+
+			    	    <select data-ng-model="orderDetails.other_package" class="col-sm-12 col-md-3 col-xm-12">
+				        	<option selected>Extra Fruit</option>
 				        	<option>Extraaas</option>
 				        </select>
-				        <select data-ng-model="orderDetails.other_dry_fruits">
+				        <select data-ng-model="orderDetails.other_dry_fruits" class="col-sm-12 col-md-3 col-xm-12">
 				        	<option>Nuts</option>
 				        	<option>Dry Fruits</option>
 				        </select>
-				        <select data-ng-model="orderDetails.other_flowers">
+				        <select data-ng-model="orderDetails.other_flowers" class="col-sm-12 col-md-3 col-xm-12">
 				        	<option>Flowers</option>
 				        	<option>Flowers</option>
-				        </select>
-				    </div>    
+				        </select>   
 			    </div>
 			    <div class="form-group" style="margin: 0 10px 15px -20px;">     
 			        <input type="text" class="form-control col-md-8 enq_input" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." >
@@ -157,6 +156,14 @@ get_header(); ?>
 			      </div>
 			    </div>
 		  </form>
+<!-- 			<form class="form-inline">
+			  <div class="form-group">
+			    <label for="exampleInputName2">Name</label>
+			    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+			    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+			    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+			  </div>
+			</form> -->
   		</div><!-- container -->
 
     </main><!-- #main -->
