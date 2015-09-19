@@ -134,7 +134,7 @@ body {
   color: #6B6B6B;
   background-color: #F2F2F2;
   word-wrap: break-word;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'aleoregular';
   line-height: 1.7;
   font-size: 14px;
 }
@@ -1924,4 +1924,135 @@ form{
 }
 .how-it-works .red-btn{
   width: 100%
+}
+/*#about_us*/
+.about_us_head h3{
+  color: #B2BB1D;
+}
+.about_us_head{
+  font-size: 30px;
+  color: #7F052E;
+  font-family: 'aleoregular';
+}
+.about_us_head img{
+  float: left;
+  width: 286px;
+  border-radius: 50%;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid #B2BB1D;
+}
+.about_thumb h1{
+  font-size: 25px;
+}
+.about_thumb .red-btn{
+  font-size: 25px;
+  font-family: 'aleoregular';
+  padding-left: 45px;
+  padding-right: 45px;
+  text-transform: capitalize;
+}
+.about_rows p{
+  font-size: 22px;
+  color: #000;
+}
+.about_rows span{
+  color: #7F052E;
+}
+.about_rows{
+  border: 1px solid #B2BB1D;
+  border-radius: 20px;
+  padding: 30px 10px;
+}
+/*#blog*/
+.blog_rows img{
+  width: 224px;
+  border-radius: 50%;
+  height: auto;
+  border: 1px solid #B2BB1D;
+}
+.blog_rows h1{
+  text-align: left;
+  color: #7F052E;
+}
+.blog_rows h2{
+  text-align: left;
+  color: #000;
+  font-size: 22px;
+  font-family: 'aleoregular';
+  font-weight: normal;
+  line-height: 30px;
+}
+.blog_rows a{
+  text-align: left;
+  font-size: 22px;
+  font-family: 'aleoregular';
+  font-weight: normal;
+  color: #B2BB1D;
+  cursor: pointer;
+}
+.blog_rows{
+  border: 1px solid #B2BB1D;
+  border-radius: 20px;
+  padding: 30px 10px;
+  margin-bottom: 25px;
+}
+/*#perk*/
+.pay_rows p{
+  font-size: 22px;
+  color: #000;
+  margin: 30px 20px;
+  font-family: 'aleoitalic';
+}
+.pays_icons img{
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.pays_icons h1{
+  margin-top: 14%;
+  color: #7F052E;
+  text-align: left;
+}
+.pays_icons h4{
+  font-size: 22px;
+  text-align: left;
+  color: #000;
+  font-weight: 500;
+  font-family: 'aleoregular';
+}
+.pays_icons h5{
+  font-size: 30px;
+  color:#B2BB1D; 
+  margin-bottom: 45px;
+  font-family: 'aleobolditalic';
+}
+.pays_icons{
+  border: 1px solid #B2BB1D; 
+  border-radius: 20px;
+}
+.pay_details h3{
+  font-size: 22px;
+  font-family: 'aleoregular';
+  font-weight: 500;
+}
+.pay_details h2{
+  color:#B2BB1D;
+}
+
+.pay_details ul{
+  padding-left: 22px;
+}
+.pay_details ul li{
+  font-size: 25px;
+  color:#B2BB1D;
+  font-family: 'aleobold';
+}
+.pay_details .red-btn{
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.pay_details p{
+  font-size: 15px;
 }
