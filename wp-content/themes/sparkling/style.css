@@ -1908,7 +1908,7 @@ form{
     transform: translateY(-50%);
 }
 .this_is_work h2{
-    padding: 40px;
+    padding: 40px 45px;
     text-align: center;
     font-size: 22px;
     color: #000;
@@ -1918,7 +1918,7 @@ form{
     font-family: 'aleoregular';
     border: 1px solid #B2BB1D;
     border-radius: 20px;
-    height: 145px;
+    height: 168px;
 } 
 .this_is_work{
     margin: 10px -20px;
@@ -2001,7 +2001,7 @@ form{
 .blog_rows{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
-  padding: 30px 10px;
+  padding: 25px 10px;
   margin-bottom: 25px;
 }
 /*#perk*/
