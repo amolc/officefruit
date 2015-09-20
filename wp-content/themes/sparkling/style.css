@@ -280,6 +280,9 @@ textarea {
   max-width: 1280px;
   width: 100%;
 }
+body.custom-background{
+  background-size: cover;
+}
 .alignleft {
   display: inline;
   float: left;
@@ -901,7 +904,7 @@ button:hover {
   font-size: 20px;
 }
 #menu-header-menus{
-  margin-left: 17%;
+  margin-left: 20%;
   z-index: 999;
   position: relative;
   background-color: #B3BA1E;
@@ -1633,6 +1636,7 @@ button[type=submit],
   background-color: #7f052e;
   margin: -10px 20px 0 0 !important;
   position: relative !important;
+  min-height: 122px ! important;
 }
 .osc_servicebox h2{
   color: #fff;
@@ -1799,6 +1803,10 @@ font-size: 20px;
   text-align: left;
   color: #000;
   font-family: 'aleoregular';
+}
+.choose_btn{
+    height: 45px !important;
+    padding: 6px 22px !important;
 }
 .contact_person input{
   margin-right: 10px;
@@ -1978,6 +1986,7 @@ form{
 .about_rows p{
   font-size: 22px;
   color: #000;
+  font-family: 'aleoregular';
   line-height: 30px;
 }
 .about_rows h1{
