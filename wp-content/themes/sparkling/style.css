@@ -2136,7 +2136,7 @@ form{
 select {
 
   -webkit-appearance:none; text-indent:1px;
-  text-overflow: ''; background-image:url('http://localhost/officefruit/wp-content/uploads/2015/09/arrow.png'); 
+  text-overflow: ''; background-image:url('img/arrow.png'); 
   background-repeat: no-repeat; 
   background-position: 95% 50%;
 }
