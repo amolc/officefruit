@@ -4,6 +4,7 @@
  *
  * @package sparkling
  */
+if( ! is_home() ){
 ?>
 </div>
 	<div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
@@ -34,3 +35,4 @@
 			<?php endif; // end sidebar widget area ?>
 		</div>
 	</div><!-- #secondary -->
+<?php } ?>
