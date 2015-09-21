@@ -12,7 +12,7 @@
 			<h1 class="entry-title "><?php the_title(); ?></h1>
 
 			<div class="entry-meta">
-				<?php sparkling_posted_on(); ?>
+				<?php //sparkling_posted_on(); ?>
 
 				<?php
 					/* translators: used between list items, there is a space after the comma */

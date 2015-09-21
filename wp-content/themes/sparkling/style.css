@@ -1854,6 +1854,7 @@ select{
     height: 44px;
     margin-bottom: 10px;
 }
+select:focus{ outline:none;}
 form{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
