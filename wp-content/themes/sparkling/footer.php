@@ -43,7 +43,8 @@
 <script type="text/javascript">
 jQuery(document).ready(function($){
 		$('.carousel-inner .item').click( function (){
-			console.log( siteurl );
+			console.log( siteurl + '  '+ $(this).index() );
+
 		});
 });
 
