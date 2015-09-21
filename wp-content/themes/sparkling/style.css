@@ -2033,6 +2033,9 @@ form{
   padding: 25px 10px;
   margin-bottom: 25px;
 }
+.blog_detail .oscitas-res-image{
+  height: 375px;
+}
 /*#perk*/
 .pay_rows p{
   font-size: 22px;
