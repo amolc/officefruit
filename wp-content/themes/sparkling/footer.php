@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
 			} else if( $(this).index() == 1 ){
 				location.href = siteurl+"/perks";
 			} else {
-				$('#myModal').modal('show');
+				$('#officeModal').modal('show');
 			}
 
 		});
