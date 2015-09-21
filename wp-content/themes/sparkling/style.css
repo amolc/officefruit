@@ -2171,4 +2171,18 @@ select {
    color: #000;
 }
 
-/*#*/
+/*#Modal*/
+..modal-title{
+  color: #fff;
+}
+.modal-footer .btn-primary {
+    color: #fff;
+    background-color: #7F052E;
+    border-color: #7F052E;
+    position: absolute;
+    left: 3%;
+    padding: 10px 45px;
+    border-radius: 50px;
+    font-family: 'aleoregular';
+    font-size: 25px;
+}
