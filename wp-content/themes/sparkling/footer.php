@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
        	<input type="text" placeholder="Contact No">
 		<input type="text" placeholder="Postal Code">
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary red-btn">I’m excited to get my free basket!</button>
+        <button type="button" class="btn btn-primary red-btn">I’m excited to get my free basket</button>
       </div>
     </div>
   </div>

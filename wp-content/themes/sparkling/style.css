@@ -2200,9 +2200,8 @@ select {
   color: #7F052E;
   }
 .modal-header{
-  border-bottom: none;
-  background-image:url('img/arrow.png'); 
-  background-size: cover;
+    background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup.jpg');
+    height: 190px;
 }
 .modal-footer{
   border-top: none;
@@ -2210,4 +2209,7 @@ select {
   padding: 15px;
   text-align: right;
   top: 44px;
+}
+.modal-dialog{
+  width: 694px;
 }
