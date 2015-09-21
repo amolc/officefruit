@@ -2123,7 +2123,13 @@ form{
 }
 .first_select select {
   width: 100%;
+  font-size: 20px;
+  color: #000;
+  padding-left: 20px;
   background-position: 98% 50%;
+}
+.first_select select option{
+  border:1px solid red;
 }
 
 /*#dropdown*/
@@ -2136,12 +2142,16 @@ select {
 }
 ::-webkit-input-placeholder {
   font-size: 20px;
-   color: #000;
+  color: #000;
+}
+::-webkit-select-placeholder {
+  font-size: 20px;
+  color: #000;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   font-size: 20px;
-   color: #000;
+  color: #000;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
@@ -2153,6 +2163,4 @@ select {
    color: #000;
 }
 
-
-
-/*#media query*/
+/*#*/

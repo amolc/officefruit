@@ -95,7 +95,7 @@ get_header(); ?>
 		    </h1>
 			    <div class="form-group">
 			      <label class="control-label" for="email">I am intrested in weekly deliveries of...</label>
-			      <div class="form-control col-md-8 col-sm-12 first_select">
+			      <div class="col-md-8 col-sm-12 first_select">
 			        <select >
 			        	<option selected>Fruit Basket <span>Original</span></option>
 			        	<option>4 Kg</option>
@@ -155,7 +155,9 @@ get_header(); ?>
 			        <button type="submit" class="btn btn-default red-btn" style="padding: 8px 60px;">Send Enquiry</button>
 			      </div>
 			    </div>
+
 		  </form>
+		  
 <!-- 			<form class="form-inline">
 			  <div class="form-group">
 			    <label for="exampleInputName2">Name</label>
