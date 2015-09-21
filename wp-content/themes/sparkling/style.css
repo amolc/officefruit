@@ -2186,3 +2186,20 @@ select {
     font-family: 'aleoregular';
     font-size: 25px;
 }
+.modal-body{
+  text-align: center;
+}
+.modal-body input{
+    width: 60%;
+    border: 1px solid #7F052E;
+    text-align: center;
+}
+
+.modal-body ::-webkit-input-placeholder {
+  font-size: 20px;
+  color: #7F052E;
+  }
+.modal-header{
+background-image:url('img/arrow.png'); 
+background-size: cover;
+}
