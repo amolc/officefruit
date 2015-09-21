@@ -2189,7 +2189,7 @@ select {
 .modal-body{
   text-align: center;
 }
-.modal-body input{
+.modal-body input[type="text"]{
     width: 60%;
     border: 1px solid #7F052E;
     text-align: center;
@@ -2200,6 +2200,14 @@ select {
   color: #7F052E;
   }
 .modal-header{
-background-image:url('img/arrow.png'); 
-background-size: cover;
+  border-bottom: none;
+  background-image:url('img/arrow.png'); 
+  background-size: cover;
+}
+.modal-footer{
+  border-top: none;
+  position: absolute;
+  padding: 15px;
+  text-align: right;
+  top: 44px;
 }
