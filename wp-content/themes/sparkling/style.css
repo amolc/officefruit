@@ -2123,25 +2123,35 @@ form{
 }
 .first_select select {
   width: 100%;
+  font-size: 20px;
+  color: #000;
+  padding-left: 20px;
   background-position: 98% 50%;
+}
+.first_select select option{
+  border:1px solid red;
 }
 
 /*#dropdown*/
 select {
 
   -webkit-appearance:none; text-indent:1px;
-  text-overflow: ''; background-image:url('http://localhost/officefruit/wp-content/uploads/2015/09/arrow.png'); 
+  text-overflow: ''; background-image:url('img/arrow.png'); 
   background-repeat: no-repeat; 
   background-position: 95% 50%;
 }
 ::-webkit-input-placeholder {
   font-size: 20px;
-   color: #000;
+  color: #000;
+}
+::-webkit-select-placeholder {
+  font-size: 20px;
+  color: #000;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   font-size: 20px;
-   color: #000;
+  color: #000;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
@@ -2153,6 +2163,4 @@ select {
    color: #000;
 }
 
-
-
-/*#media query*/
+/*#*/
