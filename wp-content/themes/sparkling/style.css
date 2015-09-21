@@ -2131,7 +2131,15 @@ form{
 .first_select select option{
   border:1px solid red;
 }
-
+#masthead{
+  min-width: 1280px;
+}
+#colophon{
+  min-width: 1280px;
+}
+.carousel-inner>.item{
+  cursor: pointer;
+}
 /*#dropdown*/
 select {
 
