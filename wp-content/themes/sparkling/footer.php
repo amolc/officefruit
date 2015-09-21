@@ -42,7 +42,7 @@
 <?php wp_footer(); ?>
 <script type="text/javascript">
 jQuery(document).ready(function($){
-		$('#officeModal').modal()
+		
 		$('.carousel-inner .item').click( function (){
 			console.log( siteurl + '  '+ $(this).index() );
 			if( $(this).index() == 0 ){
