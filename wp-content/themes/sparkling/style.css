@@ -2172,10 +2172,8 @@ select {
 }
 
 /*#Modal*/
-..modal-title{
-  color: #fff;
-}
-.modal-footer .btn-primary {
+
+#officeModal .modal-footer .btn-primary {
     color: #fff;
     background-color: #7F052E;
     border-color: #7F052E;
@@ -2186,30 +2184,30 @@ select {
     font-family: 'aleoregular';
     font-size: 25px;
 }
-.modal-body{
+#officeModal .modal-body{
   text-align: center;
 }
-.modal-body input[type="text"]{
+#officeModal .modal-body input[type="text"]{
     width: 60%;
     border: 1px solid #7F052E;
     text-align: center;
 }
 
-.modal-body ::-webkit-input-placeholder {
+#officeModal .modal-body ::-webkit-input-placeholder {
   font-size: 20px;
   color: #7F052E;
   }
-.modal-header{
-    background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup.jpg');
-    height: 190px;
+#officeModal .modal-header{
+    background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup.jpg') ! important;
+    height: 190px !important;
 }
-.modal-footer{
+#officeModal .modal-footer{
   border-top: none;
   position: absolute;
   padding: 15px;
   text-align: right;
   top: 44px;
 }
-.modal-dialog{
+#officeModal .modal-dialog{
   width: 694px;
 }
