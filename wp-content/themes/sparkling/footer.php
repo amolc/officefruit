@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
 			} else if( $(this).index() == 0 ){
 				location.href = siteurl+"/perks";
 			} else {
-				$('#myModal').modal('show');      
+				$('#myModal').modal('show');
 			}
 
 		});
@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
 
 
 <!-- Modal -->
-<div class="modal fade" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal hide fade" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
