@@ -26,7 +26,7 @@
 					<nav role="navigation" class="col-md-6">
 						<?php sparkling_footer_links(); ?>
 						<p class="right-text">
-							<?php echo of_get_option( 'custom_footer_copy', 'sparkling' ); ?> 
+							<?php echo of_get_option( 'custom_footer_copy', 'sparkling' ); ?>
 						</p>
 					</nav>
 					<div class="copyright col-md-6">
@@ -40,6 +40,14 @@
 	</div>
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+		$('.carousel-inner .item').click( function (){
+			console.log( siteurl );
+		});
+});
+
+</script>
 
 </body>
 </html>
