@@ -108,7 +108,7 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 @font-face {
     font-family: 'aleolightitalic';
     src: url('inc/fonts/aleo-lightitalic-webfont.eot');
-    src: 
+    src:
     url('inc/fonts/aleo-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('inc/fonts/aleo-lightitalic-webfont.woff2') format('woff2'),
          url('inc/fonts/aleo-lightitalic-webfont.woff') format('woff'),
@@ -258,6 +258,7 @@ input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
   color: #111;
+  outline:none;
 }
 input[type="text"],
 input[type="email"],
@@ -1023,7 +1024,7 @@ button:hover {
   background-color: transparent;
 }
 .nav.navbar-nav {
-  
+
 }
 @media (max-width: 767px) {
   .nav.navbar-nav {
@@ -1783,7 +1784,7 @@ font-size: 20px;
   padding-top: 5px;
   border-top: 1px solid #B2BB1D;
   border-bottom: 1px solid #B2BB1D;
-}  
+}
 
 .our_basket_container{
   padding-bottom: 68px;
@@ -1924,7 +1925,7 @@ form{
     display: inline-block;
     height: 40px;
     border-radius: 50%;
-}  
+}
 .steps_img{
     min-height: 200px;
     position: relative;
@@ -1947,7 +1948,7 @@ form{
     border: 1px solid #B2BB1D;
     border-radius: 20px;
     height: 168px;
-} 
+}
 .this_is_work{
     margin: 10px -20px;
 }
@@ -2063,12 +2064,12 @@ form{
 }
 .pays_icons h5{
   font-size: 30px;
-  color:#B2BB1D; 
+  color:#B2BB1D;
   margin-bottom: 45px;
   font-family: 'aleobolditalic';
 }
 .pays_icons{
-  border: 1px solid #B2BB1D; 
+  border: 1px solid #B2BB1D;
   border-radius: 20px;
 }
 .pay_details h3{
@@ -2144,8 +2145,8 @@ form{
 select {
 
   -webkit-appearance:none; text-indent:1px;
-  text-overflow: ''; background-image:url('img/arrow.png'); 
-  background-repeat: no-repeat; 
+  text-overflow: ''; background-image:url('img/arrow.png');
+  background-repeat: no-repeat;
   background-position: 95% 50%;
 }
 ::-webkit-input-placeholder {
@@ -2166,7 +2167,7 @@ select {
   font-size: 20px;
    color: #000;
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
   font-size: 20px;
    color: #000;
 }
