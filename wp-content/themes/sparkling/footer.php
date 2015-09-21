@@ -23,13 +23,13 @@
 			<div class="site-info container">
 				<div class="row">
 					<?php sparkling_social(); ?>
-					<nav role="navigation" class="col-md-6">
+					<nav role="navigation" class="col-sm-6">
 						<?php sparkling_footer_links(); ?>
 						<p class="right-text">
 							<?php echo of_get_option( 'custom_footer_copy', 'sparkling' ); ?>
 						</p>
 					</nav>
-					<div class="copyright col-md-6">
+					<div class="copyright col-sm-6">
 						<?php echo of_get_option( 'custom_footer_text', 'sparkling' ); ?>
 						<?php //sparkling_footer_info(); ?>
 					</div>
