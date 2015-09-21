@@ -44,6 +44,13 @@
 jQuery(document).ready(function($){
 		$('.carousel-inner .item').click( function (){
 			console.log( siteurl + '  '+ $(this).index() );
+			if( $(this).index() == 0 ){
+				location.href = siteurl+"/our-baskets";
+			} else if( $(this).index() == 0 ){
+				location.href = siteurl+"/perks";
+			} else {
+				alert('ope n popup');
+			}
 
 		});
 });
