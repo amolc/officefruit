@@ -42,12 +42,12 @@
 <?php wp_footer(); ?>
 <script type="text/javascript">
 jQuery(document).ready(function($){
-		
+
 		$('.carousel-inner .item').click( function (){
 			console.log( siteurl + '  '+ $(this).index() );
 			if( $(this).index() == 0 ){
 				location.href = siteurl+"/our-baskets";
-			} else if( $(this).index() == 0 ){
+			} else if( $(this).index() == 1 ){
 				location.href = siteurl+"/perks";
 			} else {
 				$('#myModal').modal('show');
@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
 
 
 <!-- Modal -->
-<div class="modal hide fade" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" style="display: none" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
