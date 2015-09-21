@@ -95,14 +95,14 @@ get_header(); ?>
 		    </h1>
 			    <div class="form-group">
 			      <label class="control-label" for="email">I am intrested in weekly deliveries of...</label>
-			      <div class="col-md-8 col-sm-12">
-			        <select class="form-control">
+			      <div class="form-control col-md-8 col-sm-12 first_select">
+			        <select >
 			        	<option selected>Fruit Basket <span>Original</span></option>
 			        	<option>4 Kg</option>
 			        	<option>6 Kg</option>
 			        	<option>8 Kg</option>
 			        </select>
-			    	    <select class="form-control" data-ng-model="orderDetails.main_package" style="margin-top: 15px;">
+			    	    <select data-ng-model="orderDetails.main_package" style="margin-top: 15px;">
 				        	<option selected>Fruit Basket <span>Supreme</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>

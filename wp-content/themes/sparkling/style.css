@@ -2121,6 +2121,10 @@ form{
   font-family: 'aleoregular';
   font-weight: 500;
 }
+.first_select select {
+  width: 100%;
+  background-position: 98% 50%;
+}
 
 /*#dropdown*/
 select {
