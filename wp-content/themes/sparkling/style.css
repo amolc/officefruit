@@ -286,7 +286,7 @@ textarea {
 
 
 /* Alignment */
-#content .container{
+.container{
   max-width: 1280px;
   width: 100%;
 }
@@ -1749,7 +1749,7 @@ font-size: 20px;
 .our_basket_container .our_basket_sub_section{
   margin-top: 25px;
 }
-.container{
+#content .container{
   background: #fff;
 }
 .our_basket_section .oscitas-res-image {
