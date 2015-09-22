@@ -381,9 +381,7 @@ body.custom-background {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.entry-content {
-    margin-top: -20px;
-}
+
 /* =Post styling
 ----------------------------------------------- */
 
@@ -2217,11 +2215,6 @@ h3 {
         font-family: 'aleoregular';
         font-weight: 500;
     }
-    .blog .page-header {
-        position: absolute;
-        left: 25%;
-        top: 7%;
-    }
     .blog .post-inner-content {
         margin: 0px;
     }
@@ -2256,3 +2249,38 @@ h3 {
         font-family: 'aleoregular';
         color: #000;
     }
+
+
+    /*#dropdown*/
+
+    select {
+        -webkit-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+        background-image: url('img/arrow.png');
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 20px;
+        color: #000;
+    }
+    ::-webkit-select-placeholder {
+        font-size: 20px;
+        color: #000;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+
+        font-size: 20px;
+        color: #000;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+
+        font-size: 20px;
+        color: #000;
+        :-ms-input-placeholder {
+            font-size: 20px;
+            color: #000;
+        }
