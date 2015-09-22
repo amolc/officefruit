@@ -482,6 +482,7 @@ hr.section-divider {
   margin: 0px 25px 25px;
   padding: 20px;
 }
+.blog img{ max-width:100%; }
 .home .post-inner-content {
   padding: 0;
   overflow: hidden;
