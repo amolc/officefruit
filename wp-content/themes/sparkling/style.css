@@ -156,7 +156,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #DADADA;
+  color: #fff;
+  outline: none;
   text-decoration: none;
 }
 
@@ -175,6 +176,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'aleobolditalic';
   font-size: 30px;
   color: #B2BB1D;
+  padding-left: 170px;
+
 }
 h1,
 .h1 {
@@ -291,6 +294,9 @@ textarea {
 }
 body.custom-background{
   background-size: cover;
+}
+#main{
+  padding-top: 60px;
 }
 .alignleft {
   display: inline;
@@ -415,6 +421,7 @@ footer.entry-meta {
   margin-top: 0;
   border-bottom: 0;
   padding-bottom: 0;
+  min-height: 60px;
 }
 .entry-meta .fa {
   font-size: 14px;
@@ -468,11 +475,12 @@ hr.section-divider {
   padding-top: 0;
   padding-bottom: 0;
 }
-.post-inner-content {
-  padding: 25px 50px;
+.blog .post-inner-content {
   background-color: #fff;
   border: 1px solid #B2BB1D;
   border-radius: 20px;
+  margin: 0px 25px 25px;
+  padding: 20px;
 }
 .home .post-inner-content {
   padding: 0;
@@ -1744,8 +1752,9 @@ font-size: 20px;
 .our_basket_container .our_basket_sub_section{
   margin-top: 25px;
 }
-.content-area{
+#content .container{
   background: #fff;
+  padding: 0 40px;
 }
 .our_basket_section .oscitas-res-image {
   height: auto;
@@ -1864,7 +1873,7 @@ form{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
   padding: 10px 50px;
-  margin: 0 43px;
+  margin-bottom: 50px;
 }
 .enquiry_select select{
     width: 27.25%;
@@ -1881,6 +1890,12 @@ form{
 }
 /*************************************************************************************************/
 /*#home*/
+.home #content .container{
+  padding: 0px;
+}
+.home #main{
+  padding-top: 0px;
+}
 .thumb_1{
   height: 150px;
   background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_1-300x197.jpg');
