@@ -2254,3 +2254,10 @@ select {
   left: 25%;
   top: 7%;
 }
+.blog .post-inner-content{
+  margin: 0px;
+}
+.blog .content-area {
+    background: #fff;
+    padding: 50px;
+}
