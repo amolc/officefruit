@@ -10,9 +10,12 @@
 
 <div class="post-inner-content">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<!--<header class="entry-header page-header">
-		 <h1 class="entry-title"><?php //the_title(); ?></h1>
-	</header>--> <!-- .entry-header -->
+	<?php if( is_front_page() || is_page('about-us') ) {} else { ?>
+	<header class="entry-header page-header">
+		 <h1 class="entry-title"><?php 
+		 the_title(); ?></h1>
+	</header> <!-- .entry-header -->
+	<?php } ?>
 
 	<div class="entry-content">
 		<?php the_content(); ?>
