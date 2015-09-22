@@ -103,7 +103,7 @@ get_header(); ?>
 			        	<option>8 Kg</option>
 			        </select>
 			    	    <select data-ng-model="orderDetails.main_package" style="margin-top: 15px;">
-				        	<option selected>Fruit Basket <span>Supreme</span></option>
+				        	<option value="">Fruit Basket <span>Supreme</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>
 				        	<option>8 Kg</option>

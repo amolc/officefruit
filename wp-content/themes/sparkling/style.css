@@ -389,7 +389,7 @@ body.custom-background{
   margin-bottom: 0px;
 }
 .entry-content{
-  margin-top: -20px;
+  margin-top: 0px;
 }
 /* =Post styling
 ----------------------------------------------- */
@@ -1748,6 +1748,7 @@ font-size: 20px;
 }
 .our_basket_section {
   text-align: center;
+  margin-top: 30px;
 }
 .our_basket_section p{
   font-size: 22px;
@@ -2004,12 +2005,14 @@ form{
 }
 /*#blog*/
 .blog_rows img{
-  width: 224px;
-  border-radius: 50%;
-  height: auto;
-  border: 1px solid #B2BB1D;
+    width: 215px;
+    border-radius: 50%;
+    height: 215px;
+    border: 1px solid #B2BB1D;
+    float: left;
+    margin-right: 25px;
 }
-.blog_rows h1{
+.entry-title{
   text-align: left;
   color: #7F052E;
 }
@@ -2020,6 +2023,9 @@ form{
   font-family: 'aleoregular';
   font-weight: normal;
   line-height: 30px;
+}
+.entry-meta{
+  display: none;
 }
 .blog_rows a{
   text-align: left;
@@ -2185,31 +2191,49 @@ select {
     border-radius: 50px;
     font-family: 'aleoregular';
     font-size: 25px;
+    text-transform: inherit;
 }
 #officeModal .modal-body{
-  text-align: center;
+    text-align: center;
+    padding: 30px 0 40px;
 }
 #officeModal .modal-body input[type="text"]{
-    width: 60%;
+    width: 80%;
+    font-size: 30px;
+    color: #000;
     border: 1px solid #7F052E;
     text-align: center;
+    height: 44px;
+    line-height: 115%;
+    padding: 25px;
+    border-radius: 50px;
+    font-family: 'aleoregular';
+    margin-bottom: 20px;
 }
 
 #officeModal .modal-body ::-webkit-input-placeholder {
-  font-size: 20px;
+  font-size: 30px;
   color: #7F052E;
+  font-family: 'aleoregular';
   }
 #officeModal .modal-header{
-    background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup.jpg') ! important;
+    background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup_office.jpg') ! important;
     height: 190px !important;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
 }
 #officeModal .modal-footer{
-  border-top: none;
-  position: absolute;
-  padding: 15px;
-  text-align: right;
-  top: 44px;
+    border-top: none;
+    position: absolute;
+    padding: 15px;
+    text-align: right;
+    top: 168px;
+    left: 95px;
 }
 #officeModal .modal-dialog{
   width: 694px;
+}
+#officeModal .modal-content{
+  border-radius: 22px;
+  margin-top: 13%;
 }
