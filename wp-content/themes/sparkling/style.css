@@ -2281,3 +2281,17 @@ select {
 .site-main{
   padding: 15% 0 50px;
 }
+
+.blog-item-wrap h1{
+  text-align: left;
+  padding-left: 0;
+  margin-top: 50px;  
+}
+.blog-item-wrap a{
+  color: #7F052E;
+}
+.blog-item-wrap .entry-content{
+  font-size: 25px;
+  font-family: 'aleoregular';
+  color:#000;
+}
