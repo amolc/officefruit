@@ -5,11 +5,13 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="blog-item-wrap">
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+	<div class="blog-item-wrap row">
+		<div class="col-sm-3">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
 			 	<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
 			</a>
-		<div class="post-inner-content">
+		</div>
+		<div class="post-inner-content col-sm-9">
 			<header class="entry-header page-header">
 
 				<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>

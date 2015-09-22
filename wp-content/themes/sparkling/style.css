@@ -475,7 +475,7 @@ hr.section-divider {
   padding-top: 0;
   padding-bottom: 0;
 }
-.blog .post-inner-content {
+.blog .blog-item-wrap {
   background-color: #fff;
   border: 1px solid #B2BB1D;
   border-radius: 20px;

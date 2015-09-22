@@ -5,10 +5,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="col-sm-3" >
-		<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
-	</div>
-	<div class="col-sm-9 post-inner-content">
+	<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
+	<div class="post-inner-content">
 		<header class="entry-header page-header">
 
 			<h1 class="entry-title "><?php the_title(); ?></h1>
@@ -61,7 +59,6 @@
 	      <?php endif; ?>
 
 		</footer><!-- .entry-meta -->
-
 	</div>
 
 	<?php if (get_the_author_meta('description')) :  ?>
