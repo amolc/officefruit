@@ -2215,13 +2215,6 @@ h3 {
         font-family: 'aleoregular';
         font-weight: 500;
     }
-    .blog .post-inner-content {
-        margin: 0px;
-    }
-    .blog .content-area {
-        background: #fff;
-        padding: 50px;
-    }
     .site-main {
         padding: 15% 0 50px;
     }
@@ -2229,23 +2222,49 @@ h3 {
         text-align: left;
         padding-left: 0;
         margin-top: 50px;
+        margin-bottom: 10px
     }
-    .blog .page-header a {
+    .blog article a {
         color: #7F052E;
+        text-align: left;
+        font-size: 30px;
+        font-family: 'aleobolditalic';
+        font-weight: normal;
+        cursor: pointer;
+    }
+    .blog article .entry-content a {
+        color: #B2BB1D;
         text-align: left;
         font-size: 22px;
         font-family: 'aleoregular';
         font-weight: normal;
-        color: #B2BB1D;
         cursor: pointer;
+        padding: 3px 0 6px 0;
     }
-    .blog .page-header h1 {
+    .blog .entry-content {
+        color: #000;
+        text-align: left;
+        font-size: 22px;
+        font-family: 'aleoregular';
+        font-weight: normal;
+        cursor: pointer;
+        margin-top: 0px;
+        min-height: none;
+    }
+    .blog article .page-header h1 {
         text-align: left !important;
         padding-left: 0;
         margin-top: 50px;
         font-size: 25px;
         font-family: 'aleoregular';
         color: #000;
+        margin-bottom: 0px;
+    }
+    .blog article .blog-item-wrap img{
+        width: 224px;
+        height: 224px;
+        border-radius: 50%;
+        border: 1px solid #B3BA1E;
     }
 
 

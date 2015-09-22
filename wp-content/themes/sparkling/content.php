@@ -12,7 +12,7 @@
 			</a>
 		</div>
 		<div class="post-inner-content col-sm-9">
-			<header class="entry-header page-header">
+			<header class="entry-header">
 
 				<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
