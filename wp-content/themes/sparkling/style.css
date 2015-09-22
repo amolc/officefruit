@@ -2287,10 +2287,13 @@ select {
   padding-left: 0;
   margin-top: 50px;  
 }
-.blog .blog-item-wrap a{
+.blog article .page-header a{
   color: #7F052E;
 }
-.blog .blog-item-wrap .entry-content{
+.blog article .page-header h1{
+  text-align: left !important;
+  padding-left: 0;
+  margin-top: 50px;  
   font-size: 25px;
   font-family: 'aleoregular';
   color:#000;
