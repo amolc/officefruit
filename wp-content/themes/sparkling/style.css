@@ -419,6 +419,7 @@ footer.entry-meta {
   margin-top: 0;
   border-bottom: 0;
   padding-bottom: 0;
+  min-height: 60px;
 }
 .entry-meta .fa {
   font-size: 14px;
@@ -1886,6 +1887,12 @@ form{
 }
 /*************************************************************************************************/
 /*#home*/
+.home #content .container{
+  padding: 0px;
+}
+.home #main{
+  padding-top: 0px;
+}
 .thumb_1{
   height: 150px;
   background: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/thumb_1-300x197.jpg');
