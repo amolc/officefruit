@@ -2155,39 +2155,7 @@ h3 {
 .carousel-inner>.item {
     cursor: pointer;
 }
-/*#dropdown*/
 
-select {
-    -webkit-appearance: none;
-    text-indent: 1px;
-    text-overflow: '';
-    background-image: url('img/arrow.png');
-    background-repeat: no-repeat;
-    background-position: 95% 50%;
-}
-::-webkit-input-placeholder {
-    font-size: 20px;
-    color: #000;
-}
-::-webkit-select-placeholder {
-    font-size: 20px;
-    color: #000;
-}
-:-moz-placeholder {
-    /* Firefox 18- */
-
-    font-size: 20px;
-    color: #000;
-}
-::-moz-placeholder {
-    /* Firefox 19+ */
-
-    font-size: 20px;
-    color: #000;
-    :-ms-input-placeholder {
-        font-size: 20px;
-        color: #000;
-    }
     /*#Modal*/
 
     #officeModal .modal-footer .btn-primary {
