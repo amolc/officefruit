@@ -2183,11 +2183,6 @@ h3 {
         font-family: 'aleoregular';
         margin-bottom: 20px;
     }
-    #officeModal .modal-body::-webkit-input-placeholder {
-        font-size: 30px;
-        color: #7F052E;
-        font-family: 'aleoregular';
-    }
     #officeModal .modal-header {
         background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup_office.jpg') ! important;
         height: 190px !important;
@@ -2314,3 +2309,8 @@ h3 {
             font-size: 20px;
             color: #000;
         }
+#officeModal .modal-body::-webkit-input-placeholder {
+        font-size: 30px;
+        color: #7F052E;
+        font-family: 'aleoregular';
+    }
