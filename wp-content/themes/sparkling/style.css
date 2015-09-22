@@ -389,7 +389,7 @@ body.custom-background{
   margin-bottom: 0px;
 }
 .entry-content{
-  margin-top: 0px;
+  margin-top: -20px;
 }
 /* =Post styling
 ----------------------------------------------- */
@@ -469,7 +469,6 @@ hr.section-divider {
   background-color: #fff;
   border: 1px solid #B2BB1D;
   border-radius: 20px;
-  margin: 25px;
 }
 .home .post-inner-content {
   padding: 0;
@@ -2028,14 +2027,7 @@ form{
 .entry-meta{
   display: none;
 }
-.blog_rows a{
-  text-align: left;
-  font-size: 22px;
-  font-family: 'aleoregular';
-  font-weight: normal;
-  color: #B2BB1D;
-  cursor: pointer;
-}
+
 .blog_rows{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
@@ -2260,4 +2252,12 @@ select {
 .blog .content-area {
     background: #fff;
     padding: 50px;
+}
+.blog a{
+  text-align: left;
+  font-size: 22px;
+  font-family: 'aleoregular';
+  font-weight: normal;
+  color: #B2BB1D;
+  cursor: pointer;
 }
