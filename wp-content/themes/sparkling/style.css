@@ -156,7 +156,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #DADADA;
+  color: #fff;
+  outline: none;
   text-decoration: none;
 }
 
@@ -285,7 +286,7 @@ textarea {
 
 
 /* Alignment */
-.container{
+#contain .container{
   max-width: 1280px;
   width: 100%;
 }
