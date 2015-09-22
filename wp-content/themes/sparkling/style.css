@@ -465,10 +465,11 @@ hr.section-divider {
   margin-bottom: 50px;
 }
 .post-inner-content {
-  padding: 60px 50px;
+  padding: 25px 50px;
   background-color: #fff;
-  border: 1px solid #dadada;
-  border-top: none;
+  border: 1px solid #B2BB1D;
+  border-radius: 20px;
+  margin: 25px;
 }
 .home .post-inner-content {
   padding: 0;
@@ -2236,4 +2237,20 @@ select {
 #officeModal .modal-content{
   border-radius: 22px;
   margin-top: 13%;
+}
+
+.blog img{
+  border-radius: 50%;
+  height: 224px;
+  width:224px;
+  border: 1px solid #B2BB1D;
+}
+.blog h3{
+  font-family: 'aleoregular';
+  font-weight: 500;
+}
+.blog .page-header{
+  position: absolute;
+  left: 25%;
+  top: 7%;
 }
