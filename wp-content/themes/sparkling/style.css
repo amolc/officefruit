@@ -2266,8 +2266,23 @@ h3 {
         border-radius: 50%;
         border: 1px solid #B3BA1E;
     }
-
-
+    .single .page-header h1 {
+       color: #7F052E;
+    }
+    .single .single-featured{
+      float: left;
+      margin-right: 25px;
+    }
+    .single .entry-content {
+        color: #000;
+        text-align: left;
+        font-size: 22px;
+        font-family: 'aleoregular';
+        font-weight: normal;
+        cursor: pointer;
+        margin-top: 0px;
+        min-height: none;
+    }
     /*#dropdown*/
 
     select {
