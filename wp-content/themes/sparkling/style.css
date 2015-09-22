@@ -2245,12 +2245,6 @@ select {
   margin-top: 13%;
 }
 
-.blog img{
-  border-radius: 50%;
-  height: 224px;
-  width:224px;
-  border: 1px solid #B2BB1D;
-}
 .blog h3{
   font-family: 'aleoregular';
   font-weight: 500;
