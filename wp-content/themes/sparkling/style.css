@@ -112,6 +112,7 @@ body {
 }
 a {
     color: #DA4453;
+    outline: none;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -235,6 +236,7 @@ textarea {
     color: #666;
     border: 1px solid #E8E8E8;
     border-radius: 3px;
+    outline: none;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
