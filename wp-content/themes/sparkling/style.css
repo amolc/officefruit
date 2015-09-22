@@ -468,10 +468,6 @@ hr.section-divider {
   padding-top: 0;
   padding-bottom: 0;
 }
-.single-view,
-.blog-item-wrap {
- margin: 30px 25px;
-}
 .post-inner-content {
   padding: 25px 50px;
   background-color: #fff;
