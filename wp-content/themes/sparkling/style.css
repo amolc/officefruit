@@ -1558,6 +1558,12 @@ button[type=submit],
 
 
 /*Custome css by saurabh*/
+.home .entry-content {
+    margin-top: 0px;
+}
+.home .post-inner-content{
+  border-radius: 0px;
+}
 
 #logo{
   position: absolute !important;
@@ -2266,7 +2272,4 @@ select {
 }
 .site-main{
   padding: 15% 0 50px;
-}
-.home .entry-content {
-    margin-top: 0px;
 }
