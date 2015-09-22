@@ -15,7 +15,7 @@ get_header(); ?>
 
       <?php endwhile; // end of the loop. ?>
       <div class="container our_basket_container">
-    	<div class="row our_basket_section" style="margin: 20px 5px;">
+    	<div class="row our_basket_section">
     		<div class="col-sm-12">
 	    		<div class="col-sm-6">
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_1.jpg" class="img-responsive oscitas-res-image" alt="">
