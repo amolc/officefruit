@@ -1558,6 +1558,12 @@ button[type=submit],
 
 
 /*Custome css by saurabh*/
+.home .entry-content {
+    margin-top: 0px;
+}
+.home .post-inner-content{
+  border-radius: 0px;
+}
 
 #logo{
   position: absolute !important;
@@ -1963,6 +1969,7 @@ form{
   margin-top: 10%;
 }
 .about_us_head{
+  margin-top: 50px;
   font-size: 30px;
   color: #7F052E;
   font-family: 'aleoregular';
