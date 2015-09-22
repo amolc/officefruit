@@ -292,6 +292,9 @@ textarea {
 body.custom-background{
   background-size: cover;
 }
+#main{
+  padding-top: 60px;
+}
 .alignleft {
   display: inline;
   float: left;
@@ -469,10 +472,10 @@ hr.section-divider {
   padding-bottom: 0;
 }
 .post-inner-content {
-  padding: 25px 50px;
   background-color: #fff;
   border: 1px solid #B2BB1D;
   border-radius: 20px;
+  margin: 0px 25px 25px;
 }
 .home .post-inner-content {
   padding: 0;
