@@ -249,6 +249,9 @@ function sparkling_scripts() {
   // For Angular js
   wp_enqueue_script( 'angular_js', get_template_directory_uri() . '/inc/js/angular.js' );
 
+  // For Form validation using angular messages js
+  wp_enqueue_script( 'angular_messages', get_template_directory_uri() . '/inc/js/angular-messages.min.js' );
+
 }
 add_action( 'wp_enqueue_scripts', 'sparkling_scripts' );
 

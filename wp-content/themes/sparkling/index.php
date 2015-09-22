@@ -16,6 +16,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+	
+			<header class="entry-header page-header">
+				 <h1 class="entry-title">OfficeFruit.sg Blog</h1>
+			</header> <!-- .entry-header -->
+			
+
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>

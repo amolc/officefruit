@@ -89,42 +89,67 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		  </div>	
-		  	<form class="form-horizontal" role="form" data-ng-submit="submitOrderForm( orderDetails )">
-		  	<h1 style="margin-bottom:30px;">
+		  	<form class="form-horizontal" name="enquiryForm" role="form" data-ng-submit="submitOrderForm( orderDetails, enquiryForm.$valid )">
+		  	<h1 style="margin-bottom:30px;" novalidate>
 		    	Enquiry Form
 		    </h1>
 			    <div class="form-group">
 			      <label class="control-label" for="email">I am intrested in weekly deliveries of...</label>
 			      <div class="col-sm-8 first_select">
-			        <select >
-			        	<option selected>Fruit Basket <span>Original</span></option>
-			        	<option>4 Kg</option>
-			        	<option>6 Kg</option>
-			        	<option>8 Kg</option>
-			        </select>
-			    	    <select data-ng-model="orderDetails.main_package" style="margin-top: 15px;">
-				        	<option value="">Fruit Basket <span>Supreme</span></option>
+				        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
+				        	<option selected>Fruit Basket <span>Original</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>
 				        	<option>8 Kg</option>
 				        </select>
+				        <div>
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Select Original Basket </div>
+				    		</div>
+			    		</div>
+			    	    <select name="main_package" data-ng-model="orderDetails.main_package" style="margin-top: 15px;" required>
+				        	<option>Fruit Basket <span>Supreme</span></option>
+				        	<option>4 Kg</option>
+				        	<option>6 Kg</option>
+				        	<option>8 Kg</option>
+				        </select>
+				         <div>
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.main_package.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Select Main Package</div>
+				    		</div>
+			    		</div>
 			      	</div>
 			    </div>
 			    <div class="form-group enquiry_select">
 		    		<label class="control-label" for="">And Please add... </label>
 
-			    	    <select data-ng-model="orderDetails.other_package" class="col-sm-12 col-sm-3 col-xm-12">
+			    	    <select name="other_package" data-ng-model="orderDetails.other_package" class="col-sm-12 col-sm-3 col-xm-12" required>
 				        	<option selected>Extra Fruit</option>
 				        	<option>Extraaas</option>
 				        </select>
-				        <select data-ng-model="orderDetails.other_dry_fruits" class="col-sm-12 col-sm-3 col-xm-12">
+				        <div>
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_package.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Select Other Package</div>
+				    		</div>
+			    		</div>
+				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" class="col-sm-12 col-sm-3 col-xm-12" required>
 				        	<option>Nuts</option>
 				        	<option>Dry Fruits</option>
 				        </select>
-				        <select data-ng-model="orderDetails.other_flowers" class="col-sm-12 col-sm-3 col-xm-12">
+				         <div>
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_dry_fruits.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Select Other Dry Fruits</div>
+				    		</div>
+			    		</div>
+				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" class="col-sm-12 col-sm-3 col-xm-12" required>
+				        	<option>Flower Pot</option>
 				        	<option>Flowers</option>
-				        	<option>Flowers</option>
-				        </select>   
+				        </select>
+				         <div>
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_flowers.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Select Flowers</div>
+				    		</div>
+			    		</div>   
 			    </div>
 			    <div class="form-group" style="margin: 0 10px 15px -20px;">     
 			        <input type="text" class="form-control col-sm-8 enq_input" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: 20px;">
@@ -135,8 +160,8 @@ get_header(); ?>
 			    </div>
 			    <div class="form-group" >
 		    		<label class="control-label" for="" style="margin-right: 15px;">About Your Company</label>
-			    	    <input type="text" class="col-sm-5 col-sm-12 col-xm-12" data-ng-model="orderDetails.company_name" placeholder="Company Name" name="company">
-			    	    <input type="number" class="col-sm-4 col-sm-12 col-xm-12"  data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" style="margin-left: 10px;width: 35%;">
+		    	    <input type="text" class="col-sm-5 col-sm-12 col-xm-12" data-ng-model="orderDetails.company_name" placeholder="Company Name" name="company">
+		    	    <input type="number" class="col-sm-4 col-sm-12 col-xm-12"  data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" style="margin-left: 10px;width: 35%;">
 			    </div>
 			    <div class="form-group contact_person" >
 		    		<label class="control-label" for="" style="margin-right: 15px;">Contact Person</label>

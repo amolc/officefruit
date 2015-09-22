@@ -25,22 +25,25 @@
 
 </head>
 	<script type="text/javascript">
-		var app = angular.module('officefruit', []);
+		var app = angular.module('officefruit', [ 'ngMessages' ]);
 	app.controller('basketController', function($scope) {
 	    $scope.orderDetails= {
 	    };
-	    $scope.submitOrderForm = function (orderDetails) {
+	    $scope.submitOrderForm = function (orderDetails, valid) {
 	    	console.log(orderDetails);
-	    	jQuery.post(
-			    ajaxurl, 
-			    {
-			        'action': 'add_foobar',
-			        'data':   orderDetails
-			    }, 
-			    function(response){
-			        console.log('The server responded: ' + response);	
-			    }
-			);
+	    	if(valid)
+		    	jQuery.post(
+				    ajaxurl, 
+				    {
+				        'action': 'add_foobar',
+				        'data':   orderDetails
+				    }, 
+				    function(response){
+				        console.log('The server responded: ' + response);	
+				    }
+				);
+		    else
+		    	alert("noooooooooooop");
 	    }
 	})
 	</script>
