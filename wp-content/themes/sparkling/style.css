@@ -465,7 +465,7 @@ hr.section-divider {
 }
 .single-view,
 .blog-item-wrap {
-  margin-bottom: 50px;
+ margin: 30px 25px;
 }
 .post-inner-content {
   padding: 25px 50px;
