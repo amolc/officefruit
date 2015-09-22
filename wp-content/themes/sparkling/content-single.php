@@ -7,6 +7,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
 	<div class="post-inner-content">
+	<h1>Officefruit.sg blog</h1>
 		<header class="entry-header page-header">
 
 			<h1 class="entry-title "><?php the_title(); ?></h1>

@@ -2261,3 +2261,9 @@ select {
   color: #B2BB1D;
   cursor: pointer;
 }
+.blog-item-wrap{
+  margin: 0 50px 25px;
+}
+.site-main{
+  padding: 15% 0 50px;
+}
