@@ -89,92 +89,170 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		  </div>	
-		  	<form class="form-horizontal" name="enquiryForm" role="form" data-ng-submit="submitOrderForm( orderDetails, enquiryForm.$valid )">
-		  	<h1 style="margin-bottom:30px;" novalidate>
+		  	<form class="form-horizontal" name="enquiryForm" role="form" data-ng-submit="submitOrderForm( orderDetails, enquiryForm.$valid )" novalidate>
+		  	<h1 style="margin-bottom:30px;" >
 		    	Enquiry Form
 		    </h1>
-			    <div class="form-group">
-			      <label class="control-label" for="email">I am intrested in weekly deliveries of...</label>
-			      <div class="col-sm-8 first_select">
-				        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
-				        	<option selected>Fruit Basket <span>Original</span></option>
-				        	<option>4 Kg</option>
-				        	<option>6 Kg</option>
-				        	<option>8 Kg</option>
-				        </select>
-				        <div>
-							<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
-				      			<div ng-message="required" class="help-block" >Please Select Original Basket </div>
+			    <div class="">
+			     	<label  class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
+					    <div class="col-sm-8 first_select">
+					        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
+					        	<option selected>Fruit Basket <span>Original</span></option>
+					        	<option>4 Kg</option>
+					        	<option>6 Kg</option>
+					        	<option>8 Kg</option>
+					        </select>
+					        <div class="enquiry-error">
+								<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
+					      			<div ng-message="required" class="help-block" >Please Select Original Basket </div>
+					    		</div>
 				    		</div>
-			    		</div>
+				    	</div> 
+				    <label  class="control-label col-sm-4" for="email"></label>
+			    	<div class="col-sm-8 first_select"> 
 			    	    <select name="main_package" data-ng-model="orderDetails.main_package" style="margin-top: 15px;" required>
 				        	<option>Fruit Basket <span>Supreme</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>
 				        	<option>8 Kg</option>
 				        </select>
-				         <div>
+				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.main_package.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Select Main Package</div>
 				    		</div>
 			    		</div>
-			      	</div>
+			    	</div>	
 			    </div>
-			    <div class="form-group enquiry_select">
-		    		<label class="control-label" for="">And Please add... </label>
-
+			    
+		    		<label class="control-label col-sm-3 col-md-3" for="">And Please add... </label>
+		    		<div class="col-sm-3 col-md-3 form-group">
 			    	    <select name="other_package" data-ng-model="orderDetails.other_package" class="col-sm-12 col-sm-3 col-xm-12" required>
-				        	<option selected>Extra Fruit</option>
+				        	<option selected> Select Fruit</option>
+				        	<option >Extra Fruit</option>
 				        	<option>Extraaas</option>
 				        </select>
-				        <div>
+				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_package.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Select Other Package</div>
 				    		</div>
 			    		</div>
+		    		</div>
+		    		<div class="col-sm-3 col-md-3">
 				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" class="col-sm-12 col-sm-3 col-xm-12" required>
+				        	<option>Select Dry Fruit</option>
 				        	<option>Nuts</option>
 				        	<option>Dry Fruits</option>
 				        </select>
-				         <div>
+				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_dry_fruits.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Select Other Dry Fruits</div>
 				    		</div>
 			    		</div>
+			    	</div>
+			    	<div class="col-sm-3 col-md-3">
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" class="col-sm-12 col-sm-3 col-xm-12" required>
+				        	<option>Select Flower</option>
 				        	<option>Flower Pot</option>
 				        	<option>Flowers</option>
 				        </select>
-				         <div>
+				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_flowers.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Select Flowers</div>
 				    		</div>
 			    		</div>   
-			    </div>
-			    <div class="form-group" style="margin: 0 10px 15px -20px;">     
-			        <input type="text" class="form-control col-sm-8 enq_input" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: 20px;">
-			        <select class="col-sm-3" data-ng-model="orderDetails.delivery_days" style="width:32%;">
+			    	</div>
+			    <div class="col-sm-8" >     
+			        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: 20px;">
+			        <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
+			      			<div ng-message="required" class="help-block" >Please Enter Other Request</div>
+			    		</div>
+		    		</div>
+		        </div>
+		        <div class="col-sm-4">
+			        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" required>
+			        	<option>Select Delivery Day(s)</option>
 			        	<option>Preffered delivery day(s)</option>
 			        	<option>Flowers</option>
 			        </select>
-			    </div>
-			    <div class="form-group" >
-		    		<label class="control-label" for="" style="margin-right: 15px;">About Your Company</label>
-		    	    <input type="text" class="col-sm-5 col-sm-12 col-xm-12" data-ng-model="orderDetails.company_name" placeholder="Company Name" name="company">
-		    	    <input type="number" class="col-sm-4 col-sm-12 col-xm-12"  data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" style="margin-left: 10px;width: 35%;">
-			    </div>
-			    <div class="form-group contact_person" >
-		    		<label class="control-label" for="" style="margin-right: 15px;">Contact Person</label>
-			    	    <input type="text" class="col-sm-4 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name">
-			    	    <input type="number" class="col-sm-2 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no">
-			    	    <input type="email" class="col-sm-3 col-sm-12 col-xm-12" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email" style="width: 31.33%;">
-			    </div>
-			    <div class="form-group contact_person" >
-		    		<label class="control-label" for="" style="margin-right: 15px;">Delivery</label>
-			    	    <input type="text" class="col-sm-6 col-sm-12 col-xm-12" placeholder="Complete Address" data-ng-model="orderDetails.address" name="address">
-			    	    <input type="number" class="col-sm-4 col-sm-12 col-xm-12" placeholder="Postal Code" data-ng-model="orderDetails.postal_code" name="postal_code" style="width: 37.38%;">
-			    	    <input type="text" class="col-sm-12 col-sm-12 col-xm-12" data-ng-model="orderDetails.place" placeholder="Where would you want basket to be delivered. Kitchen table, reception etc." name="place" style="width: 97%;margin-top: 15px;">
-			    </div>
+			        <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.delivery_days.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Select Delivery Day(s)</div>
+			    		</div>
+		    		</div>
+			    </div>			    
+			  
+		    		 <label class="col-sm-3" style="clear:both;" for="">About Your Company</label>
+		    		<div class="form-group col-sm-4">
+			    	    <input type="text" data-ng-model="orderDetails.company_name"  name="company_name" required>
+			    	    <div class="enquiry-error">
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.company_name.$error" role="alert">
+				      			<div ng-message="required" class="help-block">Please Enter Company Name</div>
+				    		</div>
+			    		</div>
+		    	    </div>
+		    	    <div class="form-group col-sm-5">
+			    	    <input type="number" data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" required>
+			    	    <div class="enquiry-error">
+							<div ng-messages="enquiryForm.$submitted && enquiryForm.reg_no.$error" role="alert">
+				      			<div ng-message="required" class="help-block" >Please Enter Registration Number</div>
+				    		</div>
+			    		</div>
+				    </div>
+			    
+			    
+    			<label class="control-label col-sm-2 " for="" style="margin-right: 15px;">Contact Person</label>
+    			<div class="form-group col-sm-4 form-group" >
+		    	    <input type="text" class=" col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_name.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Contact Name</div>
+			    		</div>
+		    		</div>
+	    	    </div>
+	    	    <div class="form-group col-sm-2 form-group" >
+		    	    <input type="number" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Contact Number</div>
+			    		</div>
+		    		</div>
+	    	    </div>
+	    	    <div class="col-sm-4 form-group" >
+		    	    <input type="email" data-ng-pattern="/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_email.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Email Address</div>
+			      			<div data-ng-message="pattern" class="help-block" >Invalid Email Address. </div>
+			    		</div>
+		    		</div>
+	    	    </div>
+	    	    <label class="control-label col-sm-2" for="" style="margin-right: 15px;">Delivery</label>
+	    	    <div class="col-sm-5 form-group">
+		    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.address.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Address</div>
+			    		</div>
+		    		</div>
+	    	    </div>
+	    	    <div class="col-sm-5 form-group">
+		    	    <input type="number" data-ng-model="orderDetails.postal_code" placeholder="postal_code" name="postal_code" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.postal_code.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Postal Code</div>
+			    		</div>
+		    		</div>
+	    	    </div>
+	    	    <div class="col-sm-12 form-group">
+		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="place" name="place" required>
+		    	    <div class="enquiry-error">
+						<div ng-messages="enquiryForm.$submitted && enquiryForm.place.$error" role="alert">
+			      			<div ng-message="required" class="help-block" >Please Enter Place to Deliver Basket</div>
+			    		</div>
+		    		</div>
+	    	    </div> -->
+			    
 			    <div class="form-group">        
 			      <div class="col-sm-12 text-center">
 			        <button type="submit" class="btn btn-default red-btn" style="padding: 8px 60px;">Send Enquiry</button>

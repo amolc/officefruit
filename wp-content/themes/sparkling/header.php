@@ -42,8 +42,7 @@
 				        console.log('The server responded: ' + response);	
 				    }
 				);
-		    else
-		    	alert("noooooooooooop");
+		    
 	    }
 	})
 	</script>
