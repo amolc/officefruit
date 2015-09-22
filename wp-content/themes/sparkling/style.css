@@ -779,6 +779,9 @@ button {
     -o-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
 }
+.btn-primary:focus{
+  outline: none;
+}
 button:hover {
     background-color: #363636;
 }
