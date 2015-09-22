@@ -40,7 +40,7 @@
 				if ( get_theme_mod( 'sparkling_excerpts' ) == 1 ) :
 					the_excerpt();
 				else :
-					the_content();
+					the_excerpt();
 				endif;
 				 ?>
 
