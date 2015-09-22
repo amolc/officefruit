@@ -1752,6 +1752,7 @@ font-size: 20px;
 }
 #content .container{
   background: #fff;
+  padding: 0 40px;
 }
 .our_basket_section .oscitas-res-image {
   height: auto;
@@ -1870,7 +1871,7 @@ form{
   border: 1px solid #B2BB1D;
   border-radius: 20px;
   padding: 10px 50px;
-  margin: 0 43px;
+  margin-bottom: 50px;
 }
 .enquiry_select select{
     width: 27.25%;
