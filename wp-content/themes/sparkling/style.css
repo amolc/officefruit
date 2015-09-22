@@ -2222,14 +2222,6 @@ h3 {
         background: #fff;
         padding: 50px;
     }
-    .blog a {
-        text-align: left;
-        font-size: 22px;
-        font-family: 'aleoregular';
-        font-weight: normal;
-        color: #B2BB1D;
-        cursor: pointer;
-    }
     .site-main {
         padding: 15% 0 50px;
     }
@@ -2240,6 +2232,12 @@ h3 {
     }
     .blog .page-header a {
         color: #7F052E;
+        text-align: left;
+        font-size: 22px;
+        font-family: 'aleoregular';
+        font-weight: normal;
+        color: #B2BB1D;
+        cursor: pointer;
     }
     .blog .page-header h1 {
         text-align: left !important;
