@@ -4,8 +4,8 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+	
 	<div class="post-inner-content">
 		<header class="entry-header page-header">
 
@@ -27,7 +27,7 @@
 
 			</div><!-- .entry-meta -->
 		</header><!-- .entry-header -->
-
+		<?php the_post_thumbnail( 'sparkling-featured', array( 'class' => 'single-featured' )); ?>
 		<div class="entry-content">
 			<?php the_content(); ?>
 			<?php
