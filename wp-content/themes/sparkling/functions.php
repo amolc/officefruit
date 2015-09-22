@@ -320,9 +320,39 @@ function prefix_ajax_add_foobar() {
     // Handle request then generate response using WP_Ajax_Response, send mail to admin
     $_POST = $_POST['data'];
     $to = get_option( 'admin_email');
-    $headers[] = 'From: Officefruit <ankush@gmail.com>';
+    $headers[] = 'From: Officefruit <info@officefruit.sg>';
     $body = "Dear Admin, <br/> Following Order Details received for Enquiry<br/> Main Package:  ".$_POST['main_package']."<br/> Other Package:  ".$_POST['other_packae']."<br/> Other Dry Fruits:  ".$_POST['other_dry_fruits']."<br/> Other Requests:  ".$_POST['other_request']."<br/> Delivery Day(s):  ".$_POST['delivery_days']."<br/> Company Name:  ".$_POST['company_name']."<br/>Reg. No: ".$_POST['reg_no']."<br/>Contact Name: ".$_POST['contact_name']."<br/>Contact Email: ".$_POST['contact_email']."<br/>Address: ".$_POST['address']."<br/>Postal Code ".$_POST['postal_code']."<br/>Postal Code ".$_POST['postal_code']."<br/>Delivery Place ".$_POST['place'];
     $mail_status = wp_mail( 'ankush.lomte@fountaintechies.com', 'New Enquiry', $body, $headers );
+    if($mail_status)
+      {
+        $res = array(
+          'status' => 1,
+          'massage' => "Mail sent Successfully."
+        );
+      }
+      else
+      {
+        $res = array(
+          'status' => 0,
+          'massage' => "Ooops.. Mail sent failed, Please try again."
+        );
+      }
+  echo json_encode($res);
+  exit();
+}
+
+
+//for ajax call our basket form
+add_action( 'wp_ajax_add_subscription', 'prefix_ajax_add_subscription' );
+add_action( 'wp_ajax_nopriv_add_subscription', 'prefix_ajax_add_subscription' );
+
+function prefix_ajax_add_subscription() {
+    // Handle request then generate response using WP_Ajax_Response, send mail to admin
+    $_POST = $_POST['data'];
+    $to = get_option( 'admin_email');
+    $headers[] = 'From: Officefruit <info@officefruit.sg>';
+    $body = "Dear Admin, <br/> Following Order Details received for Enquiry<br/> Main Package:  ".$_POST['main_package']."<br/> Other Package:  ".$_POST['other_packae']."<br/> Other Dry Fruits:  ".$_POST['other_dry_fruits']."<br/> Other Requests:  ".$_POST['other_request']."<br/> Delivery Day(s):  ".$_POST['delivery_days']."<br/> Company Name:  ".$_POST['company_name']."<br/>Reg. No: ".$_POST['reg_no']."<br/>Contact Name: ".$_POST['contact_name']."<br/>Contact Email: ".$_POST['contact_email']."<br/>Address: ".$_POST['address']."<br/>Postal Code ".$_POST['postal_code']."<br/>Postal Code ".$_POST['postal_code']."<br/>Delivery Place ".$_POST['place'];
+    $mail_status = wp_mail( 'ankush.lomte@fountaintechies.com', 'New subscription', $body, $headers );
     if($mail_status)
       {
         $res = array(
