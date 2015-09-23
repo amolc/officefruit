@@ -532,6 +532,9 @@ hr.section-divider {
 .bottom-pagination {
     text-align: center;
 }
+span{
+    font-family: 'aleoregular';
+}
 /* =Asides
 ----------------------------------------------- */
 
@@ -1889,7 +1892,7 @@ form {
     border: 1px solid #B2BB1D;
     border-radius: 20px;
     padding: 10px 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .enquiry_select select {
     width: 27.25%;
