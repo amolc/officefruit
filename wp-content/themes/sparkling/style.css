@@ -2211,6 +2211,9 @@ h3 {
         color: #7F052E;
         font-family: 'aleoregular';
     }
+    #officeModal h1{
+        padding: 20px;
+    }
     #officeModal .modal-header {
         background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup_office.jpg') ! important;
         height: 190px !important;
