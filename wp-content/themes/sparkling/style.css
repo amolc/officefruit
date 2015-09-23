@@ -2281,6 +2281,7 @@ option{
     }
     #officeModal h1{
         padding: 20px;
+        color: #7F052E;
     }
     #officeModal .modal-header {
         background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup_office.jpg') ! important;
