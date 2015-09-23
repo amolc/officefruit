@@ -2226,6 +2226,9 @@ h3 {
     #officeModal .modal-dialog {
         width: 694px;
     }
+    #officeModal .help-block{
+        margin-top: 10px;
+    }
     #officeModal .modal-content {
         border-radius: 22px;
         margin-top: 13%;
