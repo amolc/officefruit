@@ -1747,6 +1747,9 @@ button[type=submit],
     color: #000;
     font-family: 'aleoregular';
 }
+.our_basket_section h3{
+  font-size: 30px !important;
+}
 .red-btn {
     background-color: #7F052E;
     border: none;
@@ -1767,6 +1770,7 @@ button[type=submit],
     font-family: 'aleobold';
     text-align: center ! important;
 }
+
 .our_basket_sub_section h3 {
     margin-top: 5px;
     text-align: center !important;
