@@ -1836,6 +1836,7 @@ input[type="search"],
 input[type="text"],
 input[type="number"],
 input[type="email"] {
+    width: 100%;
     border-radius: 12px;
     border: 1px solid #7F052E;
     height: 44px;
@@ -1845,11 +1846,12 @@ input[type="email"] {
     margin-bottom: 10px;
 }
 select {
-    margin-left: 20px;
-    border-radius: 25px;
-    border-color: #7F052E;
-    height: 44px;
-    margin-bottom: 10px;
+  width: 100%;
+  margin-left: 20px;
+  border-radius: 25px;
+  border-color: #7F052E;
+  height: 44px;
+  margin-bottom: 10px;
 }
 select:focus {
     outline: none;
