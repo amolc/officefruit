@@ -213,7 +213,7 @@ get_header(); ?>
 		        </div>
 		        <div class="col-sm-4">
 			        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="width:98.20%;" required>
-			        	<option>Select Delivery Day(s)</option>
+			        	<option value="">Select Delivery Day(s)</option>
 			        	<option>Preffered delivery day(s)</option>
 			        	<option>Flowers</option>
 			        </select>

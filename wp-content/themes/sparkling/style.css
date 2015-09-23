@@ -2303,7 +2303,9 @@ option{
         font-family: 'aleoregular';
         font-weight: 500;
     }
-
+    .site-main {
+        padding: 15% 0 50px;
+    }
     .blog-item-wrap h1 {
         text-align: left;
         padding-left: 0;
@@ -2373,7 +2375,6 @@ option{
     select {
         font-size: 20px;
         color: #000;
-        padding-left: 20px;
         -webkit-appearance: none;
         text-indent: 1px;
         text-overflow: '';
