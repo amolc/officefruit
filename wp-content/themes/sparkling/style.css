@@ -782,6 +782,15 @@ button {
 button:hover {
     background-color: #363636;
 }
+#officeModal form{
+    border: none;
+}
+#officeModal input[type="number"] {
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+}
 #subscription-toggle {
     float: right;
 }
