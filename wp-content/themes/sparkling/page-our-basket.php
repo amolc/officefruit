@@ -126,7 +126,7 @@ get_header(); ?>
 			    
 		    		<label class="control-label col-sm-3 col-md-3" for="">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
-			    	    <select name="other_package" data-ng-model="orderDetails.other_package" class="col-sm-12 col-sm-3 col-xm-12" required>
+			    	    <select name="other_package" data-ng-model="orderDetails.other_package" required>
 				        	<option selected> Select Fruit</option>
 				        	<option >Extra Fruit</option>
 				        	<option>Extraaas</option>
@@ -138,7 +138,7 @@ get_header(); ?>
 			    		</div>
 		    		</div>
 		    		<div class="col-sm-3 col-md-3">
-				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" class="col-sm-12 col-sm-3 col-xm-12" required>
+				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" required>
 				        	<option>Select Dry Fruit</option>
 				        	<option>Nuts</option>
 				        	<option>Dry Fruits</option>
@@ -150,7 +150,7 @@ get_header(); ?>
 			    		</div>
 			    	</div>
 			    	<div class="col-sm-3 col-md-3">
-				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" class="col-sm-12 col-sm-3 col-xm-12" required>
+				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" required>
 				        	<option>Select Flower</option>
 				        	<option>Flower Pot</option>
 				        	<option>Flowers</option>
