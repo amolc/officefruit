@@ -78,7 +78,7 @@ jQuery(document).ready(function($){
     		</div>
        	</div>
    		<div class="form-group">
-       		<input class="form-control" type="number" data-ng-model="subscriberDetails.postal_code" name="postal_code" placeholder="Contact Number" required>
+       		<input class="form-control" type="number" data-ng-model="subscriberDetails.postal_code" name="postal_code" placeholder="Postal Code" required>
        		<div ng-messages="surscribeForm.$submitted && surscribeForm.postal_code.$error" role="alert">
       			<div ng-message="required" class="help-block" >Please Enter Postal Code.</div>
     		</div>
