@@ -48,9 +48,20 @@
 
 	app.controller('subscribeController', function($scope) {
 	    console.log("In subscribeController");
-	    $scope.sendSubscriberDetails = function (subscriberDetails) {
+	    $scope.sendSubscriberDetails = function (subscriberDetails, valid) {
 	    	console.log("in  sendSubscriberDetails");
 	    	console.log(subscriberDetails);
+	    	if(valid)
+		    	jQuery.post(
+				    ajaxurl, 
+				    {
+				        'action': 'add_subscription',
+				        'data':   subscriberDetails
+				    }, 
+				    function(response){
+				        console.log('The server responded: ' + response);	
+				    }
+				);
 	    };
 	    
 	})

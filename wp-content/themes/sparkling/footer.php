@@ -70,7 +70,7 @@ jQuery(document).ready(function($){
         <p></p>
       </div>
       <div class="modal-body">
-      <form name="surscribeForm" data-ng-submit="sendSubscriberDetails(subscriberDetails)" novalidate>
+      <form name="surscribeForm" data-ng-submit="sendSubscriberDetails(subscriberDetails, surscribeForm.$valid)" novalidate>
        	<div class="form-group">
        		<input class="form-control" type="text" data-ng-model="subscriberDetails.contact_no" name="contact_no" placeholder="Contact Number" required>
        		<div ng-messages="surscribeForm.$submitted && surscribeForm.contact_no.$error" role="alert">
@@ -84,8 +84,8 @@ jQuery(document).ready(function($){
     		</div>
        	</div>
        	<div class="modal-footer">
-        <input type="submit" class="btn btn-primary red-btn" value="I’m excited to get my free basket!">
-      </div>
+        	<input type="submit" class="btn btn-primary red-btn" value="I’m excited to get my free basket!">
+     	 </div>
 	  </form>
       
     </div>
