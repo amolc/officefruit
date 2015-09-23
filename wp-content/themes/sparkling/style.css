@@ -2227,6 +2227,9 @@ h3 {
 .first_select select option {
     border: 1px solid red;
 }
+option{
+    border-radius: 20px;
+}
 #masthead {
     min-width: 1280px;
 }
@@ -2300,9 +2303,7 @@ h3 {
         font-family: 'aleoregular';
         font-weight: 500;
     }
-    .site-main {
-        padding: 15% 0 50px;
-    }
+
     .blog-item-wrap h1 {
         text-align: left;
         padding-left: 0;
@@ -2369,7 +2370,6 @@ h3 {
         min-height: none;
     }
     /*#dropdown*/
-
     select {
         -webkit-appearance: none;
         text-indent: 1px;

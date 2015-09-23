@@ -166,7 +166,7 @@ get_header(); ?>
 			    	</div>	
 			    </div>
 			    
-		    		<label class="control-label col-sm-3 col-md-3" for="">And Please add... </label>
+		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
 			    	    <select name="other_package" data-ng-model="orderDetails.other_package" required>
 				        	<option selected> Select Fruit</option>
@@ -204,7 +204,7 @@ get_header(); ?>
 			    		</div>   
 			    	</div>
 			    <div class="col-sm-8" >     
-			        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: 20px;">
+			        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." style="margin-left: -10px;width: 107%;">
 			        <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
 			      			<div ng-message="required" class="help-block" >Please Enter Other Request</div>
@@ -212,7 +212,7 @@ get_header(); ?>
 		    		</div>
 		        </div>
 		        <div class="col-sm-4">
-			        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" required>
+			        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="width:98.20%;" required>
 			        	<option>Select Delivery Day(s)</option>
 			        	<option>Preffered delivery day(s)</option>
 			        	<option>Flowers</option>
@@ -224,7 +224,7 @@ get_header(); ?>
 		    		</div>
 			    </div>			    
 			  
-		    		 <label class="col-sm-3" style="clear:both;" for="">About Your Company</label>
+		    		<label class="col-sm-3" style="clear:both;margin-right:30px;" for="">About Your Company</label>
 		    		<div class="form-group col-sm-4">
 			    	    <input type="text" data-ng-model="orderDetails.company_name"  name="company_name" required>
 			    	    <div class="enquiry-error">
@@ -243,7 +243,7 @@ get_header(); ?>
 				    </div>
 			    
 			    
-    			<label class="control-label col-sm-2 " for="" style="margin-right: 15px;">Contact Person</label>
+    			<label class="control-label col-sm-2 " for="" style="margin-right: 44px;">Contact Person</label>
     			<div class="form-group col-sm-4 form-group" >
 		    	    <input type="text" class=" col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name" required>
 		    	    <div class="enquiry-error">
@@ -269,7 +269,7 @@ get_header(); ?>
 			    		</div>
 		    		</div>
 	    	    </div>
-	    	    <label class="control-label col-sm-2" for="" style="margin-right: 15px;">Delivery</label>
+	    	    <label class="control-label col-sm-2" for="" style="margin-right: 26px;">Delivery</label>
 	    	    <div class="col-sm-5 form-group">
 		    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
 		    	    <div class="enquiry-error">
@@ -287,7 +287,7 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="col-sm-12 form-group">
-		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="place" name="place" required>
+		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="place" name="place" style="width: 101%;" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.place.$error" role="alert">
 			      			<div ng-message="required" class="help-block" >Please Enter Place to Deliver Basket</div>
@@ -300,11 +300,4 @@ get_header(); ?>
 			        <button type="submit" class="btn btn-default red-btn" style="padding: 8px 60px;">Send Enquiry</button>
 			      </div>
 			    </div>
-
 		  </form>
-  		</div><!-- container -->
-
-    </main><!-- #main -->
-  </div><!-- #primary -->
-
-<?php get_footer(); ?>
