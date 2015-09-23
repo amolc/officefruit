@@ -59,11 +59,11 @@
 				        'data':   subscriberDetails
 				    }, 
 				    function(response){
-				        console.log('The server responded: ' + response);
-				        if(response.status == 1)
+				        console.log('The server responded: ' + response.status);
+				        if(response.status == '1')
 				        	jQuery("#officeModal .modal-body").html("<h1>Thank you! We will get back to you shortly.</h1>");	
-				        else
-				        	jQuery("#officeModal .modal-body").html("<h1>Try Again.</h1>");	
+				        if(response.status == '0')
+				        	jQuery("#officeModal .modal-body").html("<h1>Please Try Again.</h1>");	
 				    }
 				);
 	    };

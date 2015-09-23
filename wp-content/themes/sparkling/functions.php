@@ -367,6 +367,6 @@ function prefix_ajax_add_subscription() {
           'massage' => "Ooops.. Mail sent failed, Please try again."
         );
       }
-  echo json_encode($res);
+   wp_send_json($res);
   exit();
 }
