@@ -755,8 +755,9 @@ object {
 .btn-default.active,
 #image-navigation .nav-previous a:hover,
 #image-navigation .nav-next a:hover {
-    background-color: #363636;
-    border-color: #363636;
+    background-color: #7F052E;
+    border-color: #7F052E;
+    outline: none;
 }
 .btn.btn-default {
     color: #FFF;
@@ -1884,6 +1885,16 @@ form {
     width: 63%;
     margin: 0 10px;
     padding-left: 10px;
+}
+.help-block {
+    display: block;
+    margin-top: -9px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: #FF0000;
+}
+input .help-block{
+  margin-left: 0px;
 }
 /*************************************************************************************************/
 /*#home*/

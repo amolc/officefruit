@@ -110,7 +110,7 @@ get_header(); ?>
 				    	</div> 
 				    <label  class="control-label col-sm-4" for="email"></label>
 			    	<div class="col-sm-8 first_select"> 
-			    	    <select name="main_package" data-ng-model="orderDetails.main_package" style="margin-top: 15px;" required>
+			    	    <select name="main_package" data-ng-model="orderDetails.main_package" required>
 				        	<option>Fruit Basket <span>Supreme</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>
