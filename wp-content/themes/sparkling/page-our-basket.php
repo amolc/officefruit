@@ -226,7 +226,7 @@ get_header(); ?>
 			  
 		    		<label class="col-sm-3" style="clear:both;margin-right:30px;" for="">About Your Company</label>
 		    		<div class="form-group col-sm-4">
-			    	    <input type="text" data-ng-model="orderDetails.company_name"  name="company_name" required>
+			    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Name of company" name="company_name" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.company_name.$error" role="alert">
 				      			<div ng-message="required" class="help-block">Please Enter Company Name</div>

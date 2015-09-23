@@ -1860,6 +1860,7 @@ input[type="search"],
     border-radius: 25px;
     border: 1px solid #7F052E;
     height: 44px;
+    color: #000;
     padding-top: 5px;
     font-size: 20px;
     padding-left: 20px;
@@ -1872,6 +1873,7 @@ input[type="email"] {
     border-radius: 12px;
     border: 1px solid #7F052E;
     height: 44px;
+    color: #000;
     padding-top: 0;
     font-size: 20px;
     padding-left: 20px;
@@ -1893,6 +1895,10 @@ form {
     border-radius: 20px;
     padding: 10px 50px;
     margin-bottom: 10px;
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition: opacity .6s;
 }
 .enquiry_select select {
     width: 27.25%;
