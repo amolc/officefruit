@@ -45,6 +45,25 @@ get_header(); ?>
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Nuts & Dried Fruits</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
+		    			<div class="col-sm-12 toggle-radio">
+						  <input type="radio" name="ab" id="a" />
+						  <label for="a">Small
+						  	<span>$S 6</span>
+						  1 snack pack
+						  </label>
+						  
+						  <input type="radio" name="ab" id="b" />
+						  <label for="b">Medium
+						  	<span>$S 16</span>
+						  3 snack pack
+						  </label>
+						  
+						  <input type="radio" name="ab" id="c" />
+						  <label for="c">Large
+						  	<span>$S 26</span>
+						  5 snack pack
+						  </label>
+						</div>
 		    	</div>
 		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
@@ -52,35 +71,35 @@ get_header(); ?>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Cashew nuts</h4>
+						<h4 style="text-align: left;">Berry Mix</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Nuts Mix</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Cashews</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Pistachios</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Soybeans</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Mango</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Apricot</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Macadamia</h4>
+						<h4 style="text-align: left;">Cranberries</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 		    	</div>

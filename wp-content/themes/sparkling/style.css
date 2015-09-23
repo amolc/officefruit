@@ -1750,8 +1750,8 @@ button[type=submit],
     margin-right: 30px;
 }
 .fruit_img{
-    width: 100px;
-    margin-top: 25px;
+    width: 155px;
+    margin: 20px 0 25px;
 }
 .our_basket_section {
     text-align: center;
@@ -1909,6 +1909,55 @@ form {
 input .help-block{
   margin-left: 0px;
 }
+input[type=radio] {
+    opacity: 0;
+    display: none;
+    margin: 0;
+}
+
+.toggle-radio input[type="radio"]:checked + label {
+background-color: #25a209;
+border-color: #25a209;
+color: white;
+}
+
+.toggle-radio span{
+    display: block;
+    color: #B2BB1D;
+    font-family: 'aleobold';
+    font-size: 30px;
+}
+.toggle-radio label {
+    font-family: 'aleoregular';
+    float: left;
+    width: 31.33%;
+    font-size: 22px;
+    color: #000;
+    padding: 6px 12px;
+    margin:5px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    cursor: pointer;
+    border: 1px solid #B2BB1D;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.toggle-radio {
+position: relative;
+display: inline-block;
+vertical-align: middle;
+}
+
+.toggle-radio label:hover {
+    background-color: #FBFAF4;
+}
+.toggle-radio [type="radio"] {
+  display: none;
+}
+
+
 /*************************************************************************************************/
 /*#home*/
 
