@@ -139,7 +139,7 @@ get_header(); ?>
 			     	<label  class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
 					    <div class="col-sm-8 first_select">
 					        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
-					        	<option selected>Fruit Basket <span>Original</span></option>
+					        	<option selected value="">Fruit Basket <span>Original</span></option>
 					        	<option>4 Kg</option>
 					        	<option>6 Kg</option>
 					        	<option>8 Kg</option>
@@ -153,7 +153,7 @@ get_header(); ?>
 				    <label  class="control-label col-sm-4" for="email"></label>
 			    	<div class="col-sm-8 first_select"> 
 			    	    <select name="main_package" data-ng-model="orderDetails.main_package" required>
-				        	<option>Fruit Basket <span>Supreme</span></option>
+				        	<option value="">Fruit Basket <span>Supreme</span></option>
 				        	<option>4 Kg</option>
 				        	<option>6 Kg</option>
 				        	<option>8 Kg</option>
@@ -169,7 +169,7 @@ get_header(); ?>
 		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
 			    	    <select name="other_package" data-ng-model="orderDetails.other_package" required>
-				        	<option selected> Select Fruit</option>
+				        	<option selected value=""> Select Fruit</option>
 				        	<option >Extra Fruit</option>
 				        	<option>Extraaas</option>
 				        </select>
@@ -181,7 +181,7 @@ get_header(); ?>
 		    		</div>
 		    		<div class="col-sm-3 col-md-3">
 				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" required>
-				        	<option>Select Dry Fruit</option>
+				        	<option value="">Select Dry Fruit</option>
 				        	<option>Nuts</option>
 				        	<option>Dry Fruits</option>
 				        </select>
@@ -193,7 +193,7 @@ get_header(); ?>
 			    	</div>
 			    	<div class="col-sm-3 col-md-3">
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" required>
-				        	<option>Select Flower</option>
+				        	<option value="">Select Flower</option>
 				        	<option>Flower Pot</option>
 				        	<option>Flowers</option>
 				        </select>
