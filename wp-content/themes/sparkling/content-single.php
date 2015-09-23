@@ -76,10 +76,10 @@
         <div class="author-bio-content">
 
           <h4 class="author-name"><a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_the_author_meta('display_name'); ?></a></h4>
-          <p class="author-description">
-              <?php echo get_the_author_meta('description'); ?>
+         <!--  <p class="author-description">
+              <?php //echo get_the_author_meta('description'); ?>
           </p>
-
+ -->
         </div><!-- end .author-bio-content -->
 
       </div><!-- end .author-bio  -->
