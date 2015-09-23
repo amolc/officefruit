@@ -112,18 +112,12 @@ body {
 }
 a {
     color: #DA4453;
-    outline: none;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-
-select{
-  width: 100% !important;
-}
-
 a:hover,
 a:focus {
     color: #fff;
@@ -241,7 +235,6 @@ textarea {
     color: #666;
     border: 1px solid #E8E8E8;
     border-radius: 3px;
-    outline: none;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -265,11 +258,10 @@ textarea {
     overflow: auto;
     /* Removes default vertical scrollbar in IE6/7/8/9 */
 
- .enquiry-error{
- margin: 0 25px; 
     padding-left: 3px;
     vertical-align: top;
     /* Improves readability and alignment in all browsers */
+
     width: 100%;
 }
 /* Alignment */
@@ -786,9 +778,6 @@ button {
     -moz-transition: background-color 0.3s linear;
     -o-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
-}
-.btn-primary:focus{
-  outline: none;
 }
 button:hover {
     background-color: #363636;
@@ -1844,7 +1833,6 @@ input[type="text"],
 input[type="number"],
 input[type="email"] {
     border-radius: 12px;
-    width: 100%;
     border: 1px solid #7F052E;
     height: 44px;
     padding-top: 0;
@@ -1866,6 +1854,7 @@ form {
     border: 1px solid #B2BB1D;
     border-radius: 20px;
     padding: 10px 50px;
+    margin-bottom: 50px;
 }
 .enquiry_select select {
     width: 27.25%;
@@ -2192,6 +2181,11 @@ h3 {
         font-family: 'aleoregular';
         margin-bottom: 20px;
     }
+    #officeModal .modal-body::-webkit-input-placeholder {
+        font-size: 30px;
+        color: #7F052E;
+        font-family: 'aleoregular';
+    }
     #officeModal .modal-header {
         background-image: url('http://officefruit.sg/beta/wp-content/uploads/2015/09/popup_office.jpg') ! important;
         height: 190px !important;
@@ -2318,8 +2312,3 @@ h3 {
             font-size: 20px;
             color: #000;
         }
-#officeModal .modal-body::-webkit-input-placeholder {
-        font-size: 30px;
-        color: #7F052E;
-        font-family: 'aleoregular';
-    }
