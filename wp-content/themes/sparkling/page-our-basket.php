@@ -49,48 +49,39 @@ get_header(); ?>
 		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
 						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
-						<h3 style="text-align: left;">S$ 2</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Cashew nuts</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Macadamia</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 		    	</div>
 		    </div>

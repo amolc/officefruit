@@ -1749,6 +1749,10 @@ button[type=submit],
     float: left;
     margin-right: 30px;
 }
+.fruit_img{
+    width: 100px;
+    margin-top: 25px;
+}
 .our_basket_section {
     text-align: center;
     margin-top: 30px;
