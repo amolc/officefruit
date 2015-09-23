@@ -51,13 +51,15 @@ get_header(); ?>
 						  	<span>$S 6</span>
 						  1 snack pack
 						  </label>
-						  
+						</div> 
+						<div class="col-sm-12 toggle-radio"> 
 						  <input type="radio" name="ab" id="b" />
 						  <label for="b">Medium
 						  	<span>$S 16</span>
 						  3 snack pack
 						  </label>
-						  
+						</div>
+						<div class="col-sm-12 toggle-radio">  
 						  <input type="radio" name="ab" id="c" />
 						  <label for="c">Large
 						  	<span>$S 26</span>
