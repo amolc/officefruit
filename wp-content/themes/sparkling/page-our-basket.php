@@ -287,7 +287,7 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="col-sm-12 form-group">
-		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="place" name="place" style="width: 101%;" required>
+		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="Place" name="place" style="width: 101%;" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.place.$error" role="alert">
 			      			<div ng-message="required" class="help-block" >Please Enter Place to Deliver Basket</div>
