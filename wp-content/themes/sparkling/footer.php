@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
 
 
 <!-- Modal -->
-<div class="modal fade" style="display: none" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div data-ng-controller="subscribeController" class="modal fade" style="display: none" id="officeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -70,11 +70,24 @@ jQuery(document).ready(function($){
         <p></p>
       </div>
       <div class="modal-body">
-       	<input type="text" placeholder="Contact Number">
-		<input type="text" placeholder="Postal Code">
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary red-btn">I’m excited to get my free basket!</button>
+      <form name="surscribeForm" data-ng-submit="sendSubscriberDetails(subscriberDetails)" novalidate>
+       	<div class="form-group">
+       		<input class="form-control" type="text" data-ng-model="subscriberDetails.contact_no" name="contact_no" placeholder="Contact Number" required>
+       		<div ng-messages="surscribeForm.$submitted && surscribeForm.contact_no.$error" role="alert">
+      			<div ng-message="required" class="help-block" >Please Enter Contact Number.</div>
+    		</div>
+       	</div>
+   		<div class="form-group">
+       		<input class="form-control" type="number" data-ng-model="subscriberDetails.postal_code" name="postal_code" placeholder="Contact Number" required>
+       		<div ng-messages="surscribeForm.$submitted && surscribeForm.postal_code.$error" role="alert">
+      			<div ng-message="required" class="help-block" >Please Enter Postal Code.</div>
+    		</div>
+       	</div>
+       	<div class="modal-footer">
+        <input type="submit" class="btn btn-primary red-btn" value="I’m excited to get my free basket!">
       </div>
+	  </form>
+      
     </div>
   </div>
 </div>

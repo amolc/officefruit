@@ -119,13 +119,11 @@ a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-<<<<<<< HEAD
+
 select{
   width: 100% !important;
 }
 
-=======
->>>>>>> bf3e18eb6f37fee8d561269e4c7dc234fe661657
 a:hover,
 a:focus {
     color: #fff;

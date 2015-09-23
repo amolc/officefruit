@@ -45,6 +45,15 @@
 		    
 	    }
 	})
+
+	app.controller('subscribeController', function($scope) {
+	    console.log("In subscribeController");
+	    $scope.sendSubscriberDetails = function (subscriberDetails) {
+	    	console.log("in  sendSubscriberDetails");
+	    	console.log(subscriberDetails);
+	    };
+	    
+	})
 	</script>
 <body <?php body_class(); ?> data-ng-app="officefruit">
 <div id="page" class="hfeed site">
