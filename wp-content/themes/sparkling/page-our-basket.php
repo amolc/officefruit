@@ -243,7 +243,7 @@ get_header(); ?>
 				    </div>
 			    
 			    
-    			<label class="control-label col-sm-2 " for="" style="margin-right: 44px;">Contact Person</label>
+    			<label class="control-label col-sm-2 " for="" style="margin-right: -40px;">Contact Person</label>
     			<div class="form-group col-sm-4 form-group" >
 		    	    <input type="text" class=" col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name" required>
 		    	    <div class="enquiry-error">
@@ -252,7 +252,7 @@ get_header(); ?>
 			    		</div>
 		    		</div>
 	    	    </div>
-	    	    <div class="form-group col-sm-2 form-group" >
+	    	    <div class="form-group col-sm-3 form-group" >
 		    	    <input type="number" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
