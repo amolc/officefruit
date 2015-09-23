@@ -237,7 +237,7 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="col-sm-5 form-group">
-		    	    <input type="number" data-ng-model="orderDetails.postal_code" placeholder="postal_code" name="postal_code" required>
+		    	    <input type="number" data-ng-model="orderDetails.postal_code" placeholder="Postal Code" name="postal_code" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.postal_code.$error" role="alert">
 			      			<div ng-message="required" class="help-block" >Please Enter Postal Code</div>
@@ -251,7 +251,7 @@ get_header(); ?>
 			      			<div ng-message="required" class="help-block" >Please Enter Place to Deliver Basket</div>
 			    		</div>
 		    		</div>
-	    	    </div> -->
+	    	    </div>
 			    
 			    <div class="form-group">        
 			      <div class="col-sm-12 text-center">
@@ -260,15 +260,6 @@ get_header(); ?>
 			    </div>
 
 		  </form>
-		  
-<!-- 			<form class="form-inline">
-			  <div class="form-group">
-			    <label for="exampleInputName2">Name</label>
-			    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-			    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-			    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-			  </div>
-			</form> -->
   		</div><!-- container -->
 
     </main><!-- #main -->
