@@ -788,7 +788,12 @@ button:hover {
     margin-bottom: 0px;
 }
 #officeModal input[type="number"] {
-    width: 75%;
+    width: 98%;
+    padding: 5px;
+    height: 56px;
+    color: #7F052E;
+    font-size: 32px;
+    border-color: #7F052E;
     margin: 0 auto;
     border-radius: 50px;
     text-align: center;
@@ -2375,12 +2380,17 @@ option{
     select {
         font-size: 20px;
         color: #000;
+        padding-left: 20px;
         -webkit-appearance: none;
         text-indent: 1px;
         text-overflow: '';
         background-image: url('img/arrow.png');
         background-repeat: no-repeat;
         background-position: 95% 50%;
+    }
+    #officeModal ::-webkit-input-placeholder {
+        font-size: 30px;
+        color: #7F052E;
     }
     ::-webkit-input-placeholder {
         font-size: 20px;
