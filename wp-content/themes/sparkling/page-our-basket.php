@@ -41,7 +41,7 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		    <div class="col-sm-12">
-	    		<div class="col-sm-6">
+	    		<div class="col-sm-6" style="margin-top:100px;">
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Nuts & Dried Fruits</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
@@ -169,9 +169,10 @@ get_header(); ?>
 		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
 			    	    <select name="other_package" data-ng-model="orderDetails.other_package" required>
-				        	<option selected value=""> Select Fruit</option>
-				        	<option >Extra Fruit</option>
-				        	<option>Extraaas</option>
+				        	<option selected value="">Select Extra Fruit</option>
+				        	<option >Bananas</option>
+				        	<option>Apple</option>
+				        	<option>Pear</option>
 				        </select>
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_package.$error" role="alert">
@@ -182,8 +183,9 @@ get_header(); ?>
 		    		<div class="col-sm-3 col-md-3">
 				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" required>
 				        	<option value="">Select Dry Fruit</option>
-				        	<option>Nuts</option>
-				        	<option>Dry Fruits</option>
+				        	<option>Small</option>
+				        	<option>Medium</option>
+				        	<option>Large</option>
 				        </select>
 				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_dry_fruits.$error" role="alert">
@@ -194,8 +196,9 @@ get_header(); ?>
 			    	<div class="col-sm-3 col-md-3">
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" required>
 				        	<option value="">Select Flower</option>
-				        	<option>Flower Pot</option>
-				        	<option>Flowers</option>
+				        	<option>Corporate</option>
+				        	<option>Cuties</option>
+				        	<option>Colorful</option>
 				        </select>
 				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_flowers.$error" role="alert">
@@ -213,9 +216,14 @@ get_header(); ?>
 		        </div>
 		        <div class="col-sm-4">
 			        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="width:98.20%;" required>
-			        	<option value="">Select Delivery Day(s)</option>
-			        	<option>Preffered delivery day(s)</option>
-			        	<option>Flowers</option>
+			        	<option value="">Select Delivery Day</option>
+			        	<option>Monday</option>
+			        	<option>Tuesday</option>
+			        	<option>Wednesday</option>
+			        	<option>Thursday</option>
+			        	<option>Friday</option>
+			        	<option>Saturday</option>
+			        	<option>Sunday</option>
 			        </select>
 			        <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.delivery_days.$error" role="alert">
