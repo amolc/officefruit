@@ -1783,6 +1783,7 @@ button[type=submit],
     border: none;
     font-family: 'aleoregular';
     font-size: 25px;
+    padding: 10px 45px;
     letter-spacing: 1px;
     border-radius: 50px;
     margin: 0 10px;
