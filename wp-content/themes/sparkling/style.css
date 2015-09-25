@@ -2420,6 +2420,12 @@ option{
     color: #B2BB1D;
     border: 2px solid;
     }
+    .footer_note{
+        font-size: 15px;
+        font-family: 'aleoregular';
+        color: #656464;
+        font-weight: 500;
+    }
     /*#dropdown*/
     select {
         background-color: #fff;
@@ -2444,7 +2450,7 @@ option{
     }
     #input_other{
         margin-left: -15px;
-        width: 100%;
+        width: 102%;
     }
     #input_other ::-webkit-input-placeholder {
         font-size: 20px;

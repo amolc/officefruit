@@ -283,4 +283,8 @@ get_header(); ?>
 			        <button type="submit" class="btn btn-default red-btn" style="padding: 8px 60px;">Send Enquiry</button>
 			      </div>
 			    </div>
+			    <div class="form-group">
+			    	<h3 class="footer_note">OfficeFruit.sg only offer subscription based deliveries based on a monthly retainer. Sending this enquiry is not equal to an order and is not binding in any way. A sales representative will contact you shortly to discuss the best possible solution for your office.
+					</h3>
+				</div>
 		  </form>
