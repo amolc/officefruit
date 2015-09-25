@@ -2036,12 +2036,11 @@ vertical-align: middle;
     border-radius: 50%;
 }
 .steps_img {
-    min-height: 200px;
+    min-height: 110px;
     position: relative;
 }
 .steps_img img {
     position: absolute;
-    top: 50%;
     left: 22%;
     transform: translateY(-50%);
 }
