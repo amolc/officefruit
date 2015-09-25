@@ -180,6 +180,7 @@ img {
 }
 #logo a img {
     height: auto;
+    width: 204px;
     margin-left: 15px;
 }
 button,
