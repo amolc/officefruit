@@ -2043,10 +2043,6 @@ vertical-align: middle;
     height: 40px;
     border-radius: 50%;
 }
-.steps_img {
-    margin-top: 125px;
-    position: relative;
-}
 .steps_img img {
     margin: 0 auto;
 }
