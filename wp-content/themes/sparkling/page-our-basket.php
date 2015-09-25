@@ -131,10 +131,11 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		  </div>	
-		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( orderDetails, enquiryForm.$valid )" novalidate>
+		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" novalidate>
 		  	<h1 style="margin-bottom:30px;" >
 		    	Enquiry Form
 		    </h1>
+		    <h2 data-ng-show="status" class="thankyou"> {{message}} </h2>
 			    <div class="">
 			     	<label  class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
 					    <div class="col-sm-8 first_select">

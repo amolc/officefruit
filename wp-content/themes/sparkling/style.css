@@ -2386,6 +2386,15 @@ option{
         margin-top: 0px;
         min-height: none;
     }
+    .thankyou{
+            margin-bottom: 30px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    color: #B2BB1D;
+    border: 2px solid;
+    }
     /*#dropdown*/
     select {
         background-color: #fff;
