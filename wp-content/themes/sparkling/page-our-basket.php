@@ -70,39 +70,39 @@ get_header(); ?>
 		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;margin-top:100px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
 						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
-						<img src="img/Picture1.jpg" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Picture1.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Berry Mix</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Berry-mix-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Nuts Mix</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Nut-mix-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Cashews</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Cashews-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Pistachios</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Pistachios-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Soybeans</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Soybeans-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Mango</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Mango-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Apricot</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Apricot-new-VIT.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
 						<h4 style="text-align: left;">Cranberries</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
+						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Cranberries-VIT.jpg" class="fruit_img">
 					</div>
 		    	</div>
 		    </div>
