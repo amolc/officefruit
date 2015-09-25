@@ -208,7 +208,7 @@ get_header(); ?>
 			    		</div>   
 			    	</div>
 			    <div class="col-sm-8" >     
-			        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other"style="margin-left: -10px;width: 107%;">
+			        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other">
 			        <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
 			      			<div ng-message="required" class="help-block" >Please Enter Other Request</div>

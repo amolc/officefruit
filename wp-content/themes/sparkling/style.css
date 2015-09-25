@@ -772,6 +772,7 @@ object {
 button {
     background-color: #DA4453;
     border: none;
+    outline: none;
     text-transform: uppercase;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -1875,6 +1876,7 @@ input[type="email"] {
     border: 1px solid #7F052E;
     height: 44px;
     color: #000;
+    outline: 0;
     padding-top: 0;
     font-size: 20px;
     padding-left: 20px;
@@ -2263,6 +2265,7 @@ option{
     }
     .close:hover{
         color: #fff;
+        background:none;
     }
 
     #officeModal .modal-footer .btn-primary {
@@ -2426,7 +2429,10 @@ option{
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-
+    #input_other{
+        margin-left: -10px;
+        width: 107%;
+    }
     #input_other ::-webkit-input-placeholder {
         font-size: 20px;
         color: #000 !important;
