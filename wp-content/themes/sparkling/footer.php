@@ -74,13 +74,13 @@ jQuery(document).ready(function($){
       <div class="modal-body">
       <form name="surscribeForm" data-ng-submit="sendSubscriberDetails(subscriberDetails, surscribeForm.$valid)" novalidate>
        	<div class="form-group">
-       		<input class="form-control" type="number" data-ng-model="subscriberDetails.contact_no" name="contact_no" placeholder="Contact Number" required>
+       		<input class="form-control" type="tel" data-ng-model="subscriberDetails.contact_no" name="contact_no" placeholder="Contact Number" required>
        		<div ng-messages="surscribeForm.$submitted && surscribeForm.contact_no.$error" role="alert">
       			<div ng-message="required" class="help-block" >Please Enter Contact Number.</div>
     		</div>
        	</div>
    		<div class="form-group">
-       		<input class="form-control" type="number" data-ng-model="subscriberDetails.postal_code" name="postal_code" placeholder="Postal Code" required>
+       		<input class="form-control" type="tel" data-ng-model="subscriberDetails.postal_code" name="postal_code" placeholder="Postal Code" required>
        		<div ng-messages="surscribeForm.$submitted && surscribeForm.postal_code.$error" role="alert">
       			<div ng-message="required" class="help-block" >Please Enter Postal Code.</div>
     		</div>

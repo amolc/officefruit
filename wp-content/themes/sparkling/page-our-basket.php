@@ -140,31 +140,21 @@ get_header(); ?>
 			     	<label  class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
 					    <div class="col-sm-8 first_select">
 					        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
-					        	<option selected value="">Fruit Basket <span>Original</span></option>
-					        	<option>4 Kg</option>
-					        	<option>6 Kg</option>
-					        	<option>8 Kg</option>
+					        	<option selected value="">Select Basket</span></option>
+					        	<option>Original, 4 kg, S$ 28</option>
+					        	<option>Original, 4 kg, S$ 38</option>
+					        	<option>Original, 8 kg, S$ 48</option>
+					        	<option>Supreme, 4 kg, (coming soon)</option>
+					        	<option>Supreme, 6 kg, (coming soon)</option>
+					        	<option>Supreme, 8 kg, (coming soon)</option>
 					        </select>
 					        <div class="enquiry-error">
 								<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
-					      			<div ng-message="required" class="help-block" >Please Select Original Basket </div>
+					      			<div ng-message="required" class="help-block" >Please Select Basket </div>
 					    		</div>
 				    		</div>
 				    	</div> 
 				    <label  class="control-label col-sm-4" for="email"></label>
-			    	<div class="col-sm-8 first_select"> 
-			    	    <select name="main_package" data-ng-model="orderDetails.main_package" required>
-				        	<option value="">Fruit Basket <span>Supreme</span></option>
-				        	<option>4 Kg</option>
-				        	<option>6 Kg</option>
-				        	<option>8 Kg</option>
-				        </select>
-				         <div class="enquiry-error">
-							<div ng-messages="enquiryForm.$submitted && enquiryForm.main_package.$error" role="alert">
-				      			<div ng-message="required" class="help-block" >Please Select Main Package</div>
-				    		</div>
-			    		</div>
-			    	</div>	
 			    </div>
 			    
 		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>

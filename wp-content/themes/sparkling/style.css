@@ -2284,9 +2284,11 @@ option{
         text-align: center;
         padding: 30px 0 0px;
     }
-    #officeModal .modal-body input[type="text"] {
-        width: 80%;
+    #officeModal .modal-body input[type="tel"] {
+        width: 100%;
         font-size: 30px;
+        -webkit-appearance: none;
+        outline: none;
         color: #000;
         border: 1px solid #7F052E;
         text-align: center;
