@@ -1742,6 +1742,12 @@ button[type=submit],
     letter-spacing: 1px;
 }
 /*#our-basket*/
+.snack_pack{
+    display: block;
+    font-size: 22px !important;
+    color: #000 !important;
+    font-family: 'aleoregular'!important;
+}
 .our_basket .page-header{
     min-height: 25px;
 }
@@ -1939,16 +1945,16 @@ input[type=radio] {
 
 .toggle-radio span{
     display: block;
-    color: #B2BB1D;
-    font-family: 'aleobold';
-    font-size: 30px;
+    color: #000;
+    font-family: 'aleobolditalic';
+    font-size: 22px;
 }
 .toggle-radio label {
-    font-family: 'aleoregular';
+    font-family: 'aleobold';
     float: right;
     width: 40%;
     font-size: 22px;
-    color: #000;
+    color: #B2BB1D;
     padding: 6px 12px;
     margin-right: 34px;
     font-weight: normal;
@@ -2439,29 +2445,24 @@ option{
     }
     #input_other ::-webkit-input-placeholder {
         font-size: 20px;
-        color: #000 !important;
         outline: none;
 
     }
     ::-webkit-input-placeholder {
         font-size: 20px;
-        color: #000 !important;
     }
     ::-webkit-select-placeholder {
         font-size: 20px;
-        color: #000;
+        color: grey;
     }
     :-moz-placeholder {
         /* Firefox 18- */
         font-size: 20px;
-        color: #000;
     }
     ::-moz-placeholder {
         /* Firefox 19+ */
 
         font-size: 20px;
-        color: #000;
         :-ms-input-placeholder {
             font-size: 20px;
-            color: #000;
         }

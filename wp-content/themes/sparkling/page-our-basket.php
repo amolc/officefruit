@@ -49,21 +49,21 @@ get_header(); ?>
 						  <input type="radio" name="ab" id="a" />
 						  <label for="a">Small
 						  	<span>$S 6</span>
-						  1 snack pack
+						  	<span class="snack_pack">1 snack pack<span>
 						  </label>
 						</div> 
 						<div class="col-sm-12 toggle-radio"> 
 						  <input type="radio" name="ab" id="b" />
 						  <label for="b">Medium
 						  	<span>$S 16</span>
-						  3 snack pack
+						  	<span class="snack_pack">3 snack pack</span>
 						  </label>
 						</div>
 						<div class="col-sm-12 toggle-radio">  
 						  <input type="radio" name="ab" id="c" />
 						  <label for="c">Large
 						  	<span>$S 26</span>
-						  5 snack pack
+						  	<span class="snack_pack">5 snack pack</span>
 						  </label>
 						</div>
 		    	</div>
@@ -154,16 +154,15 @@ get_header(); ?>
 					    		</div>
 				    		</div>
 				    	</div> 
-				    <label  class="control-label col-sm-4" for="email"></label>
 			    </div>
 			    
 		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
 			    	    <select name="other_package" data-ng-model="orderDetails.other_package">
 				        	<option selected value="">Select Extra Fruit</option>
-				        	<option >Bananas</option>
-				        	<option>Apple</option>
-				        	<option>Pear</option>
+				        	<option >Banana, 2 kg, S$ 7</option>
+				        	<option>Apple, 2 kg, S$ 8</option>
+				        	<option>Pear  2 kg, S$ 9</option>
 				        </select>
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_package.$error" role="alert">
@@ -174,9 +173,9 @@ get_header(); ?>
 		    		<div class="col-sm-3 col-md-3">
 				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
 				        	<option value="">Select Dry Fruit</option>
-				        	<option>Small</option>
-				        	<option>Medium</option>
-				        	<option>Large</option>
+				        	<option>Small, 1 snack pack, S$ 6</option>
+				        	<option>Medium, 3 snack pack, S$ 16</option>
+				        	<option>Large, 5 snack pack, S$ 26</option>
 				        </select>
 				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_dry_fruits.$error" role="alert">
@@ -187,9 +186,9 @@ get_header(); ?>
 			    	<div class="col-sm-3 col-md-3">
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
-				        	<option>Corporate</option>
-				        	<option>Cuties</option>
-				        	<option>Colorful</option>
+				        	<option>Corporate, S$25</option>
+				        	<option>Cuties, S$25</option>
+				        	<option>Colorful, S$25</option>
 				        </select>
 				         <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_flowers.$error" role="alert">
@@ -288,12 +287,7 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="col-sm-12 form-group">
-		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="Place" name="place" style="width: 101%;" required>
-		    	    <div class="enquiry-error">
-						<div ng-messages="enquiryForm.$submitted && enquiryForm.place.$error" role="alert">
-			      			<div ng-message="required" class="help-block" >Please Enter Place to Deliver Basket</div>
-			    		</div>
-		    		</div>
+		    	    <input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want the basket to be delivered? Pantry, conference room, reception etc." name="place" style="width: 101%;">
 	    	    </div>
 			    
 			    <div class="form-group">        
