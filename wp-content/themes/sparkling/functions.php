@@ -354,7 +354,7 @@ function prefix_ajax_add_subscription() {
     $headers[] = 'From: Officefruit <no_reply@officefruit.sg>';
     $headers[] = 'Cc: Amol Chawathe <amol.chawathe@fountaintechies.com>';
     $body = "Dear Admin, <br/> Following Subscriber asked for Free Basket<br/> Contact No. :  ".$_POST['contact_no']."<br/>Postal Code: ".$_POST['postal_code'] ;
-    $mail_status = wp_mail( 'ankush.lomte@fountaintechies.com', 'New subscription', $body, $headers );
+    $mail_status = wp_mail( 'mats.isenberg@gmail.com', 'New subscription', $body, $headers );
     if($mail_status)
       {
         $res = array(

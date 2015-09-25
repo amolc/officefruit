@@ -41,7 +41,7 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		    <div class="col-sm-12">
-	    		<div class="col-sm-6" style="margin-top:100px;">
+	    		<div class="col-sm-6" >
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
 		    		<h3 style="text-align: left;">Nuts & Dried Fruits</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
@@ -67,7 +67,7 @@ get_header(); ?>
 						  </label>
 						</div>
 		    	</div>
-		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;">
+		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;margin-top:100px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
 						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
@@ -168,7 +168,7 @@ get_header(); ?>
 			    
 		    		<label class="control-label col-sm-3 col-md-3" for="" style="margin-right: 12px;">And Please add... </label>
 		    		<div class="col-sm-3 col-md-3 form-group">
-			    	    <select name="other_package" data-ng-model="orderDetails.other_package" required>
+			    	    <select name="other_package" data-ng-model="orderDetails.other_package">
 				        	<option selected value="">Select Extra Fruit</option>
 				        	<option >Bananas</option>
 				        	<option>Apple</option>
@@ -181,7 +181,7 @@ get_header(); ?>
 			    		</div>
 		    		</div>
 		    		<div class="col-sm-3 col-md-3">
-				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits" required>
+				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
 				        	<option value="">Select Dry Fruit</option>
 				        	<option>Small</option>
 				        	<option>Medium</option>
@@ -194,7 +194,7 @@ get_header(); ?>
 			    		</div>
 			    	</div>
 			    	<div class="col-sm-3 col-md-3">
-				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers" required>
+				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
 				        	<option>Corporate</option>
 				        	<option>Cuties</option>
@@ -227,7 +227,7 @@ get_header(); ?>
 			        </select>
 			        <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.delivery_days.$error" role="alert">
-			      			<div ng-message="required" class="help-block" >Please Select Delivery Day(s)</div>
+			      			<div ng-message="required" class="help-block" >Please Select Delivery Day</div>
 			    		</div>
 		    		</div>
 			    </div>			    
@@ -242,7 +242,7 @@ get_header(); ?>
 			    		</div>
 		    	    </div>
 		    	    <div class="form-group col-sm-5">
-			    	    <input type="number" data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" required>
+			    	    <input type="text" data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" >
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.reg_no.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Enter Registration Number</div>
@@ -261,10 +261,12 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="form-group col-sm-3 form-group" >
-		    	    <input type="number" data-ng-model="orderDetails.contact_no" placeholder="Phone" name="contact_no" required>
+		    	    <input type="number" data-ng-model="orderDetails.contact_no" ng-minlength="10" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
 			      			<div ng-message="required" class="help-block" >Please Enter Contact Number</div>
+			      			<div ng-message="minlength" class="help-block" >Contact Number Must be of 10 digit.</div>
+			      			<div ng-message="maxlength" class="help-block" >Contact Number Must be of 10 digit.</div>
 			    		</div>
 		    		</div>
 	    	    </div>
