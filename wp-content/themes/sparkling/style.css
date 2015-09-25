@@ -2257,6 +2257,13 @@ option{
 }
 
     /*#Modal*/
+    .close{
+        color: #fff;
+        opacity: 1;
+    }
+    .close:hover{
+        color: #fff;
+    }
 
     #officeModal .modal-footer .btn-primary {
         color: #fff;
@@ -2285,6 +2292,7 @@ option{
         font-family: 'aleoregular';
         margin-bottom: 20px;
     }
+
     #officeModal .modal-body::-webkit-input-placeholder {
         font-size: 30px;
         color: #7F052E;
