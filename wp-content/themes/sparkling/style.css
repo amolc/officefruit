@@ -1859,7 +1859,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 .form-control {
-    border-radius: 25px;
+    border-radius: 12px;
     border: 1px solid #7F052E;
     height: 44px;
     color: #000;
@@ -1867,6 +1867,7 @@ input[type="search"],
     font-size: 20px;
     padding-left: 20px;
     margin-bottom: 10px;
+    width: 100%;
 }
 input[type="text"],
 input[type="number"],

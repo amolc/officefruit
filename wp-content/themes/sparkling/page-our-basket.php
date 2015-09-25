@@ -69,7 +69,7 @@ get_header(); ?>
 		    	</div>
 		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;margin-top:100px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
-						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
+						<h4 style="text-align: left;">Healthy Snacks</h4>
 						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/how_works_2.png" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
@@ -262,7 +262,7 @@ get_header(); ?>
 		    		</div>
 	    	    </div>
 	    	    <div class="form-group col-sm-3 form-group" >
-		    	    <input type="number" data-ng-model="orderDetails.contact_no" ng-minlength="10" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
+		    	    <input type="tel" data-ng-model="orderDetails.contact_no" ng-minlength="10" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
 		    	    <div class="enquiry-error">
 						<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
 			      			<div ng-message="required" class="help-block" >Please Enter Contact Number</div>
