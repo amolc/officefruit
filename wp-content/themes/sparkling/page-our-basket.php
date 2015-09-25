@@ -43,7 +43,7 @@ get_header(); ?>
 		    <div class="col-sm-12">
 	    		<div class="col-sm-6" >
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
-		    		<h3 style="text-align: left;">Nuts & Dried Fruits</h3>
+		    		<h3 style="text-align: left;">Healthy Snacks</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
 		    			<div class="col-sm-12 toggle-radio">
 						  <input type="radio" name="ab" id="a" />
@@ -69,7 +69,7 @@ get_header(); ?>
 		    	</div>
 		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;margin-top:100px;">
 		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
-						<h4 style="text-align: left;">Healthy Snacks</h4>
+						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
 						<img src="img/Picture1.jpg" class="fruit_img">
 					</div>
 					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
