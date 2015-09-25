@@ -2045,13 +2045,10 @@ vertical-align: middle;
 }
 .steps_img {
     margin-top: 125px;
-    min-height: 110px;
     position: relative;
 }
 .steps_img img {
-    position: absolute;
-    left: 22%;
-    transform: translateY(-50%);
+    margin: 0 auto;
 }
 .this_is_work h2 {
     padding: 40px 45px;
