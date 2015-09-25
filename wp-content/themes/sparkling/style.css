@@ -1845,11 +1845,12 @@ button[type=submit],
 }
 .form-horizontal .form-group {
     margin-left: 0px;
+    margin-bottom: 12px;
 }
 .form-horizontal .control-label {
     text-align: left;
     float: left;
-    padding-left: 5px;
+    padding-left: 0px;
 }
 form label {
     color: #B2BB1D;
@@ -1857,6 +1858,7 @@ form label {
     font-family: 'aleoitalic';
     font-weight: normal;
     font-size: 20px;
+    float: left;
     padding-right: 0px ! important;
     margin-bottom: 10px;
 }
@@ -2031,6 +2033,12 @@ vertical-align: middle;
 }
 .steps_img img {
     margin: 0 auto;
+}
+.select_form select{
+    width: 27.10%;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 .form_circle{
     font-family: 'aleobolditalic';
@@ -2238,7 +2246,7 @@ h3 {
     font-weight: 500;
 }
 .first_select select {
-    width: 100%;
+    width: 101%;
     font-size: 20px;
     color: #000;
     padding-left: 20px;
@@ -2435,8 +2443,8 @@ option{
         box-shadow: none;
     }
     #input_other{
-        margin-left: -10px;
-        width: 107%;
+        margin-left: -15px;
+        width: 100%;
     }
     #input_other ::-webkit-input-placeholder {
         font-size: 20px;
