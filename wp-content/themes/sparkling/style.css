@@ -2243,6 +2243,7 @@ h3 {
     border: 1px solid red;
 }
 option{
+    background: #fff;
     border-radius: 20px;
 }
 #masthead {
