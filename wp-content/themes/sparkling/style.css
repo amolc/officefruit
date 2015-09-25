@@ -2027,24 +2027,19 @@ vertical-align: middle;
     display: inline-block;
     position: relative;
     min-height: 70px;
-    width: 85%;
-}
-.how-it-works h2 {
-    text-align: center;
-    font-family: 'aleobolditalic';
-    color: #B2BB1D;
-    font-size: 25px;
-    line-height: 150%;
-    margin-right: 17px;
-    border: 1px solid;
-    width: 40px;
-    float: left;
-    display: inline-block;
-    height: 40px;
-    border-radius: 50%;
+    width: 100%;
 }
 .steps_img img {
     margin: 0 auto;
+}
+.form_circle{
+    font-family: 'aleobolditalic';
+    color: #B2BB1D;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    background: none;
+    margin-right: 10px;
 }
 .this_is_work h2 {
     padding: 40px 45px;
