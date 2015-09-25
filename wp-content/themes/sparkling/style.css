@@ -2412,9 +2412,21 @@ option{
         font-size: 30px;
         color: #7F052E;
     }
+    #input_other:focus{
+        border-color: #7F052E;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #input_other ::-webkit-input-placeholder {
+        font-size: 20px;
+        color: #000 !important;
+        outline: none;
+
+    }
     ::-webkit-input-placeholder {
         font-size: 20px;
-        color: #000;
+        color: #000 !important;
     }
     ::-webkit-select-placeholder {
         font-size: 20px;
