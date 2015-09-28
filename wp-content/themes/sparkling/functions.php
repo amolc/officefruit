@@ -198,6 +198,17 @@ function sparkling_remove_gallery_css( $css ) {
 
 add_filter( 'gallery_style', 'sparkling_remove_gallery_css' );
 
+function my_mce_buttons_2($buttons) {
+	/**
+	 * Add in a core button that's disabled by default
+	 */
+	$buttons[] = 'sup';
+	$buttons[] = 'sub';
+
+	return $buttons;
+}
+add_filter('mce_buttons_2', 'my_mce_buttons_2');
+
 /**
  * Enqueue scripts and styles.
  */
