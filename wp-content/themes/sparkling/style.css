@@ -1810,7 +1810,7 @@ text-align: left;
 .page-template-page-our-basket .table h4{
     color: #B2BB1D;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 22px;
     min-height: 20px;
     font-family: 'aleobold';
     text-align: center ! important;
@@ -1820,6 +1820,9 @@ text-align: left;
     font-size: 22px;
     font-family: 'aleobolditalic';
     text-align: center !important;
+}
+.page-template-page-our-basket .table .table_basket_1{
+    border:none;
 }
 .our_basket_section .red-btn{
     margin-top: -10px;
