@@ -131,7 +131,7 @@ get_header(); ?>
 		    	</div>
 		    </div>	
 		  </div>	
-		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" novalidate>
+		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" style="margin-top: 40px;" novalidate>
 		  	<h1 style="margin-bottom:30px;" >
 		    	Enquiry Form
 		    </h1>
