@@ -15,7 +15,7 @@ get_header(); ?>
 
       <?php endwhile; // end of the loop. ?>
       <div class="container our_basket_container">
-    	<div class="row our_basket_section">
+    	<!-- <div class="row our_basket_section">
     		<div class="col-sm-12">
 	    		<div class="col-sm-6">
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_1.jpg" class="img-responsive oscitas-res-image" alt="">
@@ -130,7 +130,7 @@ get_header(); ?>
 					</div>
 		    	</div>
 		    </div>	
-		  </div>	
+		  </div>	 -->
 		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" style="margin-top: 40px;" novalidate>
 		  	<h1 style="margin-bottom:30px;" >
 		    	Enquiry Form
