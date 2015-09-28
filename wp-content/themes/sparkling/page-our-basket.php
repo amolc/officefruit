@@ -39,7 +39,7 @@ get_header(); ?>
 						<h4 style="text-align: left;"></h4>
 					</div>
 		    	</div>
-		    </div>	
+		    </div>
 		    <div class="col-sm-12">
 	    		<div class="col-sm-6" >
 		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
@@ -51,15 +51,15 @@ get_header(); ?>
 						  	<span>$S 6</span>
 						  	<span class="snack_pack">1 snack pack<span>
 						  </label>
-						</div> 
-						<div class="col-sm-12 toggle-radio"> 
+						</div>
+						<div class="col-sm-12 toggle-radio">
 						  <input type="radio" name="ab" id="b" />
 						  <label for="b">Medium
 						  	<span>$S 16</span>
 						  	<span class="snack_pack">3 snack pack</span>
 						  </label>
 						</div>
-						<div class="col-sm-12 toggle-radio">  
+						<div class="col-sm-12 toggle-radio">
 						  <input type="radio" name="ab" id="c" />
 						  <label for="c">Large
 						  	<span>$S 26</span>
@@ -129,12 +129,12 @@ get_header(); ?>
 						<h4 style="text-align: left;"></h4>
 					</div>
 		    	</div>
-		    </div>	
+		    </div>
 		  </div>	 -->
 		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" style="margin-top: 40px;" novalidate>
-		  	<h1 style="margin-bottom:30px;" >
-		    	Enquiry Form
-		    </h1>
+  		  	<h1 style="margin-bottom:30px;" >
+  		    	Enquiry Form
+  		    </h1>
 			    <div class="form-group">
 			     	<label  class="control-label" for="email">I am intrested in weekly deliveries of...</label>
 					    <div class="col-sm-8 first_select">
@@ -152,7 +152,7 @@ get_header(); ?>
 					      			<div ng-message="required" class="help-block" >Please Select Basket </div>
 					    		</div>
 				    		</div>
-				    	</div> 
+				    	</div>
 			    </div>
 		    	<div class="form-group select_form">
 		    			<label class="control-label" for="">And Please add... </label>
@@ -171,17 +171,17 @@ get_header(); ?>
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
 				        	<option>Table Bouquet, S$25</option>
-				        </select>   
+				        </select>
 			    	</div>
-			    <div class="form-group"> 
-			    	<div class=" col-sm-8">    
+			    <div class="form-group">
+			    	<div class=" col-sm-8">
 				        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other">
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
 				      			<div ng-message="required" class="help-block" >Please Enter Other Request</div>
 				    		</div>
 			    		</div>
-			    	</div>		
+			    	</div>
 		    		<div class="col-sm-4">
 				        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="margin-left: 0px;" required>
 				        	<option value="">Select Delivery Day</option>
@@ -198,10 +198,10 @@ get_header(); ?>
 				      			<div ng-message="required" class="help-block" >Please Select Delivery Day</div>
 				    		</div>
 			    		</div>
-			    	</div>	
+			    	</div>
 		        </div>
-		        		    
-			  	<div class="form-group"> 
+
+			  	<div class="form-group">
 		    		<label  for="">Company</label>
 		    		<div class="col-sm-6">
 			    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Name of company" name="company_name" required>
@@ -220,7 +220,7 @@ get_header(); ?>
 			    		</div>
 				    </div>
 			    </div>
-			    <div class="form-group"> 
+			    <div class="form-group">
 	    			<label class="control-label" for="">Reference</label>
 	    			<div class="col-sm-4" >
 			    	    <input type="text" class=" col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name" required>
@@ -239,7 +239,7 @@ get_header(); ?>
 				      			<div ng-message="maxlength" class="help-block" >Contact Number Must be of 10 digit.</div>
 				    		</div>
 			    		</div>
-		    	    </div>    
+		    	    </div>
 		    	    <div class="col-sm-4">
 			    	    <input type="email" data-ng-pattern="/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i" data-ng-model="orderDetails.contact_email" placeholder="Email Address" name="contact_email" required>
 			    	    <div class="enquiry-error">
@@ -249,8 +249,8 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 		    	    </div>
-		    	</div> 
-		    	<div class="form-group">    
+		    	</div>
+		    	<div class="form-group">
 		    	    <label class="control-label" for="" style="margin-right: 10px;">Delivery</label>
 		    	    <div class="col-sm-7">
 			    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
@@ -268,14 +268,14 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 		    	    </div>
-		    	</div>    
+		    	</div>
 	    	    <div class="form-group">
 	    	    	<div class="col-sm-11" style="margin-left: 80px;">
 		    	    	<input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want the basket to be delivered? Pantry, conference room, reception etc." name="place">
-		    	    </div>	
+		    	    </div>
 	    	    </div>
-			    
-			    <div class="form-group">        
+
+			    <div class="form-group">
 			      <div class="col-sm-12 text-center">
 			        <button type="submit" class="btn btn-default red-btn" style="padding: 8px 60px;">Send Enquiry</button>
 			      </div>
@@ -286,3 +286,9 @@ get_header(); ?>
 					</h3>
 				</div>
 		  </form>
+
+
+    </div><!-- #primary -->
+
+
+  <?php get_footer(); ?>

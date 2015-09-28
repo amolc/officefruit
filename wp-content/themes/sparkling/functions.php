@@ -344,7 +344,7 @@ function prefix_ajax_add_foobar() {
       }
       else
       {
-        
+
         $res = array(
           'status' => 0,
           'massage' => "Ooops.. Mail sent failed, Please try again."
