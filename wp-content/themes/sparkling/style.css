@@ -1825,19 +1825,23 @@ text-align: left;
     border:none !important;
 }
 .page-template-page-our-basket .box_basket{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     border: 1px solid #B2BB1D;
     width: 35%;
     margin: 0 0 0 50%;
     border-collapse: separate;
-    border-radius: 25px;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th{
     text-align: center;
     font-family: 'aleobold';
     font-size: 22px;
     color: #B2BB1D;
-    padding: 2px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.page-template-page-our-basket .box_basket>tbody>tr>td{
+    padding-bottom: 5px;
+    padding-top: 0px;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th h3{
     text-align: center;
