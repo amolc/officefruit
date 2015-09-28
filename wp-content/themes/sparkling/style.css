@@ -1764,13 +1764,21 @@ button[type=submit],
     float: left;
     margin-right: 30px;
 }
+.our_basket_section div h3{
+text-align: left;
+}
+.page-template-page-our-basket .entry-content div.row_basket_section:last-child{
+    text-align: center;
+    color: #B2BB1D;
+    background-color: red;
+}
 .fruit_img{
     width: 155px;
     margin: 20px 0 25px;
 }
 .our_basket_section {
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 20px;
 }
 .our_basket_section p {
     font-size: 22px;
@@ -1781,6 +1789,33 @@ button[type=submit],
 }
 .our_basket_section h3{
   font-size: 30px !important;
+}
+.page-template-page-our-basket .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-top: 1px solid #B2BB1D;
+    border-bottom: 1px solid #B2BB1D;
+}
+.page-template-page-our-basket .table>thead>tr>th{
+    border:none;
+}
+.page-template-page-our-basket .table>tbody>tr>td{
+    border: none;
+}
+.page-template-page-our-basket .table h4{
+    color: #B2BB1D;
+    margin-bottom: 0px;
+    font-size: 25px;
+    min-height: 20px;
+    font-family: 'aleobold';
+    text-align: center ! important;
+}
+.page-template-page-our-basket .table>tbody>tr>td{
+    color: #000;
+    font-size: 22px;
+    font-family: 'aleobolditalic';
+    text-align: center !important;
 }
 .our_basket_section .red-btn{
     margin-top: -10px;
@@ -1820,6 +1855,7 @@ button[type=submit],
     padding: 5px 60px;
     border-top: 1px solid #B2BB1D;
     border-bottom: 1px solid #B2BB1D;
+
 }
 .our_basket_col .oscitas-res-image {
     height: auto;
