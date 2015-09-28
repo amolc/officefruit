@@ -1934,6 +1934,7 @@ hr{
     text-align: left;
     float: left;
     padding-left: 0px;
+    min-width:70px;
 }
 form label {
     color: #B2BB1D;
@@ -2363,7 +2364,7 @@ option{
     #officeModal .modal-footer .btn-primary {
         color: #fff;
         background-color: #7F052E;
-        border-color: #7F052E;        
+        border-color: #7F052E;
         padding: 10px 45px;
         border-radius: 50px;
         font-family: 'aleoregular';
@@ -2406,10 +2407,10 @@ option{
         border-top-right-radius: 22px;
     }
     #officeModal .modal-footer {
-        border-top: none;        
+        border-top: none;
         padding: 15px;
         margin-bottom: -45px;
-        text-align: center;        
+        text-align: center;
     }
     #officeModal .modal-dialog {
         width: 694px;
