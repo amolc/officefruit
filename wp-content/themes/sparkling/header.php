@@ -19,6 +19,7 @@
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="shortcut icon" href="http://officefruit.sg/beta/wp-content/uploads/2015/09/OfficeFruit.png" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
@@ -28,23 +29,89 @@
 		var app = angular.module('officefruit', [ 'ngMessages' ]);
 	app.controller('basketController', function($scope) {
 	    $scope.orderDetails= {
+	    	address: '',
+        	company_name: '',
+        	contact_email: '',
+        	contact_name: '',
+        	contact_no: null,
+        	delivery_days: '',
+        	original_basket: '',
+        	main_package: '',
+        	other_dry_fruits: '',
+        	other_flowers: '',
+        	other_package: '',
+        	place: '',
+        	postal_code: null,
+        	reg_no: null
 	    };
-	    $scope.submitOrderForm = function (orderDetails, valid) {
-	    	console.log(orderDetails);
-	    	if(valid)
+	    $scope.submitOrderForm = function ( enquiryForm, valid) {
+	    	
+	    	$scope.status = false;
+	    	if(valid){
 		    	jQuery.post(
 				    ajaxurl, 
 				    {
 				        'action': 'add_foobar',
-				        'data':   orderDetails
+				        'data':   $scope.orderDetails
 				    }, 
 				    function(response){
-				        console.log('The server responded: ' + response);	
+				        console.log('The server responded: ' + response.status);
+				        $scope.status= true;
+				        if(response.status==1)
+				        	$scope.message = 'Thankyou! We well get back to you shortly.';
+				        else
+				        	$scope.message ='Error! Please try again.'
+
+
+				        $scope.orderDetails= {
+				        	address: '',
+				        	company_name: '',
+				        	contact_email: '',
+				        	contact_name: '',
+				        	contact_no: null,
+				        	delivery_days: '',
+				        	original_basket: '',
+				        	main_package: '',
+				        	other_dry_fruits: '',
+				        	other_flowers: '',
+				        	other_package: '',
+				        	place: '',
+				        	postal_code: null,
+				        	reg_no: null
+	    				};
+	    				$scope.enquiryForm.$setPristine();
+					    $scope.enquiryForm.$setValidity();
+					    $scope.enquiryForm.$setUntouched();
+	    				$scope.$apply();
+				    }
+
+				);
+		    }
+	    }
+	})
+
+	app.controller('subscribeController', function($scope) {
+	    console.log("In subscribeController");
+	    $scope.sendSubscriberDetails = function (subscriberDetails, valid) {
+	    	console.log("in  sendSubscriberDetails");
+	    	console.log(subscriberDetails);
+	    	if(valid)
+		    	jQuery.post(
+				    ajaxurl, 
+				    {
+				        'action': 'add_subscription',
+				        'data':   subscriberDetails
+				    }, 
+				    function(response){
+				        console.log('The server responded: ' + response.status);
+				        if(response.status == '1')
+				        	jQuery("#officeModal .modal-body").html("<h1>Thank you! We will get back to you shortly.</h1>");	
+				        if(response.status == '0')
+				        	jQuery("#officeModal .modal-body").html("<h1>Please Try Again.</h1>");	
 				    }
 				);
-		    else
-		    	alert("noooooooooooop");
-	    }
+	    };
+	    
 	})
 	</script>
 <body <?php body_class(); ?> data-ng-app="officefruit">
