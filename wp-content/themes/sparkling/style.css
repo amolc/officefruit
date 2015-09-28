@@ -1821,8 +1821,8 @@ text-align: left;
     font-family: 'aleobolditalic';
     text-align: center !important;
 }
-.page-template-page-our-basket .table .table_basket_1{
-    border:none;
+.page-template-page-our-basket .table_basket_1{
+    border:none !important;
 }
 .our_basket_section .red-btn{
     margin-top: -10px;
