@@ -1847,6 +1847,9 @@ text-align: left;
     font-size: 22px;
     font-family: 'aleoregular';
 }
+hr{
+    border-top: 1px solid #B2BB1D;
+}
 .our_basket_section .red-btn{
     margin-top: -10px;
 }
