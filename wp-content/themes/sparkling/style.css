@@ -1943,7 +1943,7 @@ input[type=radio] {
 }
 
 .toggle-radio input[type="radio"]:checked + label {
-    border: 1px solid #7F052E;
+    border: 1px solid #B2BB1D;
 }
 
 .toggle-radio span{
@@ -1962,7 +1962,6 @@ input[type=radio] {
     margin-right: 34px;
     font-weight: normal;
     line-height: 154%;
-    cursor: pointer;
     border: 1px solid #B2BB1D;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -1976,7 +1975,7 @@ vertical-align: middle;
 }
 
 .toggle-radio label:hover {
-    background-color: #FBFAF4;
+    background-color: none;
 }
 .toggle-radio [type="radio"] {
   display: none;

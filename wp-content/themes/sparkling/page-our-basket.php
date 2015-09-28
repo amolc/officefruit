@@ -46,7 +46,7 @@ get_header(); ?>
 		    		<h3 style="text-align: left;">Healthy Snacks</h3>
 		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
 		    			<div class="col-sm-12 toggle-radio">
-						  <input type="radio" name="ab" id="a" />
+						  <input type="radio" name="ab" id="a" href="#basket" />
 						  <label for="a">Small
 						  	<span>$S 6</span>
 						  	<span class="snack_pack">1 snack pack<span>
