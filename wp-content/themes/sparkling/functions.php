@@ -322,7 +322,7 @@ function prefix_ajax_add_foobar() {
     $to = get_option( 'admin_email');
     $headers[] = 'From: Officefruit <no_reply@officefruit.sg>';
     $headers[] = 'Cc: Amol Chawathe <amol.chawathe@fountaintechies.com>';
-    $body = "Dear Admin, <br/> Following Order Details received for Enquiry<br/> Main Package:  ".$_POST['main_package']."<br/> Other Package:  ".$_POST['original_basket']."<br/> Other Dry Fruits:  ".$_POST['other_dry_fruits']."<br/> Other Requests:  ".$_POST['other_request']."<br/> Delivery Day(s):  ".$_POST['delivery_days']."<br/> Company Name:  ".$_POST['company_name']."<br/>Reg. No: ".$_POST['reg_no']."<br/>Contact Name: ".$_POST['contact_name']."<br/>Contact Email: ".$_POST['contact_email']."<br/>Address: ".$_POST['address']."<br/>Postal Code: ".$_POST['postal_code']."<br/>Delivery Place: ".$_POST['place'];
+    $body = "Dear Admin, <br/> Following Order Details received for Enquiry<br/>Selected Basket:  ".$_POST['original_basket']."<br/> Other Dry Fruits:  ".$_POST['other_dry_fruits']."<br/> Other Requests:  ".$_POST['other_request']."<br/> Delivery Day(s):  ".$_POST['delivery_days']."<br/> Company Name:  ".$_POST['company_name']."<br/>Reg. No: ".$_POST['reg_no']."<br/>Contact Name: ".$_POST['contact_name']."<br/>Contact Email: ".$_POST['contact_email']."<br/>Address: ".$_POST['address']."<br/>Postal Code: ".$_POST['postal_code']."<br/>Delivery Place: ".$_POST['place'];
     $mail_status = wp_mail( 'ankush.lomte@fountaintechies.com', 'New Enquiry', $body, $headers );
     if($mail_status)
       {
@@ -354,6 +354,7 @@ function prefix_ajax_add_subscription() {
     $to = get_option( 'admin_email');
     $headers[] = 'From: Officefruit <no_reply@officefruit.sg>';
     $headers[] = 'Cc: Amol Chawathe <amol.chawathe@fountaintechies.com>';
+    $headers[] = 'Cc: Saurabh Undre <saurabh.undre@fountaintechies.com>';
     $body = "Dear Admin, <br/> Following Subscriber asked for Free Basket<br/> Contact No. :  ".$_POST['contact_no']."<br/>Postal Code: ".$_POST['postal_code'] ;
     $mail_status = wp_mail( 'mats.isenberg@gmail.com', 'New subscription', $body, $headers );
     if($mail_status)
