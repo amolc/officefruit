@@ -232,11 +232,11 @@ get_header(); ?>
 			    		</div>
 		    	    </div>
 		    	    <div class="col-sm-3" >
-			    	    <input type="tel" data-ng-model="orderDetails.contact_no" ng-minlength="10" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
+			    	    <input type="text" data-ng-model="orderDetails.contact_no" ng-minlength="8" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Enter Contact Number</div>
-				      			<div ng-message="minlength" class="help-block" >Contact Number Must be of 10 digit.</div>
+				      			<div ng-message="minlength" class="help-block" >Contact Number Must be of 8 digit.</div>
 				      			<div ng-message="maxlength" class="help-block" >Contact Number Must be of 10 digit.</div>
 				    		</div>
 			    		</div>
