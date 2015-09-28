@@ -252,7 +252,7 @@ get_header(); ?>
 		    	    </div>
 		    	</div> 
 		    	<div class="form-group">    
-		    	    <label class="control-label" for="" style="margin-right: 12px;">Delivery</label>
+		    	    <label class="control-label" for="" style="margin-right: 10px;">Delivery</label>
 		    	    <div class="col-sm-7">
 			    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
 			    	    <div class="enquiry-error">
@@ -271,7 +271,7 @@ get_header(); ?>
 		    	    </div>
 		    	</div>    
 	    	    <div class="form-group">
-	    	    	<div class="col-sm-11 col-sm-offset-1">
+	    	    	<div class="col-sm-11" style="margin-left: 80px;">
 		    	    	<input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want the basket to be delivered? Pantry, conference room, reception etc." name="place">
 		    	    </div>	
 	    	    </div>
