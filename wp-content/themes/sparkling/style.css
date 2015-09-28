@@ -1805,7 +1805,7 @@ text-align: left;
 }
 .page-template-page-our-basket .table>tbody>tr>td img{
     width: 155px;
-    margin: 20px 0 25px;
+    margin: 0px;
 }
 .page-template-page-our-basket .table h4{
     color: #B2BB1D;
@@ -1823,6 +1823,15 @@ text-align: left;
 }
 .page-template-page-our-basket .table_basket_1{
     border:none !important;
+}
+.page-template-page-our-basket .box_basket{
+    border-radius: 20px !important;
+    border: 1px solid #B2BB1D;
+    width: 35%;
+    margin: 0 0 0 50%;
+}
+.page-template-page-our-basket .box_basket>thead>tr>th{
+    text-align: center;
 }
 .our_basket_section .red-btn{
     margin-top: -10px;
