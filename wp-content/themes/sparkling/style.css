@@ -1829,12 +1829,15 @@ text-align: left;
     border: 1px solid #B2BB1D;
     width: 35%;
     margin: 0 0 0 50%;
+    border-collapse: separate;
+    border-radius: 25px;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th{
     text-align: center;
     font-family: 'aleobold';
     font-size: 22px;
     color: #B2BB1D;
+    padding: 2px;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th h3{
     text-align: center;
@@ -1846,6 +1849,12 @@ text-align: left;
     color: #000;
     font-size: 22px;
     font-family: 'aleoregular';
+}
+.page-template-page-our-basket .box_basket>tbody>:last-child{
+    font-size: 20px;
+    color: #efefef;
+    font-family: 'aleoregular';
+    font-weight: 500;
 }
 hr{
     border-top: 1px solid #B2BB1D;
