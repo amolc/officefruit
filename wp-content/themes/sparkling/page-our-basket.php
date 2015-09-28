@@ -270,7 +270,8 @@ get_header(); ?>
 		    	    </div>
 		    	</div>
 	    	    <div class="form-group">
-	    	    	<div class="col-sm-11" style="margin-left: 80px;">
+              <label class="control-label" for="" style="margin-right: 10px;">&nbsp;</label>
+	    	    	<div class="col-sm-11" >
 		    	    	<input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want the basket to be delivered? Pantry, conference room, reception etc." name="place">
 		    	    </div>
 	    	    </div>
@@ -288,7 +289,7 @@ get_header(); ?>
 		  </form>
 
       </div>
-    </main>  
+    </main>
     </div><!-- #primary -->
 
 
