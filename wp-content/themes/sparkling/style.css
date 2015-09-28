@@ -1803,6 +1803,7 @@ button[type=submit],
     color: #B2BB1D;
     margin-bottom: 0px;
     font-size: 22px;
+    min-height: 40px;
     font-family: 'aleobold';
     text-align: center ! important;
 }

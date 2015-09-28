@@ -164,16 +164,14 @@ get_header(); ?>
 				        	<option>Pear  2 kg, S$ 9</option>
 				        </select>
 				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
-				        	<option value="">Select Dry Fruit</option>
+				        	<option value="">Select Snacks</option>
 				        	<option>Small, 1 snack pack, S$ 6</option>
 				        	<option>Medium, 3 snack pack, S$ 16</option>
 				        	<option>Large, 5 snack pack, S$ 26</option>
 				        </select>
 				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
-				        	<option>Corporate, S$25</option>
-				        	<option>Cuties, S$25</option>
-				        	<option>Colorful, S$25</option>
+				        	<option>Table Bouquet, S$25</option>
 				        </select>   
 			    	</div>
 			    <div class="form-group"> 
@@ -255,7 +253,7 @@ get_header(); ?>
 		    	</div> 
 		    	<div class="form-group">    
 		    	    <label class="control-label" for="" style="margin-right: 12px;">Delivery</label>
-		    	    <div class="col-sm-5">
+		    	    <div class="col-sm-7">
 			    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.address.$error" role="alert">
@@ -263,7 +261,7 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 		    	    </div>
-		    	    <div class="col-sm-6">
+		    	    <div class="col-sm-4">
 			    	    <input type="tel" data-ng-model="orderDetails.postal_code" placeholder="Postal Code" name="postal_code" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.postal_code.$error" role="alert">
