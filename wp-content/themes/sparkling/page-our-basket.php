@@ -287,7 +287,8 @@ get_header(); ?>
 				</div>
 		  </form>
 
-
+      </div>
+    </main>  
     </div><!-- #primary -->
 
 
