@@ -1830,8 +1830,22 @@ text-align: left;
     width: 35%;
     margin: 0 0 0 50%;
 }
-.page-template-page-our-basket .box_basket>thead>tr>th{
+.page-template-page-our-basket .box_basket>thead>tr>th h4{
     text-align: center;
+    font-family: 'aleobold';
+    font-size: 22px;
+    color: #B2BB1D;
+}
+.page-template-page-our-basket .box_basket>thead>tr>th h3{
+    text-align: center;
+    font-family: 'aleobold';
+    font-size: 22px;
+    color: #000;
+}
+.page-template-page-our-basket .box_basket>thead>tr>th p{
+    color: #000;
+    font-size: 22px;
+    font-family: 'aleoregular';
 }
 .our_basket_section .red-btn{
     margin-top: -10px;
