@@ -15,122 +15,6 @@ get_header(); ?>
 
       <?php endwhile; // end of the loop. ?>
       <div class="container our_basket_container">
-    	<!-- <div class="row our_basket_section">
-    		<div class="col-sm-12">
-	    		<div class="col-sm-6">
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_1.jpg" class="img-responsive oscitas-res-image" alt="">
-		    		<h3 style="text-align: left;">Extra Fruit</h3>
-		    		<p style="text-align: left;">An extra boost of the office’s favorite fruit. 2 kg extra.</p>
-		    	</div>
-		    	<div class="col-sm-6 our_basket_sub_section">
-		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Bananas</h4>
-						<h3 style="text-align: left;">S$ 7</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Apple</h4>
-						<h3 style="text-align: left;">S$ 8</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Pear</h4>
-						<h3 style="text-align: left;">S$ 9</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-		    	</div>
-		    </div>
-		    <div class="col-sm-12">
-	    		<div class="col-sm-6" >
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_2.jpg" class="img-responsive oscitas-res-image" alt="">
-		    		<h3 style="text-align: left;">Healthy Snacks</h3>
-		    		<p style="text-align: left;">Make sure there are some healthy snacks around with our popular mixes.</p>
-		    			<div class="col-sm-12 toggle-radio">
-						  <input type="radio" name="ab" id="a" href="#basket" />
-						  <label for="a">Small
-						  	<span>$S 6</span>
-						  	<span class="snack_pack">1 snack pack<span>
-						  </label>
-						</div>
-						<div class="col-sm-12 toggle-radio">
-						  <input type="radio" name="ab" id="b" />
-						  <label for="b">Medium
-						  	<span>$S 16</span>
-						  	<span class="snack_pack">3 snack pack</span>
-						  </label>
-						</div>
-						<div class="col-sm-12 toggle-radio">
-						  <input type="radio" name="ab" id="c" />
-						  <label for="c">Large
-						  	<span>$S 26</span>
-						  	<span class="snack_pack">5 snack pack</span>
-						  </label>
-						</div>
-		    	</div>
-		    	<div class="col-sm-6 our_basket_sub_section" style="padding: 5px 10px;margin-top:100px;">
-		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4" style="padding: 0;"><p></p>
-						<h4 style="text-align: left;">Fruits & Nuts mix</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/nuts.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Berry Mix</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Berry-mix-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Nuts Mix</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Nut-mix-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Cashews</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Cashews-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Pistachios</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Pistachios-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Soybeans</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Soybeans-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Mango</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Mango-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Apricot</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Apricot-new-VIT.jpg" class="fruit_img">
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Cranberries</h4>
-						<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/Cranberries-VIT.jpg" class="fruit_img">
-					</div>
-		    	</div>
-		    </div>
-		    <div class="col-sm-12">
-	    		<div class="col-sm-6">
-		    		<img src="http://officefruit.sg/beta/wp-content/uploads/2015/09/basket_3.jpg" class="img-responsive oscitas-res-image" alt="">
-		    		<h3 style="text-align: left;">Flowers</h3>
-		    		<p style="text-align: left;">Give your office a wind of freshness with new flowers every week.</p>
-		    	</div>
-		    	<div class="col-sm-6 our_basket_sub_section">
-		    		<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Corporate</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Cuties</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-					<div class="col-lg-4 col-sm-4 col-xs-4 col-sm-4"><p></p>
-						<h4 style="text-align: left;">Colorful</h4>
-						<h3 style="text-align: left;">S$ 25</h3>
-						<h4 style="text-align: left;"></h4>
-					</div>
-		    	</div>
-		    </div>
-		  </div>	 -->
 		  	<form class="form-horizontal" name="enquiryForm" id="basket" role="form" data-ng-submit="submitOrderForm( enquiryForm, enquiryForm.$valid )" style="margin-top: 40px;" novalidate>
   		  	<h1 style="margin-bottom:30px;" >
   		    	Enquiry Form
@@ -147,7 +31,7 @@ get_header(); ?>
 					        	<option>Supreme, 4 kg, (coming soon)</option>
 					        	<option>Supreme, 6 kg, (coming soon)</option>
 					        	<option>Supreme, 8 kg, (coming soon)</option>
-					        	<option>Supreme, multiple baskets (coming soon)</option>
+					        	<option>Supreme, multiple baskets, (coming soon)</option>
 					        </select>
 					        <div class="enquiry-error">
 								<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
