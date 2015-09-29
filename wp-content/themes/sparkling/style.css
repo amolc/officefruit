@@ -1828,7 +1828,7 @@ text-align: left;
     border-radius: 10px !important;
     border: 1px solid #B2BB1D;
     width: 35%;
-    margin: 0 0 0 50%;
+    margin: 25px 0 0 50%;
     border-collapse: separate;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th{
@@ -1901,6 +1901,7 @@ hr{
     padding: 5px 60px;
     border-top: 1px solid #B2BB1D;
     border-bottom: 1px solid #B2BB1D;
+    height: 102px;
 
 }
 .our_basket_col .oscitas-res-image {
