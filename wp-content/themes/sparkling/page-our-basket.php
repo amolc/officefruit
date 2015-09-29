@@ -155,27 +155,26 @@ get_header(); ?>
 				    	</div>
 			    </div>
 		    	<div class="form-group select_form">
-		    			<label class="control-label" for="">And Please add... </label>
-			    	    <select name="other_package" data-ng-model="orderDetails.other_package">
+		    			<label class="control-label col-sm-2" for="">And Please add... </label>
+			    	    <select class="col-sm-3" name="other_package" data-ng-model="orderDetails.other_package">
 				        	<option selected value="">Select Extra Fruit</option>
 				        	<option >Banana, 2 kg, S$ 7</option>
 				        	<option>Apple, 2 kg, S$ 8</option>
 				        	<option>Pear  2 kg, S$ 9</option>
 				        </select>
-				        <select name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
+				        <select class="col-sm-3" name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
 				        	<option value="">Select Snacks</option>
 				        	<option>Small, 1 snack pack, S$ 6</option>
 				        	<option>Medium, 3 snack pack, S$ 16</option>
 				        	<option>Large, 5 snack pack, S$ 26</option>
 				        </select>
-				        <select  name="other_flowers" data-ng-model="orderDetails.other_flowers">
+				        <select class="col-sm-3" name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
 				        	<option>Corporate, S$25</option>
 				        </select>
 			    	</div>
 			    <div class="form-group">
-            <label class="control-label" for="">&nbsp;</label>
-			    	<div class=" col-sm-7">
+			    	<div class=" col-sm-7 col-sm-offset-1">
 				        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other">
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
@@ -183,7 +182,7 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 			    	</div>
-		    		<div class="col-sm-4">
+		    		<div class="col-sm-3">
 				        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="margin-left: 0px;" required>
 				        	<option value="">Select Delivery Day</option>
 				        	<option>Monday</option>
@@ -203,7 +202,7 @@ get_header(); ?>
 		        </div>
 
 			  	<div class="form-group">
-		    		<label class="control-label" for="">Company</label>
+		    		<label class="control-label col-sm-1" for="">Company</label>
 		    		<div class="col-sm-6">
 			    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Name of company" name="company_name" required>
 			    	    <div class="enquiry-error">
@@ -222,7 +221,7 @@ get_header(); ?>
 				    </div>
 			    </div>
 			    <div class="form-group">
-	    			<label class="control-label" for="">Reference</label>
+	    			<label class="control-label col-sm-1" for="">Reference</label>
 	    			<div class="col-sm-4" >
 			    	    <input type="text" class=" col-xm-12" data-ng-model="orderDetails.contact_name" placeholder="Name" name="contact_name" required>
 			    	    <div class="enquiry-error">
@@ -252,7 +251,7 @@ get_header(); ?>
 		    	    </div>
 		    	</div>
 		    	<div class="form-group">
-		    	    <label class="control-label" for="" >Delivery</label>
+		    	    <label class="control-label col-sm-1" for="" >Delivery</label>
 		    	    <div class="col-sm-7">
 			    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
 			    	    <div class="enquiry-error">
@@ -271,8 +270,7 @@ get_header(); ?>
 		    	    </div>
 		    	</div>
 	    	    <div class="form-group">
-              <label class="control-label" for="" style="margin-right: 10px;">&nbsp;</label>
-	    	    	<div class="col-sm-11" >
+	    	    	<div class="col-sm-11 col-sm-offset-1" >
 		    	    	<input type="text" data-ng-model="orderDetails.place" placeholder="Where would you want the basket to be delivered? Pantry, conference room, reception etc." name="place">
 		    	    </div>
 	    	    </div>
