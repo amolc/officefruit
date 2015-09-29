@@ -174,7 +174,7 @@ get_header(); ?>
 				        </select>
 			    	</div>
 			    <div class="form-group">
-            <label class="control-label" for="">&nbsp;</label>  
+            <label class="control-label" for="">&nbsp;</label>
 			    	<div class=" col-sm-7">
 				        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other">
 				        <div class="enquiry-error">
@@ -203,7 +203,7 @@ get_header(); ?>
 		        </div>
 
 			  	<div class="form-group">
-		    		<label  for="">Company</label>
+		    		<label class="control-label" for="">Company</label>
 		    		<div class="col-sm-6">
 			    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Name of company" name="company_name" required>
 			    	    <div class="enquiry-error">
@@ -252,7 +252,7 @@ get_header(); ?>
 		    	    </div>
 		    	</div>
 		    	<div class="form-group">
-		    	    <label class="control-label" for="" style="margin-right: 10px;">Delivery</label>
+		    	    <label class="control-label" for="" >Delivery</label>
 		    	    <div class="col-sm-7">
 			    	    <input type="text"  data-ng-model="orderDetails.address" placeholder="Address" name="address" required>
 			    	    <div class="enquiry-error">
