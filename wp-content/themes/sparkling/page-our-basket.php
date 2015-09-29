@@ -203,7 +203,7 @@ get_header(); ?>
 
 			  	<div class="form-group">
 		    		<label class="control-label col-sm-1" for="">Company</label>
-		    		<div class="col-sm-6">
+		    		<div class="col-sm-7">
 			    	    <input type="text" data-ng-model="orderDetails.company_name" placeholder="Name of company" name="company_name" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.company_name.$error" role="alert">
@@ -211,7 +211,7 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 		    	    </div>
-		    	    <div class="col-sm-5">
+		    	    <div class="col-sm-4">
 			    	    <input type="text" data-ng-model="orderDetails.reg_no" placeholder="Company Registration No." name="reg_no" >
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.reg_no.$error" role="alert">
