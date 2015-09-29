@@ -174,7 +174,8 @@ get_header(); ?>
 				        </select>
 			    	</div>
 			    <div class="form-group">
-			    	<div class=" col-sm-8">
+            <label class="control-label" for="">&nbsp;</label>  
+			    	<div class=" col-sm-7">
 				        <input type="text" class="form-control" name="other_request" data-ng-model="orderDetails.other_request"  placeholder="Other request..." id="input_other">
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.other_request.$error" >
