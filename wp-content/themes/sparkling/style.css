@@ -2118,11 +2118,6 @@ vertical-align: middle;
 .steps_img img {
     margin: 0 auto;
 }
-.select_form select{
-    margin-left: 10px;
-    font-size: 20px;
-    padding-left: 10px;
-}
 .form_circle{
     font-family: 'aleobolditalic';
     color: #B2BB1D;
@@ -2331,6 +2326,7 @@ h3 {
     width: 100%;
     font-size: 20px;
     color: #000;
+    margin-left: 0px;
     padding-left: 20px;
     background-position: 98% 50%;
 }

@@ -136,7 +136,7 @@ get_header(); ?>
   		    	Enquiry Form
   		    </h1>
 			    <div class="form-group">
-			     	<label  class="control-label" for="email">I am intrested in weekly deliveries of...</label>
+			     	<label  class="control-label col-sm-4" for="email">I am intrested in weekly deliveries of...</label>
 					    <div class="col-sm-8 first_select">
 					        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
 					        	<option selected value="">Select Basket</span></option>
@@ -155,7 +155,7 @@ get_header(); ?>
 				    	</div>
 			    </div>
 		    	<div class="form-group select_form">
-		    			<label class="control-label col-sm-2" for="">And Please add... </label>
+		    			<label class="control-label col-sm-2" for="" style="margin-right: 11px;">And Please add... </label>
 			    	    <select class="col-sm-3" name="other_package" data-ng-model="orderDetails.other_package">
 				        	<option selected value="">Select Extra Fruit</option>
 				        	<option >Banana, 2 kg, S$ 7</option>
@@ -182,7 +182,7 @@ get_header(); ?>
 				    		</div>
 			    		</div>
 			    	</div>
-		    		<div class="col-sm-3">
+		    		<div class="col-sm-4">
 				        <select  name="delivery_days" data-ng-model="orderDetails.delivery_days" style="margin-left: 0px;" required>
 				        	<option value="">Select Delivery Day</option>
 				        	<option>Monday</option>
