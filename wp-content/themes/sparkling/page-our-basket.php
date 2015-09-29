@@ -143,9 +143,11 @@ get_header(); ?>
 					        	<option>Original, 4 kg, S$ 28</option>
 					        	<option>Original, 4 kg, S$ 38</option>
 					        	<option>Original, 8 kg, S$ 48</option>
+					        	<option>Original, multiple baskets, (quotation)</option>
 					        	<option>Supreme, 4 kg, (coming soon)</option>
 					        	<option>Supreme, 6 kg, (coming soon)</option>
 					        	<option>Supreme, 8 kg, (coming soon)</option>
+					        	<option>Supreme, multiple baskets (coming soon)</option>
 					        </select>
 					        <div class="enquiry-error">
 								<div ng-messages="enquiryForm.$submitted && enquiryForm.original_basket.$error" role="alert">
