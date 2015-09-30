@@ -1785,6 +1785,7 @@ text-align: left;
     line-height: 117%;
     text-align: left;
     color: #000;
+    margin: 0px;
     font-family: 'aleoregular';
 }
 .our_basket_section h3{
@@ -1891,7 +1892,7 @@ hr{
 }
 
 .our_basket_sub_section h3 {
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 22px !important;
     text-align: center !important;
 }
