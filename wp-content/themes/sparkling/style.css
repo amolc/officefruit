@@ -1835,7 +1835,7 @@ button[type=submit],
     border-collapse: separate;
 }
 .table_basket_last th{
-    padding: 10px 0;
+    padding: 10px 0 !important;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th{
     text-align: center;
