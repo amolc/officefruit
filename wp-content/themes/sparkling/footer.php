@@ -42,7 +42,7 @@
 <?php wp_footer(); ?>
 <script type="text/javascript">
 jQuery(document).ready(function($){
-
+		$('#content').css('min-height', $( window ).height() - $('#masthead').height() -$('#footer-area').height();  )
 		$('.carousel-inner .item').click( function (){
 			console.log( siteurl + '  '+ $(this).index() );
 			if( $(this).index() == 0 ){
@@ -54,8 +54,8 @@ jQuery(document).ready(function($){
 			}
 
 		});
-		
-		
+
+
 });
 </script>
 
@@ -89,7 +89,7 @@ jQuery(document).ready(function($){
         	<input type="submit" class="btn btn-primary red-btn" value="I’m excited to get my free basket!">
      	 </div>
 	  </form>
-      
+
     </div>
   </div>
 </div>
