@@ -2507,7 +2507,8 @@ option{
     .page-id-23 h1{
         padding-left: 14%;
     }
-    .page-id-23 h5{text-align: center;
+    .page-id-23 h5{
+    text-align: center;
     font-family: 'aleobolditalic';
     font-size: 30px;
     color: #B2BB1D;
