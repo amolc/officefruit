@@ -18,6 +18,7 @@
 	<!--[if gt IE 9]><!-->
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
+<meta charset="UTF-8">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="shortcut icon" href="http://officefruit.sg/beta/wp-content/uploads/2015/09/OfficeFruit.png" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
