@@ -1799,6 +1799,7 @@ text-align: left;
 }
 .page-template-page-our-basket .table>thead>tr>th{
     border:none;
+    padding: 2px;
 }
 .page-template-page-our-basket .table>tbody>tr>td{
     border: none;
@@ -2506,6 +2507,11 @@ option{
     }
     .page-id-23 h1{
         padding-left: 14%;
+    }
+    .page-id-23 h5{text-align: center;
+    font-family: 'aleobolditalic';
+    font-size: 30px;
+    color: #B2BB1D;
     }
     /*#dropdown*/
     select {
