@@ -76,8 +76,6 @@ get_header(); ?>
 				        	<option>Wednesday</option>
 				        	<option>Thursday</option>
 				        	<option>Friday</option>
-				        	<option>Saturday</option>
-				        	<option>Sunday</option>
 				        </select>
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.delivery_days.$error" role="alert">
