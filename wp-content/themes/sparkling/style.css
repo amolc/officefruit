@@ -1834,8 +1834,11 @@ button[type=submit],
     margin: 25px 0 0 50%;
     border-collapse: separate;
 }
+.table_basket_last{
+    height: 102px;
+}
 .table_basket_last th{
-    padding: 10px 0 !important;
+    padding: 10px 0 0 !important;
 }
 .page-template-page-our-basket .box_basket>thead>tr>th{
     text-align: center;
