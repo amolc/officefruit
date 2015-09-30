@@ -1765,7 +1765,8 @@ button[type=submit],
     margin-right: 30px;
 }
 .our_basket_section div h3{
-text-align: left;
+    margin: 0px;
+    text-align: left;
 }
 .page-template-page-our-basket .entry-content div.row_basket_section:last-child{
     text-align: center;
@@ -1863,6 +1864,7 @@ text-align: left;
     font-weight: 500;
 }
 hr{
+    margin: 0px;
     border-top: 1px solid #B2BB1D;
 }
 .our_basket_section .red-btn{
