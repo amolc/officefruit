@@ -56,7 +56,7 @@ get_header(); ?>
 				        </select>
 				        <select class="col-sm-3" name="other_flowers" data-ng-model="orderDetails.other_flowers">
 				        	<option value="">Select Flower</option>
-				        	<option>Corporate, S$25</option>
+				        	<option>Table bouquet, S$25</option>
 				        </select>
 			    	</div>
 			    <div class="form-group">
