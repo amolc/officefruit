@@ -1765,7 +1765,7 @@ button[type=submit],
     margin-right: 30px;
 }
 .our_basket_section div h3{
-    margin: 0px;
+    margin-top: 0px;
     text-align: left;
 }
 .page-template-page-our-basket .entry-content div.row_basket_section:last-child{
