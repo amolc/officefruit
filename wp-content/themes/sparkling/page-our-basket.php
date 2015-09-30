@@ -41,7 +41,7 @@ get_header(); ?>
 				    	</div>
 			    </div>
 		    	<div class="form-group select_form">
-		    			<label class="control-label col-sm-2" for="" style="margin-right: 11px;">And Please add... </label>
+		    			<label class="control-label col-sm-2" for="" style="margin-right: 11px;">Please add... </label>
 			    	    <select class="col-sm-3" name="other_package" data-ng-model="orderDetails.other_package">
 				        	<option selected value="">Select Extra Fruit</option>
 				        	<option >Banana, 2 kg, S$ 7</option>
