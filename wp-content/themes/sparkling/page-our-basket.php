@@ -41,23 +41,29 @@ get_header(); ?>
 				    	</div>
 			    </div>
 		    	<div class="form-group select_form">
-		    			<label class="control-label col-sm-2" for="" style="margin-right: 11px;">And Please add... </label>
-			    	    <select class="col-sm-3" name="other_package" data-ng-model="orderDetails.other_package">
-				        	<option selected value="">Select Extra Fruit</option>
-				        	<option >Banana, 2 kg, S$ 7</option>
-				        	<option>Apple, 2 kg, S$ 8</option>
-				        	<option>Pear  2 kg, S$ 9</option>
-				        </select>
-				        <select class="col-sm-3" name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
-				        	<option value="">Select Snacks</option>
-				        	<option>Small, 1 snack pack, S$ 6</option>
-				        	<option>Medium, 3 snack pack, S$ 16</option>
-				        	<option>Large, 5 snack pack, S$ 26</option>
-				        </select>
-				        <select class="col-sm-3" name="other_flowers" data-ng-model="orderDetails.other_flowers">
-				        	<option value="">Select Flower</option>
-				        	<option>Corporate, S$25</option>
-				        </select>
+		    			<label class="control-label col-sm-1" for="" >Add... </label>
+		    			<div style="padding-left: 0;" class="col-sm-7" >
+		    				<div class="col-sm-5">
+					    	    <select  name="other_package" data-ng-model="orderDetails.other_package">
+						        	<option selected value="">Select Extra Fruit</option>
+						        	<option >Banana, 2 kg, S$ 7</option>
+						        	<option>Apple, 2 kg, S$ 8</option>
+						        	<option>Pear  2 kg, S$ 9</option>
+						        </select>
+						    </div>
+					        <select class="col-sm-7" name="other_dry_fruits" data-ng-model="orderDetails.other_dry_fruits">
+					        	<option value="">Select Snacks</option>
+					        	<option>Small, 1 snack pack, S$ 6</option>
+					        	<option>Medium, 3 snack pack, S$ 16</option>
+					        	<option>Large, 5 snack pack, S$ 26</option>
+					        </select>
+					    </div>
+				        <div class="col-sm-4" >
+					        <select name="other_flowers" data-ng-model="orderDetails.other_flowers">
+					        	<option value="">Select Flower</option>
+					        	<option>Table Bouquet, S$ 25</option>
+				      		</select>
+				        </div>
 			    	</div>
 			    <div class="form-group">
 			    	<div class=" col-sm-7 col-sm-offset-1">
@@ -76,8 +82,6 @@ get_header(); ?>
 				        	<option>Wednesday</option>
 				        	<option>Thursday</option>
 				        	<option>Friday</option>
-				        	<option>Saturday</option>
-				        	<option>Sunday</option>
 				        </select>
 				        <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.delivery_days.$error" role="alert">
