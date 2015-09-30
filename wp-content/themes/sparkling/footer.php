@@ -42,7 +42,7 @@
 <?php wp_footer(); ?>
 <script type="text/javascript">
 jQuery(document).ready(function($){
-		$('#content').css('min-height', $( window ).height() - $('#masthead').height() -$('#footer-area').height();  )
+		$('#content').css('min-height', $( window ).height() - $('#masthead').height() -$('#footer-area').height()  );
 		$('.carousel-inner .item').click( function (){
 			console.log( siteurl + '  '+ $(this).index() );
 			if( $(this).index() == 0 ){
