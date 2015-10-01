@@ -24,9 +24,9 @@ get_header(); ?>
 					    <div class="col-sm-8 first_select">
 					        <select name="original_basket" data-ng-model="orderDetails.original_basket" required>
 					        	<option selected value="">Select Basket</span></option>
-					        	<option>Original, 4 kg, S$ 28</option>
-					        	<option>Original, 4 kg, S$ 38</option>
-					        	<option>Original, 8 kg, S$ 48</option>
+					        	<option>Original, 4 kg, S$ 26</option>
+					        	<option>Original, 6 kg, S$ 36</option>
+					        	<option>Original, 8 kg, S$ 46</option>
 					        	<option>Original, multiple baskets, (quotation)</option>
 					        	<option>Supreme, 4 kg, (coming soon)</option>
 					        	<option>Supreme, 6 kg, (coming soon)</option>
@@ -123,7 +123,7 @@ get_header(); ?>
 			    		</div>
 		    	    </div>
 		    	    <div class="col-sm-3" >
-			    	    <input type="text" data-ng-model="orderDetails.contact_no" ng-minlength="8" ng-maxlength="10" placeholder="Phone" name="contact_no" required>
+			    	    <input type="text" data-ng-model="orderDetails.contact_no" ng-minlength="8" ng-maxlength="11" placeholder="Phone" name="contact_no" required>
 			    	    <div class="enquiry-error">
 							<div ng-messages="enquiryForm.$submitted && enquiryForm.contact_no.$error" role="alert">
 				      			<div ng-message="required" class="help-block" >Please Enter Contact Number</div>
